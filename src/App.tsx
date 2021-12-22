@@ -3,17 +3,20 @@ import { Divider } from 'primereact/divider';
 import Sidebar from './components/Sidebar';
 import Endpoint from './components/Endpoint';
 import { performGetRequest } from './services/apiService';
-
+import Statistics from './components/Statistics';
+import Playground from './components/Playground';
 function App() {
   const [rootData, setRootData] = React.useState('');
+  const [episodes, setEpisodes] = React.useState([]);
   const [storesNextDoor, setStoresNextDoor] = React.useState([]);
-  const [endCreditsSequences, setEndCreditsSequences] = React.useState('');
+  const [endCreditsSequences, setEndCreditsSequences] = React.useState([]);
   const [pestControlTrucks, setPestControlTrucks] = React.useState([]);
   const [characters, setCharacters] = React.useState([]);
 
   React.useEffect(() => {
     performGetRequest('characters').then((data) => setCharacters(data));
     performGetRequest('').then((data) => setRootData(data));
+    performGetRequest('episodes').then((data) => setEpisodes(data));
     performGetRequest('storeNextDoor').then((data) => setStoresNextDoor(data));
     performGetRequest('pestControlTruck').then((data) => setPestControlTrucks(data));
     performGetRequest('endCreditsSequence').then((data) => setEndCreditsSequences(data));
@@ -41,15 +44,19 @@ function App() {
               </p>
             </div>
           </div>
+          <Playground />
           <div className='row justify-content-center mt-5'>
             <div className='col-md-7 col-sm-12'>
               <h2 id='introduction'>Statistics</h2>
               <Divider />
-              <b>Total data per endpoint</b>
-              <p>Characters: {characters.length - 1}</p>
-              <p>Store Next Door: {storesNextDoor.length - 1}</p>
-              <p>Pest Control Truck: {pestControlTrucks.length - 1}</p>
-              <p>End Credit Sequences: {endCreditsSequences.length - 1}</p>
+
+              <Statistics
+                totalCharacters={characters.length - 1}
+                totalEpisodes={episodes.length - 1}
+                totalStoresNextDoor={storesNextDoor.length - 1}
+                totalPestControlTrucks={pestControlTrucks.length - 1}
+                totalEndCreditsSequences={endCreditsSequences.length - 1}
+              />
             </div>
           </div>
           <div className='row justify-content-center mt-5'>
@@ -85,22 +92,21 @@ function App() {
               <pre>https://bobsburgers-api.herokuapp.com/</pre>
             </div>
           </div>
-
-          {Endpoint({
-            data: [
+          <Endpoint
+            data={[
               'characters',
+              'episodes',
               'storeNextDoor',
               'pestControlTruck',
               'endCreditsSequence',
-            ],
-            about:
-              'The Root endpoint provides information on all available resources within the API.',
-            name: 'Root',
-            url: '',
-            exampleData: rootData,
-          })}
-          {Endpoint({
-            data: [
+            ]}
+            about='The Root endpoint provides information on all available resources within the API.'
+            name='Root URL'
+            url=''
+            exampleData={rootData}
+          />
+          <Endpoint
+            data={[
               'id',
               'name',
               'image',
@@ -109,34 +115,49 @@ function App() {
               'occupation',
               'relatives',
               'url',
-            ],
-            about: 'characters in',
-            name: 'Characters',
-            url: 'characters/',
-            exampleData: characters[0],
-          })}
-
-          {Endpoint({
-            data: ['id', 'name', 'image', 'episode', 'season', 'url'],
-            about: 'storefronts next to',
-            name: 'Store Next Door',
-            url: 'storeNextDoor/',
-            exampleData: storesNextDoor[1],
-          })}
-          {Endpoint({
-            data: ['id', 'name', 'image', 'episode', 'season', 'url'],
-            about: 'pest control trucks in',
-            name: 'Pest Control Truck',
-            url: 'pestControlTruck/',
-            exampleData: pestControlTrucks[0],
-          })}
-          {Endpoint({
-            data: ['id', 'image', 'episode', 'season', 'url'],
-            about: 'end credits sequences in',
-            name: 'End Credits Sequence',
-            url: 'endCreditsSequence/',
-            exampleData: endCreditsSequences[0],
-          })}
+            ]}
+            about='characters in'
+            name='Characters'
+            url='characters/'
+            exampleData={characters[0]}
+          />
+          <Endpoint
+            data={[
+              'id',
+              'name',
+              'productionCode',
+              'airDate',
+              'season',
+              'episode',
+              'totalViewers',
+              'url',
+            ]}
+            about='episodes in'
+            name='Episodes'
+            url='episodes/'
+            exampleData={episodes[0]}
+          />
+          <Endpoint
+            data={['id', 'name', 'image', 'episode', 'season', 'url']}
+            about='storefronts next to'
+            name='Store Next Door'
+            url='storeNextDoor/'
+            exampleData={storesNextDoor[0]}
+          />
+          <Endpoint
+            data={['id', 'name', 'image', 'episode', 'season', 'url']}
+            about='pest control trucks in'
+            name='Pest Control Truck'
+            url='pestControlTruck/'
+            exampleData={pestControlTrucks[0]}
+          />
+          <Endpoint
+            data={['id', 'image', 'episode', 'season', 'url']}
+            about='end credits sequences in'
+            name='End Credits Sequence'
+            url='endCreditsSequence/'
+            exampleData={endCreditsSequences[0]}
+          />
         </div>
       </div>
       <div className='d-flex justify-content-end p-4 bg-light'>

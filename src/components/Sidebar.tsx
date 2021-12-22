@@ -16,7 +16,7 @@ const Sidebar = (): JSX.Element => {
       {getSidebarLink('Getting Started', '#get-started')}
       {getSidebarLink('Base URL', '#base-url')}
       <h4 className='text-muted'>Api Reference</h4>
-      {getSidebarLink('Root', '#root')}
+      {getSidebarLink('Root', '#root-url')}
       {getSidebarLink('Characters', '#characters')}
       {getSidebarLink('Store Next Door', '#store-next-door')}
       {getSidebarLink('Pest Control Truck', '#pest-control-truck')}
