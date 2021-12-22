@@ -1,5 +1,6 @@
 import React from 'react';
 import { Chart } from 'primereact/chart';
+import { Divider } from 'primereact/divider';
 
 interface Props {
   totalCharacters: number;
@@ -33,7 +34,15 @@ const Statistics = (props: Props): JSX.Element => {
     ],
   };
 
-  return <Chart type='bar' data={basicData} />;
+  return (
+    <div className='row justify-content-center mt-5'>
+      <div className='col-md-7 col-sm-12'>
+        <h2 id='statistics'>Statistics</h2>
+        <Divider />
+        <Chart type='bar' data={basicData} />{' '}
+      </div>{' '}
+    </div>
+  );
 };
 
 export default Statistics;

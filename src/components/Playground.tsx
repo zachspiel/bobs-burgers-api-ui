@@ -14,7 +14,7 @@ const Playground = (): JSX.Element => {
   return (
     <div className='row justify-content-center mt-5'>
       <div className='col-md-7 col-sm-12'>
-        <h2>Try it now!</h2>
+        <h2 id='try-now'>Try it now!</h2>
         <Divider />
         <div className='p-col-12 mb-2'>
           <div className='p-inputgroup w-100'>

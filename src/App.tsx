@@ -45,20 +45,13 @@ function App() {
             </div>
           </div>
           <Playground />
-          <div className='row justify-content-center mt-5'>
-            <div className='col-md-7 col-sm-12'>
-              <h2 id='introduction'>Statistics</h2>
-              <Divider />
-
-              <Statistics
-                totalCharacters={characters.length - 1}
-                totalEpisodes={episodes.length - 1}
-                totalStoresNextDoor={storesNextDoor.length - 1}
-                totalPestControlTrucks={pestControlTrucks.length - 1}
-                totalEndCreditsSequences={endCreditsSequences.length - 1}
-              />
-            </div>
-          </div>
+          <Statistics
+            totalCharacters={characters.length - 1}
+            totalEpisodes={episodes.length - 1}
+            totalStoresNextDoor={storesNextDoor.length - 1}
+            totalPestControlTrucks={pestControlTrucks.length - 1}
+            totalEndCreditsSequences={endCreditsSequences.length - 1}
+          />
           <div className='row justify-content-center mt-5'>
             <div className='col-md-7 col-sm-12'>
               <h2 id='get-started'>Get Started</h2>
