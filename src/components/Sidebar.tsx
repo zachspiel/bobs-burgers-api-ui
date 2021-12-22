@@ -14,8 +14,8 @@ const Sidebar = (): JSX.Element => {
       <h4 className='text-muted'>Getting Started</h4>
       {getSidebarLink('Introduction', '#introduction')}
       {getSidebarLink('Try Now', '#try-now')}
-      {getSidebarLink('Getting Started', '#get-started')}
       {getSidebarLink('Statistics', '#statistics')}
+      {getSidebarLink('Getting Started', '#get-started')}
       {getSidebarLink('Base URL', '#base-url')}
       <h4 className='text-muted'>Api Reference</h4>
       {getSidebarLink('Root URL', '#root-url')}
