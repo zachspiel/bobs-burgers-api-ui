@@ -1,24 +1,157 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Divider } from 'primereact/divider';
+import Sidebar from './components/Sidebar';
+import Endpoint from './components/Endpoint';
+import { performGetRequest } from './services/apiService';
 
 function App() {
+  const [rootData, setRootData] = React.useState('');
+  const [storesNextDoor, setStoresNextDoor] = React.useState([]);
+  const [endCreditsSequences, setEndCreditsSequences] = React.useState('');
+  const [pestControlTrucks, setPestControlTrucks] = React.useState([]);
+  const [characters, setCharacters] = React.useState([]);
+
+  React.useEffect(() => {
+    performGetRequest('characters').then((data) => setCharacters(data));
+    performGetRequest('').then((data) => setRootData(data));
+    performGetRequest('storeNextDoor').then((data) => setStoresNextDoor(data));
+    performGetRequest('pestControlTruck').then((data) => setPestControlTrucks(data));
+    performGetRequest('endCreditsSequence').then((data) => setEndCreditsSequences(data));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+    <div>
+      <div className='d-flex'>
+        <Sidebar />
+
+        <div className='main-content'>
+          <div className='bg-light p-5 text-center'>
+            <h1 className='display-4 header'>Bob's Burgers API documentation</h1>
+            <p className='lead'>Get all data for Bob's Burgers from a single API.</p>
+          </div>
+          <div className='row justify-content-center mt-5'>
+            <div className='col-md-7 col-sm-12'>
+              <h2 id='introduction'>Introduction</h2>
+              <Divider />
+              <b>What is this?</b>
+              <p>
+                The Bob's Burgers API is a programatically accessable data source for
+                Bob's Burgers. The data is formatted in JSON and can be accessed through a
+                simple REST API.
+              </p>
+            </div>
+          </div>
+          <div className='row justify-content-center mt-5'>
+            <div className='col-md-7 col-sm-12'>
+              <h2 id='introduction'>Statistics</h2>
+              <Divider />
+              <b>Total data per endpoint</b>
+              <p>Characters: {characters.length - 1}</p>
+              <p>Store Next Door: {storesNextDoor.length - 1}</p>
+              <p>Pest Control Truck: {pestControlTrucks.length - 1}</p>
+              <p>End Credit Sequences: {endCreditsSequences.length - 1}</p>
+            </div>
+          </div>
+          <div className='row justify-content-center mt-5'>
+            <div className='col-md-7 col-sm-12'>
+              <h2 id='get-started'>Get Started</h2>
+              <Divider />
+              <div className='info-box'>
+                <div className='title'>Quickstart - Get a character</div>
+                <div className=''>
+                  <p>
+                    Go to{' '}
+                    <a
+                      href='https://bobsburgers-api.herokuapp.com/characters/1'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      https://bobsburgers-api.herokuapp.com/characters/1
+                    </a>{' '}
+                    to make an API request for the first character "Dottie Minerva".
+                  </p>
+                </div>
+              </div>
+              The above request should return the data below.
+              <pre> {JSON.stringify(characters[0], null, 2)}</pre>
+            </div>
+          </div>
+          <div className='row justify-content-center mt-5'>
+            <div className='col-md-7 col-sm-12'>
+              <h2 id='base-url'>Base URL</h2>
+              <Divider />
+              The base URL is the root URL for the entire API. If a request returns a 404
+              response, check this URL first.
+              <pre>https://bobsburgers-api.herokuapp.com/</pre>
+            </div>
+          </div>
+
+          {Endpoint({
+            data: [
+              'characters',
+              'storeNextDoor',
+              'pestControlTruck',
+              'endCreditsSequence',
+            ],
+            about:
+              'The Root endpoint provides information on all available resources within the API.',
+            name: 'Root',
+            url: '',
+            exampleData: rootData,
+          })}
+          {Endpoint({
+            data: [
+              'id',
+              'name',
+              'image',
+              'hairColor',
+              'gender',
+              'occupation',
+              'relatives',
+              'url',
+            ],
+            about: 'characters in',
+            name: 'Characters',
+            url: 'characters/',
+            exampleData: characters[0],
+          })}
+
+          {Endpoint({
+            data: ['id', 'name', 'image', 'episode', 'season', 'url'],
+            about: 'storefronts next to',
+            name: 'Store Next Door',
+            url: 'storeNextDoor/',
+            exampleData: storesNextDoor[1],
+          })}
+          {Endpoint({
+            data: ['id', 'name', 'image', 'episode', 'season', 'url'],
+            about: 'pest control trucks in',
+            name: 'Pest Control Truck',
+            url: 'pestControlTruck/',
+            exampleData: pestControlTrucks[0],
+          })}
+          {Endpoint({
+            data: ['id', 'image', 'episode', 'season', 'url'],
+            about: 'end credits sequences in',
+            name: 'End Credits Sequence',
+            url: 'endCreditsSequence/',
+            exampleData: endCreditsSequences[0],
+          })}
+        </div>
+      </div>
+      <div className='d-flex justify-content-end p-4 bg-light'>
+        <p>Created By Zachary Spielberger 2021</p>
+
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://github.com/zachspiel'
+          target='_blank'
+          className='p-button p-component p-button-sm ms-3'
+          rel='noreferrer'
         >
-          Learn React
+          <span className='p-button-icon p-c p-button-icon-left pi pi-github' />
+          <span className='p-button-label p-c'>Follow @zachspiel</span>
         </a>
-      </header>
+      </div>
     </div>
   );
 }
