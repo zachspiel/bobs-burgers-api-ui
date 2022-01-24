@@ -19,12 +19,23 @@ body {
 
 .sidebar {
   width: 15%;
-  background-color: #f4f4f4;
-  min-height: 90vh;
+  min-height: 100vh;
+  position: fixed;
+}
+
+.footer,
+.sidebar {
+  background-color: #f4f4f4 !important;
 }
 
 .main-content {
   width: 85%;
+}
+
+#jumbotron {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 768px) {
@@ -77,4 +88,13 @@ pre {
 
 a {
   text-decoration: none !important;
+  color: #000000 !important;
+}
+
+a:hover {
+  color: #0d6efd !important;
+}
+
+.follow-button {
+  color: #ffffff !important;
 }

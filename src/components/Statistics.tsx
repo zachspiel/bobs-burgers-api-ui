@@ -39,8 +39,8 @@ const Statistics = (props: Props): JSX.Element => {
       <div className='col-md-7 col-sm-12'>
         <h2 id='statistics'>Statistics</h2>
         <Divider />
-        <Chart type='bar' data={basicData} />{' '}
-      </div>{' '}
+        <Chart type='bar' data={basicData} />
+      </div>
     </div>
   );
 };
