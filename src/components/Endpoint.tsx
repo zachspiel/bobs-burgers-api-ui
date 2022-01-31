@@ -1,5 +1,5 @@
-import { Divider } from 'primereact/divider';
 import React from 'react';
+import { Divider } from 'primereact/divider';
 
 interface Props {
   data: String[];
@@ -10,10 +10,16 @@ interface Props {
 }
 
 const Endpoint = (props: Props): JSX.Element => {
+  const getPrettyString = (data: String) => {
+    return JSON.stringify(data, null, 2);
+  };
+
   return (
     <div className='row justify-content-center mt-5'>
       <div className='col-md-7 col-sm-12'>
-        <h2 id={props.name.toLocaleLowerCase().split(' ').join('-')}>{props.name}</h2>
+        <h2 id={props.name.toLocaleLowerCase().split(' ').join('-')} className='fw-bold'>
+          {props.name}
+        </h2>
         <Divider />
         {props.url.length > 0 && (
           <>
@@ -37,7 +43,7 @@ const Endpoint = (props: Props): JSX.Element => {
         {props.exampleData !== undefined && (
           <>
             Example Result:
-            <pre> {JSON.stringify(props.exampleData, null, 2)}</pre>
+            <pre> {getPrettyString(props.exampleData)}</pre>
           </>
         )}
       </div>

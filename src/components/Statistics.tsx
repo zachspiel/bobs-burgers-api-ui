@@ -37,9 +37,13 @@ const Statistics = (props: Props): JSX.Element => {
   return (
     <div className='row justify-content-center mt-5'>
       <div className='col-md-7 col-sm-12'>
-        <h2 id='statistics'>Statistics</h2>
+        <h2 id='statistics' className='fw-bold'>
+          Statistics
+        </h2>
         <Divider />
-        <Chart type='bar' data={basicData} />
+        <div className='card'>
+          <Chart type='bar' data={basicData} />
+        </div>
       </div>
     </div>
   );

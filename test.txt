@@ -1,0 +1,12 @@
+Go to edit page: https://bobs-burgers.fandom.com/wiki/Teddy?action=edit
+
+NAME
+=====
+get header element: #firstHeading 
+get all text afer "View source for" 
+
+EVERYTHING ELSE
+=====
+get text area element: #wpTextbox1
+get text from element
+
