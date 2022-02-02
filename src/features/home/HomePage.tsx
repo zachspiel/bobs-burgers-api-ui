@@ -75,7 +75,7 @@ const HomePage = () => {
 
   return (
     <div className='container-fluid'>
-      <Navbar />
+      <Navbar parentClassName='custom-menubar' />
       <div className='row p-5 text-white text-center' id='jumbotron'>
         <h1 className='header'>The Bob's Burgers API</h1>
       </div>
