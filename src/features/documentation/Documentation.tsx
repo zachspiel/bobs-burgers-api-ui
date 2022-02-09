@@ -8,6 +8,10 @@ import { performGetRequest } from '../../services/apiService';
 import { ScrollTop } from 'primereact/scrolltop';
 import Footer from '../../common/Footer';
 import { Divider } from 'primereact/divider';
+import CharacterSchema from './schemas/CharacterSchema';
+import getRunningGag from './schemas/RunningGagSchema';
+import EpisodeSchema from './schemas/EpisodeSchema';
+import FilterExample from './FilterExample';
 
 const Documentation = (): JSX.Element => {
   const [rootData, setRootData] = React.useState('');
@@ -41,7 +45,7 @@ const Documentation = (): JSX.Element => {
 
       <div className='main-content'>
         <div className='row justify-content-center mt-5'>
-          <div className='col-md-7 col-sm-12'>
+          <div className='col-md-7 col-sm-12 mt-5'>
             <h2 id='introduction' className='fw-bold'>
               Introduction
             </h2>
@@ -64,59 +68,16 @@ const Documentation = (): JSX.Element => {
         </div>
         <Playground />
         <Statistics
-          totalCharacters={characters.length - 1}
-          totalEpisodes={episodes.length - 1}
-          totalStoresNextDoor={storesNextDoor.length - 1}
-          totalPestControlTrucks={pestControlTrucks.length - 1}
-          totalEndCreditsSequences={endCreditsSequences.length - 1}
+          totalCharacters={characters.length}
+          totalEpisodes={episodes.length}
+          totalStoresNextDoor={storesNextDoor.length}
+          totalPestControlTrucks={pestControlTrucks.length}
+          totalEndCreditsSequences={endCreditsSequences.length}
         />
-        <div className='row justify-content-center mt-5'>
-          <div className='col-md-7 col-sm-12'>
-            <h2 id='get-started' className='fw-bold'>
-              Get Started
-            </h2>
-            <Divider />
-            <div className='info-box'>
-              <div className='title'>Quickstart - Get a character</div>
-              <div className=''>
-                <p>
-                  Go to{' '}
-                  <a
-                    href='https://bobsburgers-api.herokuapp.com/characters/1'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    https://bobsburgers-api.herokuapp.com/characters/1
-                  </a>{' '}
-                  to make an API request for the first character "Dottie Minerva".
-                </p>
-              </div>
-            </div>
-            Example result:
-            <pre> {JSON.stringify(characters[0], null, 2)}</pre>
-          </div>
-        </div>
-        <div className='row justify-content-center mt-5'>
-          <div className='col-md-7 col-sm-12'>
-            <h2 id='base-url' className='fw-bold'>
-              Base URL
-            </h2>
-            <Divider />
-            The base URL is the root URL for the entire API. If a request returns a 404
-            response, check this URL first.
-            <pre>https://bobsburgers-api.herokuapp.com/</pre>
-          </div>
-        </div>
         <Endpoint
-          data={[
-            'characters',
-            'episodes',
-            'storeNextDoor',
-            'pestControlTruck',
-            'endCreditsSequence',
-          ]}
           about='The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS.'
           name='Root URL'
+          skipFetch={true}
           url=''
           exampleData={rootData}
         />
@@ -127,11 +88,12 @@ const Documentation = (): JSX.Element => {
             </h2>
             <Divider />
             <p>
-              All endpoints support the <span className='text-primary'>sortBy</span>,{' '}
-              <span className='text-primary'>OrderBy</span>,{' '}
-              <span className='text-primary'>limit</span>, and{' '}
-              <span className='text-primary'>skip</span> paramters.
+              All endpoints support the <span className='highlight-block'>sortBy</span>,{' '}
+              <span className='highlight-block'>OrderBy</span>,{' '}
+              <span className='highlight-block'>limit</span>, and{' '}
+              <span className='highlight-block'>skip</span> paramters.
             </p>
+            <h4 className='fw-bold'>Example Results:</h4>
             Sort in ascending order:
             <pre>
               https://bobsburgers-api.herokuapp.com/characters?sortBy=name&OrderBy=asc&limit=1&skip=0
@@ -144,60 +106,43 @@ const Documentation = (): JSX.Element => {
             <pre> {JSON.stringify(sortDesc, null, 2)}</pre>
           </div>
         </div>
+        <FilterExample />
         <Endpoint
-          data={[
-            'id',
-            'name',
-            'image',
-            'hairColor',
-            'gender',
-            'occupation',
-            'relatives',
-            'firstEpisode',
-            'voicedBy',
-            'url',
-          ]}
+          schema={CharacterSchema}
           about='characters in'
           name='Characters'
+          pluralName='characters'
+          singularName='character'
           url='characters/'
-          exampleData={characters[0]}
         />
+
         <Endpoint
-          data={[
-            'id',
-            'name',
-            'productionCode',
-            'airDate',
-            'season',
-            'episode',
-            'totalViewers',
-            'url',
-          ]}
           about='episodes in'
           name='Episodes'
           url='episodes/'
-          exampleData={episodes[0]}
+          singularName='episode'
+          schema={EpisodeSchema}
         />
         <Endpoint
-          data={['id', 'name', 'image', 'episode', 'season', 'url']}
           about='storefronts next to'
           name='Store Next Door'
+          pluralName='stores next door'
           url='storeNextDoor/'
-          exampleData={storesNextDoor[0]}
+          schema={getRunningGag('store')}
         />
         <Endpoint
-          data={['id', 'name', 'image', 'episode', 'season', 'url']}
           about='pest control trucks in'
           name='Pest Control Truck'
+          pluralName='pest control trucks'
           url='pestControlTruck/'
-          exampleData={pestControlTrucks[0]}
+          schema={getRunningGag('pest control truck')}
         />
         <Endpoint
-          data={['id', 'image', 'episode', 'season', 'url']}
           about='end credits sequences in'
           name='End Credits Sequence'
+          pluralName={`end credits sequences`}
           url='endCreditsSequence/'
-          exampleData={endCreditsSequences[0]}
+          schema={getRunningGag('end credits sequence')}
         />
         <Footer />
       </div>

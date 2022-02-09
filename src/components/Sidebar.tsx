@@ -22,7 +22,6 @@ const Sidebar = (props: Props): JSX.Element => {
       {getSidebarLink('Introduction', '#introduction')}
       {getSidebarLink('Try Now', '#try-now')}
       {getSidebarLink('Statistics', '#statistics')}
-      {getSidebarLink('Getting Started', '#get-started')}
       {getSidebarLink('Base URL', '#base-url')}
       <h5 className='fw-bold mt-5'>Api Reference</h5>
       {getSidebarLink('Root URL', '#root-url')}
