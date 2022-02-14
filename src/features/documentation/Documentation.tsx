@@ -83,7 +83,7 @@ const Documentation = (): JSX.Element => {
         />
         <div className='row justify-content-center mt-5'>
           <div className='col-md-7 col-sm-12'>
-            <h2 id='get-started' className='fw-bold'>
+            <h2 id='sort-limit' className='fw-bold'>
               Sorting and Limiting
             </h2>
             <Divider />

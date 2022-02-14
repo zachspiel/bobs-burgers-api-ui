@@ -28,7 +28,7 @@ const Endpoint = (props: Props): JSX.Element => {
     if (shouldFetchData) {
       performGetRequest(url).then((data) => setExampleData(data));
     }
-  }, []);
+  }, [shouldFetchData, url]);
 
   const pluralName = props.pluralName ?? props.name.toLowerCase();
   const singularName = props.singularName ?? props.name.toLowerCase();
@@ -49,7 +49,7 @@ const Endpoint = (props: Props): JSX.Element => {
         {props.url.length === 0 && <>{props.about}</>}
         {shouldFetchData && (
           <>
-            <h4 className='fw-bold mt-4'>Get all {pluralName}</h4>
+            <h4 className='fw-bold mt-5'>Get all {pluralName}</h4>
 
             <p>
               The list of all {pluralName} can be found by using the{' '}
@@ -57,7 +57,7 @@ const Endpoint = (props: Props): JSX.Element => {
             </p>
             <pre>https://bobsburgers-api.herokuapp.com/{props.url}</pre>
 
-            <h4 className='fw-bold mt-4'>Get a single {singularName}</h4>
+            <h4 className='fw-bold mt-5'>Get a single {singularName}</h4>
             <p>
               A single {singularName} can be found by adding the id parameter to the{' '}
               <span className='highlight-block'>/{props.url}</span> endpoint.
@@ -66,7 +66,7 @@ const Endpoint = (props: Props): JSX.Element => {
 
             <pre>{getPrettyString(exampleData[0])}</pre>
 
-            <h4 className='fw-bold mt-4'>Get multiple {pluralName}</h4>
+            <h4 className='fw-bold mt-5'>Get multiple {pluralName}</h4>
             <p>
               Multiple {pluralName} can be found by adding an array of ids to the{' '}
               <span className='highlight-block'>/{props.url}</span> endpoint. (E.g.{' '}

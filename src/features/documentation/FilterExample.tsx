@@ -17,7 +17,7 @@ const FilterExample = (): JSX.Element => {
   return (
     <div className='row justify-content-center mt-5'>
       <div className='col-md-7 col-sm-12'>
-        <h2 id='get-started' className='fw-bold'>
+        <h2 id='filter-endpoints' className='fw-bold'>
           Filtering Endpoints
         </h2>
         <Divider />
