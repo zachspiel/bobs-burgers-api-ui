@@ -28,25 +28,29 @@ const Documentation = (): JSX.Element => {
     performGetRequest('').then((data) => setRootData(data));
     performGetRequest('episodes').then((data) => setEpisodes(data));
     performGetRequest('storeNextDoor').then((data) => setStoresNextDoor(data));
-    performGetRequest('pestControlTruck').then((data) => setPestControlTrucks(data));
-    performGetRequest('endCreditsSequence').then((data) => setEndCreditsSequences(data));
-    performGetRequest('characters?sortBy=name&OrderBy=asc&limit=1&skip=0').then((data) =>
-      setSortAsc(data)
+    performGetRequest('pestControlTruck').then((data) =>
+      setPestControlTrucks(data)
     );
-    performGetRequest('characters?sortBy=name&OrderBy=desc&limit=1&skip=0').then((data) =>
-      setSortDesc(data)
+    performGetRequest('endCreditsSequence').then((data) =>
+      setEndCreditsSequences(data)
     );
+    performGetRequest('characters?sortBy=name&OrderBy=asc&limit=1&skip=0').then(
+      (data) => setSortAsc(data)
+    );
+    performGetRequest(
+      'characters?sortBy=name&OrderBy=desc&limit=1&skip=0'
+    ).then((data) => setSortDesc(data));
   }, []);
 
   return (
-    <div className='container-fluid'>
-      <Navbar parentClassName='custom-menubar' />
-      <Sidebar className='custom-sidebar' />
+    <div className="container-fluid">
+      <Navbar parentClassName="custom-menubar" />
+      <Sidebar className="custom-sidebar" />
 
-      <div className='main-content'>
-        <div className='row justify-content-center mt-5'>
-          <div className='col-md-7 col-sm-12 mt-5'>
-            <h2 id='introduction' className='fw-bold'>
+      <div className="main-content">
+        <div className="row justify-content-center mt-5">
+          <div className="col-md-7 col-sm-12 mt-5">
+            <h2 id="introduction" className="fw-bold">
               Introduction
             </h2>
             <Divider />
@@ -54,15 +58,29 @@ const Documentation = (): JSX.Element => {
             <p>
               The Bob's Burgers API is a REST API based on the television show{' '}
               <a
-                href='https://www.fox.com/bobs-burgers/'
-                target='_blank'
-                className='text-primary'
-                rel='noreferrer'
+                href="https://www.fox.com/bobs-burgers/"
+                target="_blank"
+                className="text-primary"
+                rel="noreferrer"
               >
                 Bob's Burgers
               </a>
-              . The Bob's Burgers API contains data for hundreds of characters, episodes,
-              running gags and images from the show.
+              . The Bob's Burgers API contains data for hundreds of characters,
+              episodes, running gags and images from the show.
+            </p>
+
+            <p>
+              If you are using this API please consider supporting the project
+              by{' '}
+              <a
+                href="https://www.buymeacoffee.com/bobsburgersapi"
+                target="_blank"
+                rel="noreferrer"
+                className="text-primary"
+              >
+                buying me a coffee{' '}
+              </a>
+              to help maintain the API and keep it free for everyone.
             </p>
           </div>
         </div>
@@ -75,25 +93,26 @@ const Documentation = (): JSX.Element => {
           totalEndCreditsSequences={endCreditsSequences.length}
         />
         <Endpoint
-          about='The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS.'
-          name='Root URL'
+          about="The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS."
+          name="Root URL"
           skipFetch={true}
-          url=''
+          url=""
           exampleData={rootData}
         />
-        <div className='row justify-content-center mt-5'>
-          <div className='col-md-7 col-sm-12'>
-            <h2 id='sort-limit' className='fw-bold'>
+        <div className="row justify-content-center mt-5">
+          <div className="col-md-7 col-sm-12">
+            <h2 id="sort-limit" className="fw-bold">
               Sorting and Limiting
             </h2>
             <Divider />
             <p>
-              All endpoints support the <span className='highlight-block'>sortBy</span>,{' '}
-              <span className='highlight-block'>OrderBy</span>,{' '}
-              <span className='highlight-block'>limit</span>, and{' '}
-              <span className='highlight-block'>skip</span> paramters.
+              All endpoints support the{' '}
+              <span className="highlight-block">sortBy</span>,{' '}
+              <span className="highlight-block">OrderBy</span>,{' '}
+              <span className="highlight-block">limit</span>, and{' '}
+              <span className="highlight-block">skip</span> paramters.
             </p>
-            <h4 className='fw-bold'>Example Results:</h4>
+            <h4 className="fw-bold">Example Results:</h4>
             Sort in ascending order:
             <pre>
               https://bobsburgers-api.herokuapp.com/characters?sortBy=name&OrderBy=asc&limit=1&skip=0
@@ -109,39 +128,39 @@ const Documentation = (): JSX.Element => {
         <FilterExample />
         <Endpoint
           schema={CharacterSchema}
-          about='characters in'
-          name='Characters'
-          pluralName='characters'
-          singularName='character'
-          url='characters/'
+          about="characters in"
+          name="Characters"
+          pluralName="characters"
+          singularName="character"
+          url="characters/"
         />
 
         <Endpoint
-          about='episodes in'
-          name='Episodes'
-          url='episodes/'
-          singularName='episode'
+          about="episodes in"
+          name="Episodes"
+          url="episodes/"
+          singularName="episode"
           schema={EpisodeSchema}
         />
         <Endpoint
-          about='storefronts next to'
-          name='Store Next Door'
-          pluralName='stores next door'
-          url='storeNextDoor/'
+          about="storefronts next to"
+          name="Store Next Door"
+          pluralName="stores next door"
+          url="storeNextDoor/"
           schema={getRunningGag('store')}
         />
         <Endpoint
-          about='pest control trucks in'
-          name='Pest Control Truck'
-          pluralName='pest control trucks'
-          url='pestControlTruck/'
+          about="pest control trucks in"
+          name="Pest Control Truck"
+          pluralName="pest control trucks"
+          url="pestControlTruck/"
           schema={getRunningGag('pest control truck')}
         />
         <Endpoint
-          about='end credits sequences in'
-          name='End Credits Sequence'
+          about="end credits sequences in"
+          name="End Credits Sequence"
           pluralName={`end credits sequences`}
-          url='endCreditsSequence/'
+          url="endCreditsSequence/"
           schema={getRunningGag('end credits sequence')}
         />
         <Footer />
