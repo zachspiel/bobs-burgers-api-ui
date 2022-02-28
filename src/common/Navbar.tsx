@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
 import logo from '../images/logo.png';
-import CoffeeButton from './CoffeeButton';
 
 interface Props {
   parentClassName?: string;

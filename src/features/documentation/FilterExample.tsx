@@ -27,7 +27,7 @@ const FilterExample = (): JSX.Element => {
         </p>
         <h4 className="fw-bold">Example Results:</h4>
         <p>
-          Find all characters with{' '}
+          Find a character characters with{' '}
           <span className="highlight-block">Blonde</span> hair
         </p>
         <pre>
@@ -35,7 +35,7 @@ const FilterExample = (): JSX.Element => {
         </pre>
         <pre> {JSON.stringify(characters, null, 2)}</pre>
         <p>
-          Find all episodes that aried on{' '}
+          Find all episodes that aired on{' '}
           <span className="highlight-block">January 16, 2011</span>
         </p>
         <pre>
