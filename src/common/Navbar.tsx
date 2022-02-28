@@ -1,6 +1,9 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
+import { Sidebar as PRSidebar } from 'primereact/sidebar';
 import logo from '../images/logo.png';
+import { Button } from 'primereact/button';
+import Sidebar from '../components/Sidebar';
 
 interface Props {
   parentClassName?: string;
@@ -8,12 +11,20 @@ interface Props {
 }
 
 const Navbar = (props: Props): JSX.Element => {
+  const [isSidebarVisible, setIsSidebarVisible] = React.useState(false);
   const rowClassName = props.parentClassName ?? '';
   const menubarClassName = props.menuClassName ?? '';
   const start = (
-    <a href="/">
-      <img alt="logo" src={logo} height="40" className="mr-2" />
-    </a>
+    <div className="d-flex">
+      <Button
+        icon="pi pi-bars"
+        onClick={() => setIsSidebarVisible(true)}
+        className="p-button-rounded p-button-text me-2 sidebar-button p-button-secondary"
+      />
+      <a href="/">
+        <img alt="logo" src={logo} height="40" className="mr-2" />
+      </a>
+    </div>
   );
 
   const getRightContent = () => {
@@ -38,6 +49,12 @@ const Navbar = (props: Props): JSX.Element => {
         end={getRightContent}
         className={`border-0 ${menubarClassName}`}
       />
+      <PRSidebar
+        visible={isSidebarVisible}
+        onHide={() => setIsSidebarVisible(false)}
+      >
+        <Sidebar />
+      </PRSidebar>
     </div>
   );
 };

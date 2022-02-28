@@ -74,6 +74,10 @@ body {
   letter-spacing: -0.025em !important;
 }
 
+.sidebar-button {
+  display: none !important;
+}
+
 @media only screen and (max-width: 450px) {
   .header {
     margin-top: 20px !important;
@@ -105,6 +109,18 @@ body {
   .main-content {
     width: 100%;
     padding: 1rem;
+  }
+
+  .p-menubar-button {
+    display: none !important;
+  }
+
+  .sidebar-button {
+    display: block !important;
+  }
+
+  .main-content {
+    margin-top: 0px !important;
   }
 }
 

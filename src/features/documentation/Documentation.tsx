@@ -45,8 +45,13 @@ const Documentation = (): JSX.Element => {
   return (
     <div className="container-fluid">
       <Navbar parentClassName="custom-menubar" />
-      <Sidebar className="custom-sidebar" />
 
+      <div
+        className={`sidebar p-4 custom-sidebar`}
+        style={{ backgroundColor: '#FFFFFF' }}
+      >
+        <Sidebar />
+      </div>
       <div className="main-content">
         <div className="row justify-content-center mt-5">
           <div className="col-md-7 col-sm-12 mt-5">

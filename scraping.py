@@ -156,7 +156,7 @@ def scrape_storefront_and_trucks(url, file):
         out_file.close()
 
 
-def scrap_end_credits(url, file):
+def scrape_end_credits(url, file):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
     print("Fetched: " + url)
