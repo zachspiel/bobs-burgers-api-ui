@@ -1,6 +1,5 @@
 import requests
 import time
-import csv
 from datetime import date, datetime
 from bs4 import BeautifulSoup
 import json
@@ -32,13 +31,11 @@ def scrape_characters_page(source_url, soup):
 
     for each_book in characters:
         new_url = source_url+each_book["href"]
-        # print("Appending: " + new_url)
         urls.append(new_url)
 
     for url in urls:
         html_text = requests.get(url).text
         soup = BeautifulSoup(html_text, "html.parser")
-        # print("Fetched: " + url)
         info_table = soup.find("table", class_="infobox")
 
         if info_table != None:
@@ -80,11 +77,9 @@ def scrape_characters_page(source_url, soup):
                     character_object["voicedBy"] = filter_text(voiced_by)
 
             character_objects.append(character_object)
-            # print("Retrieved: " + json.dumps(character_object))
-
         time.sleep(0.5)
 
-    out_file = open("final.json", "w")
+    out_file = open("output.json", "w")
 
     json.dump(character_objects, out_file, indent=6)
 
@@ -102,7 +97,6 @@ def scrape_all_character_pages(seed_url, page_number=0):
 
         html_text = requests.get(url).text
         soup = BeautifulSoup(html_text, "html.parser")
-        # print(f"Now Scraping - {seed_url}")
 
         if soup.find("a", class_="category-page__member-link") != None:
             scrape_characters_page("https://bobs-burgers.fandom.com", soup)
@@ -119,7 +113,6 @@ def scrape_all_character_pages(seed_url, page_number=0):
 def scrape_storefront_and_trucks(url, file):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
-    # print("Fetched: " + url)
     wiki_tables = soup.find_all("table", class_="wikitable")
     stores = []
     id = 0
@@ -159,7 +152,6 @@ def scrape_storefront_and_trucks(url, file):
 def scrape_end_credits(url, file):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
-    print("Fetched: " + url)
     wiki_tables = soup.find_all("table", class_="wikitable")
     stores = []
     id = 13

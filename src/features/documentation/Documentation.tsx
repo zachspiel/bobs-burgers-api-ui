@@ -44,7 +44,7 @@ const Documentation = (): JSX.Element => {
 
   return (
     <div className="container-fluid">
-      <Navbar parentClassName="custom-menubar" />
+      <Navbar parentClassName="custom-menubar" displayMenuButton />
 
       <div
         className={`sidebar p-4 custom-sidebar`}

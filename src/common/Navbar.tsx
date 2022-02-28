@@ -8,6 +8,7 @@ import Sidebar from '../components/Sidebar';
 interface Props {
   parentClassName?: string;
   menuClassName?: string;
+  displayMenuButton?: boolean;
 }
 
 const Navbar = (props: Props): JSX.Element => {
@@ -16,11 +17,13 @@ const Navbar = (props: Props): JSX.Element => {
   const menubarClassName = props.menuClassName ?? '';
   const start = (
     <div className="d-flex">
-      <Button
-        icon="pi pi-bars"
-        onClick={() => setIsSidebarVisible(true)}
-        className="p-button-rounded p-button-text me-2 sidebar-button p-button-secondary"
-      />
+      {props.displayMenuButton && (
+        <Button
+          icon="pi pi-bars"
+          onClick={() => setIsSidebarVisible(true)}
+          className="p-button-rounded p-button-text me-2 sidebar-button p-button-secondary"
+        />
+      )}
       <a href="/">
         <img alt="logo" src={logo} height="40" className="mr-2" />
       </a>
