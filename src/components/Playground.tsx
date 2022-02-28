@@ -11,7 +11,9 @@ const Playground = (): JSX.Element => {
   const toast = React.useRef<Toast>(null);
 
   React.useEffect(() => {
-    performGetRequest('characters').then((data) => setPlaygroundResult(data[0]));
+    performGetRequest('characters').then((data) =>
+      setPlaygroundResult(data[0])
+    );
   }, []);
 
   const getErrorMessage = (url: string) => {
@@ -22,36 +24,42 @@ const Playground = (): JSX.Element => {
     });
   };
 
+  const onKeyUp = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter') {
+      onSubmit();
+    }
+  };
+
+  const onSubmit = () => {
+    performGetRequest(inputValue).then((data) => {
+      if (data.length === 0) {
+        getErrorMessage(inputValue);
+      }
+      setPlaygroundResult(data);
+    });
+  };
+
   return (
-    <div className='row justify-content-center mt-5'>
+    <div className="row justify-content-center mt-5">
       <Toast ref={toast} />
-      <div className='col-md-7 col-sm-12'>
-        <h2 id='try-now' className='fw-bold'>
+      <div className="col-md-7 col-sm-12">
+        <h2 id="try-now" className="fw-bold">
           Try it now!
         </h2>
         <Divider />
-        <div className='p-col-12 mb-2'>
-          <div className='p-inputgroup w-100'>
-            <span className='p-inputgroup-addon'>
+        <div className="p-col-12 mb-2">
+          <div className="p-inputgroup w-100">
+            <span className="p-inputgroup-addon">
               https://bobsburgers-api.herokuapp.com/
             </span>
             <InputText
-              placeholder='characters/1'
+              placeholder="characters/1"
               onChange={(e) => setInputValue(e.target.value)}
+              onKeyUp={(e) => onKeyUp(e)}
               value={inputValue}
             />
 
-            <Button
-              label='Get'
-              onClick={() => {
-                performGetRequest(inputValue).then((data) => {
-                  if (data.length === 0) {
-                    getErrorMessage(inputValue);
-                  }
-                  setPlaygroundResult(data);
-                });
-              }}
-            />
+            <Button label="Get" onClick={() => onSubmit()} />
           </div>
         </div>
         <pre> {JSON.stringify(playgroundResult, null, 2)}</pre>
