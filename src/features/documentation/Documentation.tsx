@@ -71,7 +71,7 @@ const Documentation = (): JSX.Element => {
                 Bob's Burgers
               </a>
               . The Bob's Burgers API contains data for hundreds of characters,
-              episodes, running gags and images from the show.
+              episodes, running gags, and images from the show.
             </p>
 
             <p>

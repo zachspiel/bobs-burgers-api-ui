@@ -31,7 +31,7 @@ const EpisodeSchema: EndpointSchema = [
   {
     key: 'url',
     type: 'url',
-    description: `The unique link the episode`,
+    description: `The unique link for the episode`,
   },
 ];
 
