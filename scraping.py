@@ -5,6 +5,11 @@ from bs4 import BeautifulSoup
 import json
 
 
+def save_json_file(data):
+    out_file = open("output.json", "w")
+    json.dump(data, out_file, indent=6)
+    out_file.close()
+
 def filter_rows(rows, text):
     filtered = filter(lambda row: text in row.text.strip(), rows)
 
@@ -21,6 +26,11 @@ def filter_text(text):
 
     return filtered_array[1]
 
+def get_wiki_table(url, table_classname):
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, "html.parser")
+    
+    return soup.find_all("table", class_=table_classname)
 
 def scrape_characters_page(source_url, soup):
     characters = soup.find_all("a", class_="category-page__member-link")
@@ -29,14 +39,12 @@ def scrape_characters_page(source_url, soup):
     character_objects = json.load(file)
     file.close()
 
-    for each_book in characters:
-        new_url = source_url+each_book["href"]
+    for character in characters:
+        new_url = source_url+ character["href"]
         urls.append(new_url)
 
     for url in urls:
-        html_text = requests.get(url).text
-        soup = BeautifulSoup(html_text, "html.parser")
-        info_table = soup.find("table", class_="infobox")
+        info_table = get_wiki_table(url, "infobox")
 
         if info_table != None:
             rows = info_table.find_all("tr")
@@ -79,11 +87,7 @@ def scrape_characters_page(source_url, soup):
             character_objects.append(character_object)
         time.sleep(0.5)
 
-    out_file = open("output.json", "w")
-
-    json.dump(character_objects, out_file, indent=6)
-
-    out_file.close()
+    save_json_file(character_objects)
 
 
 def scrape_all_character_pages(seed_url, page_number=0):
@@ -94,7 +98,6 @@ def scrape_all_character_pages(seed_url, page_number=0):
 
     try:
         url = seed_url + urls[page_number]
-
         html_text = requests.get(url).text
         soup = BeautifulSoup(html_text, "html.parser")
 
@@ -109,51 +112,48 @@ def scrape_all_character_pages(seed_url, page_number=0):
     except Exception as e:
         return e
 
+# works for storefronts, episodes, and pest control trucks
+def running_gags(url):
+    wiki_tables = get_wiki_table(url, "wikitable")
 
-def scrape_storefront_and_trucks(url, file):
-    html_text = requests.get(url).text
-    soup = BeautifulSoup(html_text, "html.parser")
-    wiki_tables = soup.find_all("table", class_="wikitable")
-    stores = []
+    if(wiki_tables == None): return [] 
+
+    running_gags = []
     id = 0
-    if wiki_tables != None:
-        table_index = 0
-        for wiki_table in wiki_tables:
-            if table_index != 8 and table_index != 0:
-                rows = wiki_table.find_all("tr")
-                if rows != None and len(rows) > 0:
+    table_index = 0
+    for wiki_table in wiki_tables:
+        if table_index != 8 and table_index != 0:
+            rows = wiki_table.find_all("tr")
+            if rows != None and len(rows) > 0:
 
-                    for index in range(1, len(rows)):
-                        store = {}
-                        a_tags = rows[index].find_all("a")
+                for index in range(1, len(rows)):
+                    running_gag = {}
+                    a_tags = rows[index].find_all("a")
+                    name = rows[index].find_all("td")[1].text.strip()
 
-                        name = rows[index].find_all("td")[1].text.strip()
-                        if (len(name) != 0):
-                            store["name"] = name
-                        store["episode"] = a_tags[0].text.strip()
-                        store["image"] = a_tags[1]["href"]
+                    if (len(name) != 0):
+                        running_gag["name"] = name
+                    running_gag["episode"] = a_tags[0].text.strip()
+                    running_gag["image"] = a_tags[1]["href"]
 
-                        if table_index > 8:
-                            store["season"] = table_index - 1
-                        else:
-                            store["season"] = table_index
-                        store["id"] = id
-                        store["url"] = "http://bobs-burgers-api/stores/" + \
-                            str(id)
-                        stores.append(store)
-                        id += 1
-            table_index += 1
+                    if table_index > 8:
+                        running_gag["season"] = table_index - 1
+                    else:
+                        running_gag["season"] = table_index
+                    running_gag["id"] = id
+                    running_gag["url"] = "http://bobs-burgers-api/stores/" + \
+                        str(id)
+                    running_gags.append(running_gag)
+                    id += 1
+        table_index += 1
 
-        out_file = open(file, "w")
-        json.dump(stores, out_file, indent=2)
-        out_file.close()
-
+    save_json_file(running_gags)
 
 def scrape_end_credits(url, file):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
     wiki_tables = soup.find_all("table", class_="wikitable")
-    stores = []
+    end_credits = []
     id = 13
     if wiki_tables != None:
         table_index = 0
@@ -161,31 +161,100 @@ def scrape_end_credits(url, file):
             rows = wiki_table.find_all("tr")
             if rows != None and len(rows) > 0:
                 for index in range(1, len(rows)):
-                    store = {}
+                    end_credit = {}
                     a_tags = rows[index].find_all("a")
                     if(len(a_tags) > 0):
-                        store["episode"] = a_tags[0].text.strip()
-                        store["image"] = a_tags[1]["href"]
-                        store["season"] = table_index + 2
-
-                        store["id"] = id
-                        store["url"] = "http://bobs-burgers-api/stores/" + \
+                        end_credit["episode"] = a_tags[0].text.strip()
+                        print(end_credit["episode"])
+                        end_credit["image"] = a_tags[1]["href"]
+                        end_credit["season"] = table_index + 2
+                        end_credit["id"] = id
+                        end_credit["url"] = "http://bobs-burgers-api/stores/" + \
                             str(id)
-                        stores.append(store)
+                        end_credits.append(end_credit)
                         id += 1
             table_index += 1
 
-        out_file = open(file, "w")
-        json.dump(stores, out_file, indent=2)
-        out_file.close()
+        save_json_file(end_credits)
 
 
+
+def scrape_episodes(url):
+    html_text = requests.get(url).text
+    soup = BeautifulSoup(html_text, "html.parser")
+    print("Fetched: " + url)
+    wiki_tables = soup.find_all(
+        "table", class_="wikitable")
+    episodes = []
+
+    id = 1
+    if wiki_tables != None:
+        table_index = 0
+        for wiki_table in wiki_tables:
+            rows = wiki_table.find_all("tr")
+            if rows != None and len(rows) > 0:
+
+                for index in range(1, len(rows)):
+                    episode = {}
+                    link = rows[index].find("a")["href"]
+
+                    cells = rows[index].find_all("td")
+                    season_episode = cells[2].text.strip().split(",")
+                    season_number = season_episode[0].split(" ")[1]
+                    episode_number = season_episode[1].strip().split(" ")[
+                        1]
+                    formatted_episode = episode_number if len(
+                        episode_number) > 2 else int(episode_number)
+
+                    total_viewers = scrape_total_Viewers(link, False)
+                    name = cells[0].text.strip()
+
+                    episode["id"] = id
+                    if (len(name) != 0):
+                        episode["name"] = name
+
+                    episode["productionCode"] = cells[1].text.strip()
+                    episode["airDate"] = cells[len(cells) - 1].text.strip()
+                    episode["season"] = int(season_number)
+                    episode["episode"] = formatted_episode
+
+                    if (len(total_viewers) > 0):
+                        episode["totalViewers"] = total_viewers
+                    episode["url"] = "http://bobs-burgers-api/episodes/" + \
+                        str(id)
+                    episodes.append(episode)
+                    id += 1
+            table_index += 1
+
+        save_json_file(episode)
+
+
+def scrape_total_Viewers(url, retried):
+    complete_url = "https://bobs-burgers.fandom.com" + url
+    episode_html_text = requests.get(complete_url).text
+    soup = BeautifulSoup(episode_html_text, "html.parser")
+    info_box = soup.find("aside", class_="portable-infobox")
+
+    if info_box != None:
+        viewers = info_box.find(
+            "div", {"data-source": "viewers"})
+        return viewers.text.strip()
+    elif(retried == False):
+        return scrape_total_Viewers(url + "_(Episode)", True)
+    else:
+        return ""
+
+scrape_episodes("https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order")
+'''
+EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
+CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
 if __name__ == "__main__":
-    seed_url = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
+    seed_url = EPISODES_URL
     print("Web scraping has begun")
-    result = scrape_all_character_pages(seed_url)
-    print(result)
+    result = scrape_episodes("https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order")
+
     if result == True:
         print("Web scraping is now complete!")
     else:
         print(f"Error - {result}")
+'''

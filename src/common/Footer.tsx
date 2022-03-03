@@ -13,8 +13,8 @@ const Footer = (): JSX.Element => {
         </a>
       </div>
       <div className="row justify-content-center p-5 pt-0 mb-0">
-        <div className="col-sm-3 text-center">
-          <div className="d-inline-flex">
+        <div className="col-sm-3 text-center d-flex flex-column justidy-content-center">
+          <div className="">
             <a href="/documentation" className="me-2">
               Documentation
             </a>
