@@ -12,6 +12,7 @@ import CharacterSchema from './schemas/CharacterSchema';
 import getRunningGag from './schemas/RunningGagSchema';
 import EpisodeSchema from './schemas/EpisodeSchema';
 import FilterExample from './FilterExample';
+import EndCreditsSequence from './schemas/EndCreditsSequence';
 
 const Documentation = (): JSX.Element => {
   const [rootData, setRootData] = React.useState('');
@@ -166,7 +167,7 @@ const Documentation = (): JSX.Element => {
           name="End Credits Sequence"
           pluralName={`end credits sequences`}
           url="endCreditsSequence/"
-          schema={getRunningGag('end credits sequence')}
+          schema={EndCreditsSequence}
         />
         <Footer />
       </div>

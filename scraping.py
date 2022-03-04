@@ -149,12 +149,12 @@ def running_gags(url):
 
     save_json_file(running_gags)
 
-def scrape_end_credits(url, file):
+def scrape_end_credits(url):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
     wiki_tables = soup.find_all("table", class_="wikitable")
     end_credits = []
-    id = 13
+    id = 14
     if wiki_tables != None:
         table_index = 0
         for wiki_table in wiki_tables:
@@ -164,11 +164,11 @@ def scrape_end_credits(url, file):
                     end_credit = {}
                     a_tags = rows[index].find_all("a")
                     if(len(a_tags) > 0):
-                        end_credit["episode"] = a_tags[0].text.strip()
-                        print(end_credit["episode"])
+                        end_credit["id"] = id
                         end_credit["image"] = a_tags[1]["href"]
                         end_credit["season"] = table_index + 2
-                        end_credit["id"] = id
+                        end_credit["episode"] = "http://bobs-burgers-api/episodes/" + \
+                            str(id)
                         end_credit["url"] = "http://bobs-burgers-api/stores/" + \
                             str(id)
                         end_credits.append(end_credit)
@@ -244,7 +244,7 @@ def scrape_total_Viewers(url, retried):
     else:
         return ""
 
-scrape_episodes("https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order")
+scrape_end_credits("https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence")
 '''
 EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
 CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"

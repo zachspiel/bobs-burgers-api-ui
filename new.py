@@ -1,14 +1,18 @@
 import json
+import urllib.request
+import ssl
+import requests
 
-f = open('characters.json')
+ssl._create_default_https_context = ssl._create_unverified_context
+
+f = open('output.json')
 data = json.load(f)
 
 f2 = open('newData.json')
 new_data = json.load(f2)
 
 complete_characters = []
-
-
+'''
 def find_character(original_character):
     for character in new_data:
         print(character)
@@ -27,29 +31,28 @@ def find_character(original_character):
 
 
 '''
+index = 1
 for character in data:
+    # episode = requests.get("https://bobsburgers-api.herokuapp.com/episodes/" + str(index))
+    #= print(episode.json())
+    # episode_number = episode.json()["episode"]
     updated_character = {}
-    updated_character["id"] = character["id"]
-    updated_character["name"] = character["name"]
+    updated_character["id"] = index 
     updated_character["image"] = character["image"]
-
-    if "gender" in character:
-        updated_character["gender"] = character["gender"]
-    if "age" in character:
-        updated_character["age"] = character["age"]
-    if "hairColor" in character:
-        updated_character["hairColor"] = character["hairColor"]
-    if "occupation" in character:
-        updated_character["occupation"] = character["occupation"]
-    if "relatives" in character:
-        updated_character["relatives"] = character["relatives"]
-    if "firstEpisode" in character:
-        updated_character["firstEpisode"] = character["firstEpisode"]
-    if "voicedBy" in character:
-        updated_character["voicedBy"] = character["voicedBy"]
-
-    updated_character["url"] = character["url"]
+    updated_character["season"] = character["season"]
+    updated_character["episode"] = character["episode"]
+    updated_character["episodeUrl"] = "https://bobsburgers-api.herokuapp.com/episodes/" + str(index)
+    updated_character["url"] = "https://bobsburgers-api.herokuapp.com/endCreditsSequence/" + str(index)
+   
+    # urllib.request.urlretrieve(character["image"], str(index) + ".jpg")
+    index += 1
     complete_characters.append(updated_character)
+    
+out_file = open("output2.json", "w")
+
+json.dump(complete_characters, out_file, indent=6)
+
+out_file.close()
 '''
 for character in data:
     updated_character = character
@@ -62,3 +65,4 @@ out_file = open("final.json", "w")
 json.dump(complete_characters, out_file, indent=6)
 
 out_file.close()
+'''
