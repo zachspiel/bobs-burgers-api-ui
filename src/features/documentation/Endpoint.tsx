@@ -36,15 +36,19 @@ const Endpoint = (props: Props): JSX.Element => {
           {props.name}
         </h2>
         <Divider />
-        {props.url.length > 0 && (
+
+        {!shouldFetchData && (
           <>
-            The {props.name} endpoint provides information on all {props.about}{' '}
-            Bob's Burgers.
+            {props.about} {getUrlCodeBlock(`${props.url}`)}
           </>
         )}
-        {props.url.length === 0 && <>{props.about}</>}
         {shouldFetchData && (
           <>
+            <>
+              The {props.name} endpoint provides information on all{' '}
+              {props.about} Bob's Burgers.
+            </>
+
             <h4 className="fw-bold mt-5">Get all {pluralName}</h4>
 
             <p>

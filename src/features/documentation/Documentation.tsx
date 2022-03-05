@@ -4,7 +4,7 @@ import Endpoint from './Endpoint';
 import Playground from '../../components/Playground';
 import Sidebar from '../../components/Sidebar';
 import Statistics from '../../components/Statistics';
-import { performGetRequest } from '../../services/apiService';
+import { performGetRequest, ROOT_URL } from '../../services/apiService';
 import { ScrollTop } from 'primereact/scrolltop';
 import Footer from '../common/Footer';
 import { Divider } from 'primereact/divider';
@@ -81,7 +81,7 @@ const Documentation = (): JSX.Element => {
           about="The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS."
           name="Root URL"
           skipFetch={true}
-          url=""
+          url={ROOT_URL}
           exampleData={rootData}
         />
         <SortingLimiting />

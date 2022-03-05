@@ -24,17 +24,12 @@ const SortingLimiting = (): JSX.Element => {
           Sorting and Limiting
         </h2>
         <Divider />
-        <p>
-          All endpoints support the{' '}
-          {sortByOptions.map((option, index) => {
-            return (
-              <span className="highlight-block me-1" key={index}>
-                {option}
-                {index !== sortByOptions.length - 1 && ','}
-              </span>
-            );
-          })}
-        </p>
+        <span>All endpoints support the </span>
+        <span className="highlight-block"> sortBy</span>,{' '}
+        <span className="highlight-block"> orderBy</span>,{' '}
+        <span className="highlight-block">limit</span>, and{' '}
+        <span className="highlight-block"> skip</span>
+        <span> parameters.</span>
         <h4 className="fw-bold">Example Results:</h4>
         Sort in ascending order:
         {getUrlCodeBlock('characters?sortBy=name&OrderBy=asc&limit=1&skip=0')}

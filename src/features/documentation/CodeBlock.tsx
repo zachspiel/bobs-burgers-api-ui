@@ -19,6 +19,7 @@ const CodeBlock = (props: Props): JSX.Element => {
   const isLightMode = state.currentTheme === 'light-mode';
   const theme = isLightMode ? atomOneLight : vs2015;
   const toast = React.useRef<Toast>(null);
+  const isUrl = props.language === 'url';
   const className = props.language === 'url' ? 'url-block' : '';
   const rootClass = 'pb-2 pt-2 position-relative ' + props.className ?? '';
 
@@ -26,7 +27,7 @@ const CodeBlock = (props: Props): JSX.Element => {
     toast?.current?.show({
       severity: 'success',
       summary: 'Copied',
-      detail: 'Successfully copied data. 🎉 ',
+      detail: `Successfully copied ${isUrl ? 'url' : 'data'}. 🎉 `,
       life: 30000,
     });
   };
