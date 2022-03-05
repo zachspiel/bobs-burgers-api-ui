@@ -4,6 +4,7 @@ import { Divider } from 'primereact/divider';
 import { InputText } from 'primereact/inputtext';
 import { Toast } from 'primereact/toast';
 import { performGetRequest } from '../services/apiService';
+import CodeBlock from '../features/documentation/CodeBlock';
 
 const Playground = (): JSX.Element => {
   const [inputValue, setInputValue] = React.useState('');
@@ -62,7 +63,10 @@ const Playground = (): JSX.Element => {
             <Button label="Get" onClick={() => onSubmit()} />
           </div>
         </div>
-        <pre> {JSON.stringify(playgroundResult, null, 2)}</pre>
+        <CodeBlock
+          language="json"
+          code={JSON.stringify(playgroundResult, null, 2)}
+        />
       </div>
     </div>
   );

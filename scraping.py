@@ -2,6 +2,7 @@ import requests
 import time
 from datetime import date, datetime
 from bs4 import BeautifulSoup
+import urllib.request
 import json
 
 
@@ -122,6 +123,7 @@ def running_gags(url):
     id = 0
     table_index = 0
     for wiki_table in wiki_tables:
+        # skipping table 8 for 'brunchsquatch' episode
         if table_index != 8 and table_index != 0:
             rows = wiki_table.find_all("tr")
             if rows != None and len(rows) > 0:
@@ -244,10 +246,12 @@ def scrape_total_Viewers(url, retried):
     else:
         return ""
 
-scrape_end_credits("https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence")
+running_gags("https://bobs-burgers.fandom.com/wiki/Store_Next_Door")
 '''
 EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
 CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
+END_CREDITS = "https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence"
+STORE_NEXT_DOOR = "https://bobs-burgers.fandom.com/wiki/Store_Next_Door
 if __name__ == "__main__":
     seed_url = EPISODES_URL
     print("Web scraping has begun")

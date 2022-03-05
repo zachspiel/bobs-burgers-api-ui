@@ -1,9 +1,10 @@
 import React from 'react';
-import { performGetRequest, ROOT_URL } from '../../services/apiService';
+import { performGetRequest } from '../../services/apiService';
 import { Carousel } from 'primereact/carousel';
 import { Button } from 'primereact/button';
-import Navbar from '../../common/Navbar';
-import Footer from '../../common/Footer';
+import Navbar from '../common/Navbar';
+import Footer from '../common/Footer';
+import { getUrlCodeBlock } from '../../util';
 
 interface Character {
   id: number;
@@ -26,7 +27,7 @@ const HomePage = () => {
   const getCharacters = () => {
     const skip = Math.random() * (493 - 0) + 0;
     setIsLoading(true);
-    setCurrentUrl(ROOT_URL + `/characters/?limit=9&skip=${Math.ceil(skip)}`);
+    setCurrentUrl(`characters/?limit=9&skip=${Math.ceil(skip)}`);
     performGetRequest(
       'characters',
       undefined,
@@ -74,11 +75,10 @@ const HomePage = () => {
             {character.name}
           </a>
         </h3>
-        <span className="text-muted">First Episode: </span>
-        {character?.firstEpisode ?? 'Unkown'}
-        <br />
+        <span className="text-muted ">First Episode: </span>
+        <p>{character?.firstEpisode ?? 'Unkown'}</p>
         <span className="text-muted">Voiced By: </span>
-        {character.voicedBy ?? 'Unkown'}
+        <p>{character.voicedBy ?? 'Unkown'}</p>
       </div>
     );
   };
@@ -105,7 +105,7 @@ const HomePage = () => {
       </div>
 
       <div className="d-flex mt-2 ps-5">
-        <pre>{currentUrl}</pre>
+        {getUrlCodeBlock(currentUrl, 'w-75')}
       </div>
 
       <div className="row mt-0">

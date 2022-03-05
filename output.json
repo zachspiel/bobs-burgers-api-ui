@@ -1,1826 +1,1808 @@
 [
       {
+            "name": "P.F.E.T.A",
+            "episode": "Human Flesh",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Bobs-Burgers-Wiki_Store-next-door_S01-E01.jpg/revision/latest?cb=20140111160746",
+            "season": 1,
+            "id": 0,
+            "url": "http://bobs-burgers-api/stores/0"
+      },
+      {
+            "name": "Trot's All Natural Fertilizer",
+            "episode": "Crawl Space",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Bobs-Burgers-Wiki_Store-next-door_S01-E02.jpg/revision/latest?cb=20140111160747",
+            "season": 1,
             "id": 1,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/1.jpg",
-            "season": 1,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/1",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/1"
+            "url": "http://bobs-burgers-api/stores/1"
       },
       {
+            "name": "RENT REDUCED: Crime Scene Special",
+            "episode": "Sacred Cow",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/de/Bobs-Burgers-Wiki_Store-next-door_S01-E03.jpg/revision/latest?cb=20140111160747",
+            "season": 1,
             "id": 2,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/2.jpg",
-            "season": 1,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/2",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/2"
+            "url": "http://bobs-burgers-api/stores/2"
       },
       {
+            "name": "Meth I Can! Methadone Clinic",
+            "episode": "Sexy Dance Fighting",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/85/Bobs-Burgers-Wiki_Store-next-door_S01-E04.jpg/revision/latest?cb=20140111160748",
+            "season": 1,
             "id": 3,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/3.jpg",
-            "season": 1,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/3",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/3"
+            "url": "http://bobs-burgers-api/stores/3"
       },
       {
+            "name": "SYNTHESIZERS! SYNTHESIZERS! SYNTHESIZERS!",
+            "episode": "Hamburger Dinner Theater",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c8/Bobs-Burgers-Wiki_Store-next-door_S01-E05.jpg/revision/latest?cb=20140111160748",
+            "season": 1,
             "id": 4,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/4.jpg",
-            "season": 1,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/4",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/4"
+            "url": "http://bobs-burgers-api/stores/4"
       },
       {
+            "name": "Extra Moist Yoga",
+            "episode": "Sheesh! Cab, Bob?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/92/Bobs-Burgers-Wiki_Store-next-door_S01-E06.jpg/revision/latest?cb=20140111160748",
+            "season": 1,
             "id": 5,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/5.jpg",
-            "season": 1,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/5",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/5"
+            "url": "http://bobs-burgers-api/stores/5"
       },
       {
+            "name": "The Horse Renderer",
+            "episode": "Bed & Breakfast",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ef/Bobs-Burgers-Wiki_Store-next-door_S01-E07.jpg/revision/latest?cb=20140111160749",
+            "season": 1,
             "id": 6,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/6.jpg",
-            "season": 1,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/6",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/6"
+            "url": "http://bobs-burgers-api/stores/6"
       },
       {
+            "name": "ATTEMPTED CR\u00caPE French Cooking School",
+            "episode": "Art Crawl",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bc/Bobs-Burgers-Wiki_Store-next-door_S01-E08.jpg/revision/latest?cb=20140111160749",
+            "season": 1,
             "id": 7,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/7.jpg",
-            "season": 1,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/7",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/7"
+            "url": "http://bobs-burgers-api/stores/7"
       },
       {
+            "name": "STD B-Gone! FREE CLINIC",
+            "episode": "Spaghetti Western & Meatballs",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Bobs-Burgers-Wiki_Store-next-door_S01-E09.jpg/revision/latest?cb=20140111160750",
+            "season": 1,
             "id": 8,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/8.jpg",
-            "season": 1,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/8",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/8"
+            "url": "http://bobs-burgers-api/stores/8"
       },
       {
+            "name": "ROCKY REFUGE RACCOON SANCTUARY",
+            "episode": "Burger War",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/89/Bobs-Burgers-Wiki_Store-next-door_S01-E10.jpg/revision/latest?cb=20140111160750",
+            "season": 1,
             "id": 9,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/9.jpg",
-            "season": 1,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/9",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/9"
+            "url": "http://bobs-burgers-api/stores/9"
       },
       {
+            "name": "Bass Drum Emporium",
+            "episode": "Weekend at Mort's",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Bobs-Burgers-Wiki_Store-next-door_S01-E11.jpg/revision/latest?cb=20140111160750",
+            "season": 1,
             "id": 10,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/10.jpg",
-            "season": 1,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/10",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/10"
+            "url": "http://bobs-burgers-api/stores/10"
       },
       {
+            "name": "MAGNUM G.I. COLONOSCOPIES",
+            "episode": "Lobsterfest",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/23/Bobs-Burgers-Wiki_Store-next-door_S01-E12.jpg/revision/latest?cb=20140111160751",
+            "season": 1,
             "id": 11,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/11.jpg",
-            "season": 1,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/11",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/11"
+            "url": "http://bobs-burgers-api/stores/11"
       },
       {
+            "name": "CHRIS'S BRISSES",
+            "episode": "Torpedo",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/Bobs-Burgers-Wiki_Store-next-door_S01-E13.jpg/revision/latest?cb=20140111160751",
+            "season": 1,
             "id": 12,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/12.jpg",
-            "season": 1,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/12",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/12"
+            "url": "http://bobs-burgers-api/stores/12"
       },
       {
+            "name": "Uncle Marty's Breast Pumps",
+            "episode": "The Belchies",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/89/Bobs-Burgers-Wiki_Store-next-door_S02-E01.jpg/revision/latest?cb=20140113222535",
+            "season": 2,
             "id": 13,
-            "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/13.jpg",
-            "season": 1,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/13",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/13"
+            "url": "http://bobs-burgers-api/stores/13"
       },
       {
+            "name": "HANNIBAL'S DEAD ANIMALS TAXIDERMY",
+            "episode": "Bob Day Afternoon",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/52/Bobs-Burgers-Wiki_Store-next-door_S02-E02.jpg/revision/latest?cb=20140113222536",
+            "season": 2,
             "id": 14,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/90/Belchies_Credits.png/revision/latest?cb=20150105231059",
-            "season": 2,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/14",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/14"
+            "url": "http://bobs-burgers-api/stores/14"
       },
       {
+            "name": "POOKAH PAGODA POOKAH SHELL WAREHOUSE",
+            "episode": "Synchronized Swimming",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c5/Bobs-Burgers-Wiki_Store-next-door_S02-E03.jpg/revision/latest?cb=20140113222536",
+            "season": 2,
             "id": 15,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/76/Bob_Day_Credits.png/revision/latest?cb=20150105233849",
-            "season": 2,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/15",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/15"
+            "url": "http://bobs-burgers-api/stores/15"
       },
       {
+            "name": "A FRIDGE TOO FAR USED APPLIANCES",
+            "episode": "Burgerboss",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1e/Bobs-Burgers-Wiki_Store-next-door_S02-E04.jpg/revision/latest?cb=20140113222536",
+            "season": 2,
             "id": 16,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/02/Synchronized_Swimming_Credits.png/revision/latest?cb=20150105233827",
-            "season": 2,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/16",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/16"
+            "url": "http://bobs-burgers-api/stores/16"
       },
       {
+            "name": "That's Improv-able Improv Theater",
+            "episode": "Food Truckin'",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Bobs-Burgers-Wiki_Store-next-door_S02-E05.jpg/revision/latest?cb=20140113222536",
+            "season": 2,
             "id": 17,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Burgerboss_Credits.png/revision/latest?cb=20150105233809",
-            "season": 2,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/17",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/17"
+            "url": "http://bobs-burgers-api/stores/17"
       },
       {
+            "name": "STICKERS FOR MEN",
+            "episode": "Dr. Yap",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/Bobs-Burgers-Wiki_Store-next-door_S02-E06.jpg/revision/latest?cb=20140113222537",
+            "season": 2,
             "id": 18,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Food_Truckin_Credits.png/revision/latest?cb=20150105233722",
-            "season": 2,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/18",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/18"
+            "url": "http://bobs-burgers-api/stores/18"
       },
       {
+            "name": "Grindecologist Coffee Shop",
+            "episode": "Moody Foodie",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobs-Burgers-Wiki_Store-next-door_S02-E07.jpg/revision/latest?cb=20140113222537",
+            "season": 2,
             "id": 19,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a9/Dr_Yap_Credits.png/revision/latest?cb=20150105233653",
-            "season": 2,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/19",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/19"
+            "url": "http://bobs-burgers-api/stores/19"
       },
       {
+            "name": "Valley of the Doilies",
+            "episode": "Bad Tina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/11/Bobs-Burgers-Wiki_Store-next-door_S02-E08.jpg/revision/latest?cb=20140113222537",
+            "season": 2,
             "id": 20,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/Moody_Foodie_Credits.png/revision/latest?cb=20150105233635",
-            "season": 2,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/20",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/20"
+            "url": "http://bobs-burgers-api/stores/20"
       },
       {
+            "name": "Yes, Wire Hangers!",
+            "episode": "Beefsquatch",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c4/Bobs-Burgers-Wiki_Store-next-door_S02-E09.jpg/revision/latest?cb=20140113222538",
+            "season": 2,
             "id": 21,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/72/Bad_Tina_Credits.png/revision/latest?cb=20150105233549",
-            "season": 2,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/21",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/21"
+            "url": "http://bobs-burgers-api/stores/21"
       },
       {
+            "name": "ANNIE GET YOUR GUM",
+            "episode": "Ear-sy Rider",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6a/Bobs-Burgers-Wiki_Store-next-door_S03-E01.jpg/revision/latest?cb=20140113235856",
+            "season": 3,
             "id": 22,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ae/Beefsquatch_Credits.png/revision/latest?cb=20150105233616",
-            "season": 2,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/22",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/22"
+            "url": "http://bobs-burgers-api/stores/22"
       },
       {
+            "name": "YEAR-ROUND HALLOWEEN STORE",
+            "episode": "Full Bars",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Bobs-Burgers-Wiki_Store-next-door_S03-E02.jpg/revision/latest?cb=20140113235857",
+            "season": 3,
             "id": 23,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/Earsy_Rider_Credits.png/revision/latest?cb=20150105220922",
-            "season": 3,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/23",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/23"
+            "url": "http://bobs-burgers-api/stores/23"
       },
       {
+            "name": "I'D HIT THAT BOXING GYM",
+            "episode": "Bob Fires the Kids",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d7/Bobs-Burgers-Wiki_Store-next-door_S03-E03.jpg/revision/latest?cb=20140113235857",
+            "season": 3,
             "id": 24,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0c/Full_Bars_Credits.png/revision/latest?cb=20150105230348",
-            "season": 3,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/24",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/24"
+            "url": "http://bobs-burgers-api/stores/24"
       },
       {
+            "name": "Simply the Asbestos",
+            "episode": "Mutiny on the Windbreaker",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/Bobs-Burgers-Wiki_Store-next-door_S03-E04.jpg/revision/latest?cb=20140113235857",
+            "season": 3,
             "id": 25,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/af/Bob_Fires_Credits.png/revision/latest?cb=20150105225255",
-            "season": 3,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/25",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/25"
+            "url": "http://bobs-burgers-api/stores/25"
       },
       {
+            "name": "COLONIAL BALONEY",
+            "episode": "An Indecent Thanksgiving Proposal",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Bobs-Burgers-Wiki_Store-next-door_S03-E05.jpg/revision/latest?cb=20140113235857",
+            "season": 3,
             "id": 26,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bd/Windbreaker_Credits.png/revision/latest?cb=20150105225705",
-            "season": 3,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/26",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/26"
+            "url": "http://bobs-burgers-api/stores/26"
       },
       {
+            "name": "BUTT STUFF UNDERWEAR OUTLET",
+            "episode": "The Deepening",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobs-Burgers-Wiki_Store-next-door_S03-E06.jpg/revision/latest?cb=20140113235858",
+            "season": 3,
             "id": 27,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/Thanksgiving_Credits.png/revision/latest?cb=20150105225617",
-            "season": 3,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/27",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/27"
+            "url": "http://bobs-burgers-api/stores/27"
       },
       {
+            "name": "Wigs Wigs Wigs! (And Socks)",
+            "episode": "Tina-Rannosaurus Wrecks",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d7/Bobs-Burgers-Wiki_Store-next-door_S03-E07.jpg/revision/latest?cb=20140113235858",
+            "season": 3,
             "id": 28,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8a/Deepening_Credits.png/revision/latest?cb=20150105225647",
-            "season": 3,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/28",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/28"
+            "url": "http://bobs-burgers-api/stores/28"
       },
       {
+            "name": "Talk To The Hand Glove Store",
+            "episode": "The Unbearable Like-Likeness of Gene",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Bobs-Burgers-Wiki_Store-next-door_S03-E08.jpg/revision/latest?cb=20140113235858",
+            "season": 3,
             "id": 29,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d1/Tina_Wrecks_Credits.png/revision/latest?cb=20150105230310",
-            "season": 3,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/29",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/29"
+            "url": "http://bobs-burgers-api/stores/29"
       },
       {
+            "name": "Cane You Dig It? CANDY CANE OUTLET",
+            "episode": "God Rest Ye Merry Gentle-Mannequins",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Bobs-Burgers-Wiki_Store-next-door_S03-E09.jpg/revision/latest?cb=20140113235859",
+            "season": 3,
             "id": 30,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Like_Likeness_Credits.png/revision/latest?cb=20150105225836",
-            "season": 3,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/30",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/30"
+            "url": "http://bobs-burgers-api/stores/30"
       },
       {
+            "name": "Does Your Face Hurt? BEAUTY SUPPLIES",
+            "episode": "Mother Daughter Laser Razor",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/74/Bobs-Burgers-Wiki_Store-next-door_S03-E10.jpg/revision/latest?cb=20140113235859",
+            "season": 3,
             "id": 31,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c1/Mannequins_Credits.png/revision/latest?cb=20150105225858",
-            "season": 3,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/31",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/31"
+            "url": "http://bobs-burgers-api/stores/31"
       },
       {
+            "name": "SCROTO-ROOTER VASECTOMY CLINIC",
+            "episode": "Nude Beach",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/59/Bobs-Burgers-Wiki_Store-next-door_S03-E11.jpg/revision/latest?cb=20140113235859",
+            "season": 3,
             "id": 32,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b2/Modo_Credits.png/revision/latest?cb=20150105225323",
-            "season": 3,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/32",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/32"
+            "url": "http://bobs-burgers-api/stores/32"
       },
       {
+            "name": "THAT'S A-DOOR-A-BELL DOORBELLS",
+            "episode": "Broadcast Wagstaff School News",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b2/Bobs-Burgers-Wiki_Store-next-door_S03-E12.jpg/revision/latest?cb=20140113235900",
+            "season": 3,
             "id": 33,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Nude_Beach_Credits.png/revision/latest?cb=20150105225747",
-            "season": 3,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/33",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/33"
+            "url": "http://bobs-burgers-api/stores/33"
       },
       {
+            "name": "KOOKAH FOR HOOKAH",
+            "episode": "My Fuzzy Valentine",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5e/Bobs-Burgers-Wiki_Store-next-door_S03-E13.jpg/revision/latest?cb=20140113235900",
+            "season": 3,
             "id": 34,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Broadcast_Credits.png/revision/latest?cb=20150105230239",
-            "season": 3,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/34",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/34"
+            "url": "http://bobs-burgers-api/stores/34"
       },
       {
+            "name": "LET'S SCISSOR! COLLAGE STUDIO",
+            "episode": "Lindapendent Woman",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/de/Bobs-Burgers-Wiki_Store-next-door_S03-E14.jpg/revision/latest?cb=20140113235900",
+            "season": 3,
             "id": 35,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6b/Valentine_Credits.png/revision/latest?cb=20150105225730",
-            "season": 3,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/35",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/35"
+            "url": "http://bobs-burgers-api/stores/35"
       },
       {
+            "name": "EARTH, WIND & TIRES",
+            "episode": "O.T. The Outside Toilet",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/03/Bobs-Burgers-Wiki_Store-next-door_S03-E15.jpg/revision/latest?cb=20140113235901",
+            "season": 3,
             "id": 36,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/66/Lindapendent_Credits.png/revision/latest?cb=20150105225920",
-            "season": 3,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/36",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/36"
+            "url": "http://bobs-burgers-api/stores/36"
       },
       {
+            "name": "ELLIOT'S SMELLY BITS POTPOURRI SHOP",
+            "episode": "Topsy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Bobs-Burgers-Wiki_Store-next-door_S03-E16.jpg/revision/latest?cb=20140113235901",
+            "season": 3,
             "id": 37,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c5/Toilet_Credits.png/revision/latest?cb=20150105225942",
-            "season": 3,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/37",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/37"
+            "url": "http://bobs-burgers-api/stores/37"
       },
       {
+            "name": "FERN, BABY, FERN! DISCOUNT FERN STORE",
+            "episode": "Two for Tina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Bobs-Burgers-Wiki_Store-next-door_S03-E17.jpg/revision/latest?cb=20140113235901",
+            "season": 3,
             "id": 38,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/61/Topsy_Credits.png/revision/latest?cb=20150105225957",
-            "season": 3,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/38",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/38"
+            "url": "http://bobs-burgers-api/stores/38"
       },
       {
+            "name": "MILES OF VIALS",
+            "episode": "It Snakes a Village",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0d/Bobs-Burgers-Wiki_Store-next-door_S03-E18.jpg/revision/latest?cb=20140113235902",
+            "season": 3,
             "id": 39,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a0/Two_For_Tina_Credits.png/revision/latest?cb=20150105230018",
-            "season": 3,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/39",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/39"
+            "url": "http://bobs-burgers-api/stores/39"
       },
       {
+            "name": "THE MASSAGONYST MASSAGES FOR MEN",
+            "episode": "Family Fracas",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a1/Bobs-Burgers-Wiki_Store-next-door_S03-E19.jpg/revision/latest?cb=20140113235902",
+            "season": 3,
             "id": 40,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c8/Snakes_Credits.png/revision/latest?cb=20150105225430",
-            "season": 3,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/40",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/40"
+            "url": "http://bobs-burgers-api/stores/40"
       },
       {
+            "name": "NOTHIN' BUT NOTARIES",
+            "episode": "The Kids Run the Restaurant",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Bobs-Burgers-Wiki_Store-next-door_S03-E20.jpg/revision/latest?cb=20140113235902",
+            "season": 3,
             "id": 41,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Family_Fracas_Credits.png/revision/latest?cb=20150105225813",
-            "season": 3,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/41",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/41"
+            "url": "http://bobs-burgers-api/stores/41"
       },
       {
+            "name": "BREAK-A-BEAR TEDDY BEAR DISPOSAL",
+            "episode": "Boyz 4 Now",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Bobs-Burgers-Wiki_Store-next-door_S03-E21.jpg/revision/latest?cb=20140114001346",
+            "season": 3,
             "id": 42,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ab/Kids_Run_Restaurant_Credits.png/revision/latest?cb=20150105230042",
-            "season": 3,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/42",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/42"
+            "url": "http://bobs-burgers-api/stores/42"
       },
       {
+            "name": "SIT AND SPIN POTTERY",
+            "episode": "Carpe Museum",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ae/Bobs-Burgers-Wiki_Store-next-door_S03-E22.jpg/revision/latest?cb=20140114001346",
+            "season": 3,
             "id": 43,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Boyz4now_Credits.png/revision/latest?cb=20150105225353",
-            "season": 3,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/43",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/43"
+            "url": "http://bobs-burgers-api/stores/43"
       },
       {
+            "name": "OUR CARPETS MATCH OUR DRAPES HOME FURNISHINGS",
+            "episode": "The Unnatural",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Bobs-Burgers-Wiki_Store-next-door_S03-E23.jpg/revision/latest?cb=20140114001347",
+            "season": 3,
             "id": 44,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/27/Carpe_Museum_Credits.png/revision/latest?cb=20150105230130",
-            "season": 3,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/44",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/44"
+            "url": "http://bobs-burgers-api/stores/44"
       },
       {
+            "name": "TANDEMONIUM ALL YOUR TANDEM BIKE NEEDS",
+            "episode": "A River Runs Through Bob",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/da/Bobs-Burgers-Wiki_Store-next-door_S04-E01.jpg/revision/latest?cb=20140114001347",
+            "season": 4,
             "id": 45,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/04/Unnatural_Credits.png/revision/latest?cb=20150105230157",
-            "season": 3,
-            "episode": 23,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/45",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/45"
+            "url": "http://bobs-burgers-api/stores/45"
       },
       {
+            "name": "JOHNNY RAZOR'S TOTALLY NORMAL CANDY STORE",
+            "episode": "Fort Night",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/25/Bob_Store_Next_Door%2C_Season_4%2C_Episode_2.png/revision/latest?cb=20140129140330",
+            "season": 4,
             "id": 46,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3c/River_Credits.png/revision/latest?cb=20150105203157",
-            "season": 4,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/46",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/46"
+            "url": "http://bobs-burgers-api/stores/46"
       },
       {
+            "name": "DON'T GO THERE Cautionary Sign Store",
+            "episode": "Seaplane!",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Store_Next_Door%2C_Season_4%2C_Episode_3.png/revision/latest?cb=20150629181816",
+            "season": 4,
             "id": 47,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e0/Fort_Night_Credits.png/revision/latest?cb=20150105210114",
-            "season": 4,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/47",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/47"
+            "url": "http://bobs-burgers-api/stores/47"
       },
       {
+            "name": "WOLF IN SHEEP'S CLOTHING DISCOUNT PET APPAREL",
+            "episode": "My Big Fat Greek Bob",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a1/Bobs-Burgers-Wiki_Store-next-door_S04-E04.jpg/revision/latest?cb=20140112143934",
+            "season": 4,
             "id": 48,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Seaplane_Credits.png/revision/latest?cb=20150105214433",
-            "season": 4,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/48",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/48"
+            "url": "http://bobs-burgers-api/stores/48"
       },
       {
+            "name": "DR. RANGELOVE STOVE STORE",
+            "episode": "Turkey in a Can",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Store_Next_Door%2C_Season_4%2C_Episode_5.png/revision/latest?cb=20140131000020",
+            "season": 4,
             "id": 49,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/Greek_Bob_Credits.png/revision/latest?cb=20150105214459",
-            "season": 4,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/49",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/49"
+            "url": "http://bobs-burgers-api/stores/49"
       },
       {
+            "name": "BETTY'S MACHETES",
+            "episode": "Purple Rain-Union",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Bobs-Burgers-Wiki_Store-next-door_S04-E06.jpg/revision/latest?cb=20140115193206",
+            "season": 4,
             "id": 50,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4a/Turkey_In_Can_Credits.png/revision/latest?cb=20150105214523",
-            "season": 4,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/50",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/50"
+            "url": "http://bobs-burgers-api/stores/50"
       },
       {
+            "name": "YADDA YADDA DADA JEWISH SURREALIST ART GALLERY",
+            "episode": "Bob and Deliver",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e9/Bobs-Burgers-Wiki_Store-next-door_S04-E07.jpg/revision/latest?cb=20140112143628",
+            "season": 4,
             "id": 51,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/65/Purple_Rainunnion_Credits.png/revision/latest?cb=20150105215108",
-            "season": 4,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/51",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/51"
+            "url": "http://bobs-burgers-api/stores/51"
       },
       {
+            "name": "NOG NOG WHO'S THERE? EGG NOG",
+            "episode": "Christmas in the Car",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/11/Bobs-Burgers-Wiki_Store-next-door_S04-E08.jpg/revision/latest?cb=20140115193206",
+            "season": 4,
             "id": 52,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a1/Bob_Deliver_Credits.png/revision/latest?cb=20150105214635",
-            "season": 4,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/52",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/52"
+            "url": "http://bobs-burgers-api/stores/52"
       },
       {
+            "name": "TANKIN' IT TO THE STREETS TANK TOP SHOP",
+            "episode": "Slumber Party",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/87/Bobs-Burgers-Wiki_Store-next-door_S04-E09.jpg/revision/latest?cb=20140115193206",
+            "season": 4,
             "id": 53,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bb/Christmas_Car_Credits.png/revision/latest?cb=20150105214255",
-            "season": 4,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/53",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/53"
+            "url": "http://bobs-burgers-api/stores/53"
       },
       {
+            "name": "CATS A RISING STAR PET IMPROV",
+            "episode": "Presto Tina-O",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7a/Bobs-Burgers-Wiki_Store-next-door_S04-E10.jpg/revision/latest?cb=20140122083025",
+            "season": 4,
             "id": 54,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Slumber_Party_Credits.png/revision/latest?cb=20150105214405",
-            "season": 4,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/54",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/54"
+            "url": "http://bobs-burgers-api/stores/54"
       },
       {
+            "name": "FIRE DISTINGUISHERSPUT OUT YOUR FIRE WITH FLAIR",
+            "episode": "Easy Com-mercial, Easy Go-mercial",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f0/Store_Next_Door%2C_Season_4%2C_Episode_11.png/revision/latest?cb=20140131000102",
+            "season": 4,
             "id": 55,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8b/Presto_Credits.png/revision/latest?cb=20150105205812",
-            "season": 4,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/55",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/55"
+            "url": "http://bobs-burgers-api/stores/55"
       },
       {
+            "name": "NORTH BY NORTH VEST",
+            "episode": "The Frond Files",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b2/Bobs-Burgers-Wiki_Store-next-door_S04-E12.jpg/revision/latest?cb=20140313035024",
+            "season": 4,
             "id": 56,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Commercial_Credits.png/revision/latest?cb=20150105214712",
-            "season": 4,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/56",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/56"
+            "url": "http://bobs-burgers-api/stores/56"
       },
       {
+            "name": "QUILTY AS CHARGED QUILT SHOP",
+            "episode": "Mazel Tina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bc/Bobs-Burgers-Wiki_Store-next-door_S04-E13.jpg/revision/latest?cb=20140417014841",
+            "season": 4,
             "id": 57,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/78/Frond_Files_Credits.png/revision/latest?cb=20150105214738",
-            "season": 4,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/57",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/57"
+            "url": "http://bobs-burgers-api/stores/57"
       },
       {
+            "name": "CARL'S PRE-OWNED INDOOR OUTHOUSES",
+            "episode": "Uncle Teddy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a8/Bobs-Burgers-Wiki_Store-next-door_S04-E14.jpg/revision/latest?cb=20140331152218",
+            "season": 4,
             "id": 58,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4a/Mazel_Tina_Credits.png/revision/latest?cb=20150105214322",
-            "season": 4,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/58",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/58"
+            "url": "http://bobs-burgers-api/stores/58"
       },
       {
+            "name": "Brazilianaire CURRENCY EXCHANGE & WAXING SALON",
+            "episode": "The Kids Rob a Train",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/Bobs-Burgers-Wiki_Store-next-door_S04-E15.jpg/revision/latest?cb=20140331152218",
+            "season": 4,
             "id": 59,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a5/Uncle_Teddy_Credits.png/revision/latest?cb=20150105215026",
-            "season": 4,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/59",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/59"
+            "url": "http://bobs-burgers-api/stores/59"
       },
       {
+            "name": "NAPOLEON'S COMPLEXION: SKIN CARE FOR LITTLE PEOPLE",
+            "episode": "I Get Psy-chic Out of You",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d0/Bobs-Burgers-Wiki_Store-next-door_S04-E16.jpg/revision/latest?cb=20140417013146",
+            "season": 4,
             "id": 60,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/Kids_Rob_Train_Credits.png/revision/latest?cb=20150105214757",
-            "season": 4,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/60",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/60"
+            "url": "http://bobs-burgers-api/stores/60"
       },
       {
+            "name": "TIRE-RHEA",
+            "episode": "The Equestranauts",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f9/Bobs-Burgers-Wiki_Store-next-door_S04-E17.jpg/revision/latest?cb=20140417013213",
+            "season": 4,
             "id": 61,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Psychic_Credits.png/revision/latest?cb=20150105214608",
-            "season": 4,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/61",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/61"
+            "url": "http://bobs-burgers-api/stores/61"
       },
       {
+            "name": "GET A LOOM YOU TWO! COUPLES' WEAVING",
+            "episode": "Ambergris",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c1/Ambergris_opening.png/revision/latest?cb=20140423165649",
+            "season": 4,
             "id": 62,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/Equestranauts_Credits.png/revision/latest?cb=20150105214231",
-            "season": 4,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/62",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/62"
+            "url": "http://bobs-burgers-api/stores/62"
       },
       {
+            "name": "A UNICYCLE BUILT FOR TWO TANDEM UNICYCLES",
+            "episode": "The Kids Run Away",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Bobs-Burgers-Wiki_Store-next-door_S04-E19.jpg/revision/latest?cb=20140624192204",
+            "season": 4,
             "id": 63,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/84/Ambergris_Credits.png/revision/latest?cb=20150105214206",
-            "season": 4,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/63",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/63"
+            "url": "http://bobs-burgers-api/stores/63"
       },
       {
+            "name": "THE NIGHTLIGHT ZONE",
+            "episode": "Gene It On",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/39/Bobs-Burgers-Wiki_Store-next-door_S04-E20.jpg/revision/latest?cb=20140624214312",
+            "season": 4,
             "id": 64,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e7/Kids_Run_Away_Credits.png/revision/latest?cb=20150105214838",
-            "season": 4,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/64",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/64"
+            "url": "http://bobs-burgers-api/stores/64"
       },
       {
+            "episode": "Wharf Horse (or How Bob Saves/Destroys the Town - Part I)",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/04/Bobs-Burgers-Wiki_Store-next-door_S04-E21.jpg/revision/latest?cb=20140624214041",
+            "season": 4,
             "id": 65,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/eb/Gene_It_On_Credits.png/revision/latest?cb=20150105214910",
-            "season": 4,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/65",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/65"
+            "url": "http://bobs-burgers-api/stores/65"
       },
       {
+            "episode": "World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town - Part II)",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Bobs-Burgers-Wiki_Store-next-door_S04-E22.jpg/revision/latest?cb=20140624214007",
+            "season": 4,
             "id": 66,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bc/Wharf_Horse_Credits.png/revision/latest?cb=20150105214935",
-            "season": 4,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/66",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/66"
+            "url": "http://bobs-burgers-api/stores/66"
       },
       {
+            "episode": "Work Hard or Die Trying, Girl",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9d/Bobs-Burgers-Wiki_Intro_S05-E01.jpg/revision/latest?cb=20160215121003",
+            "season": 5,
             "id": 67,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/86/World_Wharf_Credits.png/revision/latest?cb=20150105214955",
-            "season": 4,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/67",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/67"
+            "url": "http://bobs-burgers-api/stores/67"
       },
       {
+            "episode": "Tina and the Real Ghost",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/Bobs-Burgers-Wiki_Intro_S05-E02.jpg/revision/latest?cb=20160215121303",
+            "season": 5,
             "id": 68,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Work_Hard_Credits.png/revision/latest?cb=20150106192052",
-            "season": 5,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/68",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/68"
+            "url": "http://bobs-burgers-api/stores/68"
       },
       {
+            "name": "GIFT RAPPERS FREESTYLE GIFT WRAPPING",
+            "episode": "Friends with Burger-fits",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Burgerfits_Store.png/revision/latest?cb=20150316161222",
+            "season": 5,
             "id": 69,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/Real_Ghost_Credits.png/revision/latest?cb=20150106192145",
-            "season": 5,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/69",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/69"
+            "url": "http://bobs-burgers-api/stores/69"
       },
       {
+            "episode": "Dawn of the Peck",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Peck_Title.png/revision/latest?cb=20150211124142",
+            "season": 5,
             "id": 70,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Burgerfits_Credits.png/revision/latest?cb=20150106193335",
-            "season": 5,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/70",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/70"
+            "url": "http://bobs-burgers-api/stores/70"
       },
       {
+            "name": "FLIP YOUR WIG REVERSIBLE HAIRPIECES",
+            "episode": "Best Burger",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e6/Best_Burger_Store.png/revision/latest?cb=20150316161452",
+            "season": 5,
             "id": 71,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f1/Dawn_of_the_Peck_Credits.png/revision/latest?cb=20150106193253",
-            "season": 5,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/71",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/71"
+            "url": "http://bobs-burgers-api/stores/71"
       },
       {
+            "name": "MIRACLE ON 34TH SHEETS SHEETS AND BEDDING IN 34 COLORS",
+            "episode": "Father of the Bob",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Father_of_Bob_Store.png/revision/latest?cb=20150316161757",
+            "season": 5,
             "id": 72,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/Best_Burger_Credits.png/revision/latest?cb=20150105202525",
-            "season": 5,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/72",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/72"
+            "url": "http://bobs-burgers-api/stores/72"
       },
       {
+            "name": "RUDE A-BAKE-ENING, CAKES FOR PEOPLE YOU HATE!",
+            "episode": "Tina Tailor Soldier Spy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/86/Tina_Tailor_Store.png/revision/latest?cb=20150316162045",
+            "season": 5,
             "id": 73,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4a/Father_of_Bob_Credits.png/revision/latest?cb=20150105202202",
-            "season": 5,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/73",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/73"
+            "url": "http://bobs-burgers-api/stores/73"
       },
       {
+            "name": "CAT-LIKE REFLUXES FELINE GASTROENTEROLOGIST",
+            "episode": "Midday Run",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/db/Midday_Run_Store.png/revision/latest?cb=20150105191905",
+            "season": 5,
             "id": 74,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1f/Tina_Tailor_Credits.png/revision/latest?cb=20150105201657",
-            "season": 5,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/74",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/74"
+            "url": "http://bobs-burgers-api/stores/74"
       },
       {
+            "name": "I'VE GOT CRABS HERMIT CRAB EMPORIUM",
+            "episode": "Speakeasy Rider",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Crabs.png/revision/latest?cb=20150112162408",
+            "season": 5,
             "id": 75,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/de/Midday_Run_Credits.png/revision/latest?cb=20150105190833",
-            "season": 5,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/75",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/75"
+            "url": "http://bobs-burgers-api/stores/75"
       },
       {
+            "name": "TAKES ALL RINDS COMPOSTING CENTER",
+            "episode": "Late Afternoon in the Garden of Bob & Louise",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Rinds.png/revision/latest?cb=20150126111926",
+            "season": 5,
             "id": 76,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f3/Speakeasy_Rider_Credits.png/revision/latest?cb=20150112160014",
-            "season": 5,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/76",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/76"
+            "url": "http://bobs-burgers-api/stores/76"
       },
       {
+            "name": "FEEL LIKE MAKING GLOVE MAKE YOUR OWN GLOVES AND MITTENS",
+            "episode": "Can't Buy Me Math",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/aa/422_Store.png/revision/latest?cb=20210614200152",
+            "season": 5,
             "id": 77,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cd/Garden_Credits.png/revision/latest?cb=20150126142226",
-            "season": 5,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/77",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/77"
+            "url": "http://bobs-burgers-api/stores/77"
       },
       {
+            "name": "YOU CAN'T HANDLE THE RUTH BASEBALL CARDS",
+            "episode": "The Millie-Churian Candidate",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0a/Ruth.png/revision/latest?cb=20150216092939",
+            "season": 5,
             "id": 78,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Math_Credits.png/revision/latest?cb=20150209093043",
-            "season": 5,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/78",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/78"
+            "url": "http://bobs-burgers-api/stores/78"
       },
       {
+            "name": "A TON IN THE OVEN BIG AND TALL BABY CLOTHES",
+            "episode": "The Gayle Tales",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Gayle_Tales_Store.png/revision/latest?cb=20150302144449",
+            "season": 5,
             "id": 79,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/Candidate_Credits.png/revision/latest?cb=20150216095220",
-            "season": 5,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/79",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/79"
+            "url": "http://bobs-burgers-api/stores/79"
       },
       {
+            "name": "BABY GOT BACK PROBLEMS PHYSICAL THERAPY",
+            "episode": "Li'l Hard Dad",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/52/L%27il_Hard_Dad_Store.png/revision/latest?cb=20150309161422",
+            "season": 5,
             "id": 80,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c6/Gayle_Tales_Credits.png/revision/latest?cb=20150302143908",
-            "season": 5,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/80",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/80"
+            "url": "http://bobs-burgers-api/stores/80"
       },
       {
+            "name": "LADY AND THE CLAMP HARDWARE FOR HER",
+            "episode": "Adventures In Chinchilla-Sitting",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Chinchilla_Store.png/revision/latest?cb=20150316153834",
+            "season": 5,
             "id": 81,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/43/L%27il_Hard_Dad_Credits.png/revision/latest?cb=20150309161341",
-            "season": 5,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/81",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/81"
+            "url": "http://bobs-burgers-api/stores/81"
       },
       {
+            "name": "SHELFIES PICTURES OF SHELVES",
+            "episode": "The Runway Club",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7a/Runaway_Store.png/revision/latest?cb=20150323154233",
+            "season": 5,
             "id": 82,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d4/Chinchilla_Credits.png/revision/latest?cb=20150316155306",
-            "season": 5,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/82",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/82"
+            "url": "http://bobs-burgers-api/stores/82"
       },
       {
+            "name": "CUPID'S STUPID DIVORCE ATTORNEYS",
+            "episode": "The Itty Bitty Ditty Committee",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Itty_Store.png/revision/latest?cb=20150427140425",
+            "season": 5,
             "id": 83,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/Runaway_Credits.png/revision/latest?cb=20150323154204",
-            "season": 5,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/83",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/83"
+            "url": "http://bobs-burgers-api/stores/83"
       },
       {
+            "name": "A SIGHT FOR SORE THIGHS MASSAGE PARLOR",
+            "episode": "Eat, Spray, Linda",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5b/Eat_Spray_Linda_Store.png/revision/latest?cb=20150504132908",
+            "season": 5,
             "id": 84,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Itty_Credits.png/revision/latest?cb=20150427143229",
-            "season": 5,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/84",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/84"
+            "url": "http://bobs-burgers-api/stores/84"
       },
       {
+            "name": "MEET THE PATENTS PATENT ATTORNEY",
+            "episode": "Housetrap",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a7/Housetrap_Store.png/revision/latest?cb=20150511080736",
+            "season": 5,
             "id": 85,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Eat_Spray_Linda_Credits.png/revision/latest?cb=20150504133659",
-            "season": 5,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/85",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/85"
+            "url": "http://bobs-burgers-api/stores/85"
       },
       {
+            "name": "THE SEVEN YEAR ITCH COUPLES DERMATOLOGY",
+            "episode": "Hawk & Chick",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/Hawk_Store.png/revision/latest?cb=20150518000839",
+            "season": 5,
             "id": 86,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/29/Housetrap_Credits.png/revision/latest?cb=20150511080916",
-            "season": 5,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/86",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/86"
+            "url": "http://bobs-burgers-api/stores/86"
       },
       {
+            "episode": "The Oeder Games",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/07/Bobs-Burgers-Wiki_Store-next-door_S05-E21.jpg/revision/latest?cb=20160215123519",
+            "season": 5,
             "id": 87,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Hawk_Credits.png/revision/latest?cb=20150518003911",
-            "season": 5,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/87",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/87"
+            "url": "http://bobs-burgers-api/stores/87"
       },
       {
+            "name": "THE OUTLET OUTLET ELECTRICAL STORE",
+            "episode": "Sliding Bobs",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Sliding_Store.png/revision/latest?cb=20150928114234",
+            "season": 6,
             "id": 88,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Oeder_Games_Credits.png/revision/latest?cb=20150518023823",
-            "season": 5,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/88",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/88"
+            "url": "http://bobs-burgers-api/stores/88"
       },
       {
+            "name": "RESISTING A REST SLEEP THERAPY",
+            "episode": "The Land Ship",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Land_Ship_Store.png/revision/latest?cb=20151012145824",
+            "season": 6,
             "id": 89,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fe/Sliding_Credits.png/revision/latest?cb=20150928121057",
-            "season": 6,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/89",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/89"
+            "url": "http://bobs-burgers-api/stores/89"
       },
       {
+            "name": "BLOOD BATH AND BEYOND BED BATH PRODUCTS",
+            "episode": "The Hauntening",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8c/Hauntening_Store.png/revision/latest?cb=20151019090557",
+            "season": 6,
             "id": 90,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cd/Land_Ship_credits.png/revision/latest?cb=20151012151215",
-            "season": 6,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/90",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/90"
+            "url": "http://bobs-burgers-api/stores/90"
       },
       {
+            "name": "MAXI PADS LARGE APARTMENT RENTALS",
+            "episode": "Gayle Makin' Bob Sled",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d5/Bobsled_Store.png/revision/latest?cb=20151113172456",
+            "season": 6,
             "id": 91,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/Hauntening_Credits.png/revision/latest?cb=20151019091638",
-            "season": 6,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/91",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/91"
+            "url": "http://bobs-burgers-api/stores/91"
       },
       {
+            "name": "YOU'RE MISSING THE POINSETTIA",
+            "episode": "Nice-Capades",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/93/Capades_Store.png/revision/latest?cb=20151116124320",
+            "season": 6,
             "id": 92,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Bobsled_Credits.png/revision/latest?cb=20151113173031",
-            "season": 6,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/92",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/92"
+            "url": "http://bobs-burgers-api/stores/92"
       },
       {
+            "name": "BIDETS AND CONFUSED BIDETS FOR BEGINNERS",
+            "episode": "\"The Cook, the Steve, the Gayle, & Her Lover\"",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d9/Gayle_Lover_Store.png/revision/latest?cb=20160118021428",
+            "season": 6,
             "id": 93,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Capades_Credits.png/revision/latest?cb=20151116124011",
-            "season": 6,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/93",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/93"
+            "url": "http://bobs-burgers-api/stores/93"
       },
       {
+            "name": "HAPPILY EVER ACTOR CASTING AGENCY",
+            "episode": "The Gene and Courtney Show",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Bobs-Burgers-Wiki_Store-next-door_S06-E07.jpg/revision/latest?cb=20160215103151",
+            "season": 6,
             "id": 94,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Gayle_Lover_Credits.png/revision/latest?cb=20160118022001",
-            "season": 6,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/94",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/94"
+            "url": "http://bobs-burgers-api/stores/94"
       },
       {
+            "name": "ESCROW ZONE! ESCROW FOR KIDS",
+            "episode": "Sexy Dance Healing",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b6/Bobs-Burgers-Wiki_Store-next-door_S06-E08.jpg/revision/latest?cb=20160224000303",
+            "season": 6,
             "id": 95,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Gene_Courtney_Credits.png/revision/latest?cb=20160215120542",
-            "season": 6,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/95",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/95"
+            "url": "http://bobs-burgers-api/stores/95"
       },
       {
+            "name": "LITTLE SHOP OF HULAS",
+            "episode": "Sacred Couch",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/Couch_Store.png/revision/latest?cb=20160307030709",
+            "season": 6,
             "id": 96,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6c/Healing_Credits.png/revision/latest?cb=20160222024659",
-            "season": 6,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/96",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/96"
+            "url": "http://bobs-burgers-api/stores/96"
       },
       {
+            "name": "FOOTLOOSE PROSTHETIC ADJUSTMENTS",
+            "episode": "Lice Things Are Lice",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c2/Lice_Store.png/revision/latest?cb=20160314014627",
+            "season": 6,
             "id": 97,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ef/Couch_Credits.png/revision/latest?cb=20160307030651",
-            "season": 6,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/97",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/97"
+            "url": "http://bobs-burgers-api/stores/97"
       },
       {
+            "name": "GRANNY PACKS LUGGAGE FOR SENIORS",
+            "episode": "House of 1000 Bounces",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/Bounces_Store.png/revision/latest?cb=20160404102421",
+            "season": 6,
             "id": 98,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Lice_Credits.png/revision/latest?cb=20160314032921",
-            "season": 6,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/98",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/98"
+            "url": "http://bobs-burgers-api/stores/98"
       },
       {
+            "name": "I THINK THEREFORE I JAM PROFOUND PRESERVES",
+            "episode": "Stand by Gene",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Standby_Store.png/revision/latest?cb=20160404103049",
+            "season": 6,
             "id": 99,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/72/Bounces_Credits.png/revision/latest?cb=20160404102457",
-            "season": 6,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/99",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/99"
+            "url": "http://bobs-burgers-api/stores/99"
       },
       {
+            "name": "THE WAY WE GRR DOG TRAINERS",
+            "episode": "Wag the Hog",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0b/Hog_Store.png/revision/latest?cb=20160411081747",
+            "season": 6,
             "id": 100,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4e/Standby_Credits.png/revision/latest?cb=20160404103842",
-            "season": 6,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/100",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/100"
+            "url": "http://bobs-burgers-api/stores/100"
       },
       {
+            "name": "REGRET ME NOT TATTOO",
+            "episode": "The Hormone-iums",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a6/Hormoniums_Store.png/revision/latest?cb=20160418075106",
+            "season": 6,
             "id": 101,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fb/Hog_Credits.png/revision/latest?cb=20160411081729",
-            "season": 6,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/101",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/101"
+            "url": "http://bobs-burgers-api/stores/101"
       },
       {
+            "name": "DON'T STOP BEREAVING GRIEF COUNSELING",
+            "episode": "Pro Tiki/Con Tiki",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e4/Protiki_Store.png/revision/latest?cb=20160425082752",
+            "season": 6,
             "id": 102,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/af/Hormoniums_Credits.png/revision/latest?cb=20160418075146",
-            "season": 6,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/102",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/102"
+            "url": "http://bobs-burgers-api/stores/102"
       },
       {
+            "name": "GET OFF MY BACK TRAMP STAMP REMOVALS",
+            "episode": "Bye Bye Boo Boo",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Boo_Boo_Store.png/revision/latest?cb=20160509072304",
+            "season": 6,
             "id": 103,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a7/Protiki_Credits.png/revision/latest?cb=20160425082735",
-            "season": 6,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/103",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/103"
+            "url": "http://bobs-burgers-api/stores/103"
       },
       {
+            "name": "NICE KNOCKERS ELEGANT DOOR KNOCKERS",
+            "episode": "The Horse Rider-er",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c3/Horse_Store.png/revision/latest?cb=20160516073743",
+            "season": 6,
             "id": 104,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Boo_Boo_Credits.png/revision/latest?cb=20160509071807",
-            "season": 6,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/104",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/104"
+            "url": "http://bobs-burgers-api/stores/104"
       },
       {
+            "name": "DON'T GO CHASING WATERBEDS",
+            "episode": "Secret Admiral-irer",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a9/Admiral_Store.png/revision/latest?cb=20160523103709",
+            "season": 6,
             "id": 105,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a0/Horse_Credits.png/revision/latest?cb=20160516073723",
-            "season": 6,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/105",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/105"
+            "url": "http://bobs-burgers-api/stores/105"
       },
       {
+            "name": "100 CENT STORE",
+            "episode": "Glued, Where's My Bob?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8c/Glued_Store.png/revision/latest?cb=20160523104251",
+            "season": 6,
             "id": 106,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d4/Admiral_Credits.png/revision/latest?cb=20160523103652",
-            "season": 6,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/106",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/106"
+            "url": "http://bobs-burgers-api/stores/106"
       },
       {
+            "name": "THAT'S WHAT SHE SAWED TOOLS FOR WOMEN",
+            "episode": "Flu-ouise",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/81/Fluise_Store.png/revision/latest?cb=20160926012429",
+            "season": 7,
             "id": 107,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c6/Glued_Credits.png/revision/latest?cb=20170429124120",
-            "season": 6,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/107",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/107"
+            "url": "http://bobs-burgers-api/stores/107"
       },
       {
+            "name": "PAIR OF DICE CITY DICE OUTLET",
+            "episode": "Sea Me Now",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a5/Sea_Me_Store.png/revision/latest?cb=20161010015012",
+            "season": 7,
             "id": 108,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a3/Fluise_Credits.png/revision/latest?cb=20160926013431",
-            "season": 7,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/108",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/108"
+            "url": "http://bobs-burgers-api/stores/108"
       },
       {
+            "name": "SAG ME TO HELL BRA BOUTIQUE",
+            "episode": "Teen-a Witch",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/77/Tina_Witch_Store.png/revision/latest?cb=20161024014714",
+            "season": 7,
             "id": 109,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/23/Sea_Me_Credits.png/revision/latest?cb=20161010015826",
-            "season": 7,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/109",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/109"
+            "url": "http://bobs-burgers-api/stores/109"
       },
       {
+            "name": "SEW-SEW AVERAGE NEEDLE POINT SUPPLIES",
+            "episode": "They Serve Horses, Don't They?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e5/Serve_Horses_Store.png/revision/latest?cb=20161107020503",
+            "season": 7,
             "id": 110,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b3/Tina_Witch_Credits.png/revision/latest?cb=20161024014811",
-            "season": 7,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/110",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/110"
+            "url": "http://bobs-burgers-api/stores/110"
       },
       {
+            "name": "WAITERS GONNA WAIT RESTAURANT SUPPLIES",
+            "episode": "Large Brother, Where Fart Thou?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/98/Large_Brother_Store.png/revision/latest?cb=20161121100527",
+            "season": 7,
             "id": 111,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3b/Serve_Horses_Credits.png/revision/latest?cb=20161107022002",
-            "season": 7,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/111",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/111"
+            "url": "http://bobs-burgers-api/stores/111"
       },
       {
+            "name": "LET'S GIVE 'EM STUFFING TO TALK ABOUT STUFFING EMPORIUM",
+            "episode": "\"The Quirk-ducers\"",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b6/Quirkducers_Store.png/revision/latest?cb=20161121101443",
+            "season": 7,
             "id": 112,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9a/Large_Brother_Credits.png/revision/latest?cb=20161121100708",
-            "season": 7,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/112",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/112"
+            "url": "http://bobs-burgers-api/stores/112"
       },
       {
+            "episode": "The Last Gingerbread House on the Left",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/14/Gingerbread.png/revision/latest?cb=20161128102954",
+            "season": 7,
             "id": 113,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c9/Quirkducers_Credits.png/revision/latest?cb=20161121101354",
-            "season": 7,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/113",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/113"
+            "url": "http://bobs-burgers-api/stores/113"
       },
       {
+            "name": "CINDY LOPPER HAIRSTYLING",
+            "episode": "Ex MachTina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ed/Machtina_Store.png/revision/latest?cb=20170109092106",
+            "season": 7,
             "id": 114,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e3/Gingerbread_Credits.png/revision/latest?cb=20161128084059",
-            "season": 7,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/114",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/114"
+            "url": "http://bobs-burgers-api/stores/114"
       },
       {
+            "episode": "Bob Actually",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Actually.png/revision/latest?cb=20170214145932",
+            "season": 7,
             "id": 115,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/Machtina_Credits.png/revision/latest?cb=20170109092132",
-            "season": 7,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/115",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/115"
+            "url": "http://bobs-burgers-api/stores/115"
       },
       {
+            "name": "YOU CAN'T HANDLE THE TOOTH DENTAL EXTRACTION",
+            "episode": "There's No Business Like Mr. Business Business",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Business_Store.png/revision/latest?cb=20170220084006",
+            "season": 7,
             "id": 116,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/02/Actually_Credits.png/revision/latest?cb=20170214165415",
-            "season": 7,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/116",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/116"
+            "url": "http://bobs-burgers-api/stores/116"
       },
       {
+            "name": "BATH SHEET CRAZY",
+            "episode": "A Few 'Gurt Men",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/20/Gurt_Store.png/revision/latest?cb=20170306121129",
+            "season": 7,
             "id": 117,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/Business_Credits.png/revision/latest?cb=20170220085418",
-            "season": 7,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/117",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/117"
+            "url": "http://bobs-burgers-api/stores/117"
       },
       {
+            "name": "BRUSH IT AGAIN, SAM REFURBISHED TOOTHBRUSES",
+            "episode": "Like Gene for Chocolate",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5f/Like_Gene_Store.png/revision/latest?cb=20170313012644",
+            "season": 7,
             "id": 118,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/51/Gurt_Credits.png/revision/latest?cb=20170306022246",
-            "season": 7,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/118",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/118"
+            "url": "http://bobs-burgers-api/stores/118"
       },
       {
+            "name": "SOFT SERVE GENTLE PROCESS SERVERS",
+            "episode": "The Grand Mama-pest Hotel",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Mamapest_Store.png/revision/latest?cb=20170320004900",
+            "season": 7,
             "id": 119,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/50/Like_Gene_Credits.png/revision/latest?cb=20170313013135",
-            "season": 7,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/119",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/119"
+            "url": "http://bobs-burgers-api/stores/119"
       },
       {
+            "name": "PRO-PAIN ACCESSORIES DOMINATRIX SUPPLIES",
+            "episode": "Aquaticism",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/94/Aquaticism_Store.png/revision/latest?cb=20170327013135",
+            "season": 7,
             "id": 120,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e1/Mamapest_Credits.png/revision/latest?cb=20170320005820",
-            "season": 7,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/120",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/120"
+            "url": "http://bobs-burgers-api/stores/120"
       },
       {
+            "name": "LOOKS LIKE WE'RE IN FOR NASTY LEATHER",
+            "episode": "Ain't Miss Debatin'",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Debate_Store.png/revision/latest?cb=20170327014947",
+            "season": 7,
             "id": 121,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/91/Aquaticism_Credits.png/revision/latest?cb=20170327013039",
-            "season": 7,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/121",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/121"
+            "url": "http://bobs-burgers-api/stores/121"
       },
       {
+            "name": "LIN-MANUEL'S VERANDAS PATIO FURNITURE",
+            "episode": "Eggs for Days",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4c/Eggs_Store.png/revision/latest?cb=20170403005133",
+            "season": 7,
             "id": 122,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/82/Debate_Credits.png/revision/latest?cb=20170327015216",
-            "season": 7,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/122",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/122"
+            "url": "http://bobs-burgers-api/stores/122"
       },
       {
+            "name": "YOU DO THE METH RECOVERY CLINIC",
+            "episode": "\"Zero Larp Thirty\"",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ec/Larp_Store.png/revision/latest?cb=20170424132856",
+            "season": 7,
             "id": 123,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9d/Eggs_Credits.png/revision/latest?cb=20170403005353",
-            "season": 7,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/123",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/123"
+            "url": "http://bobs-burgers-api/stores/123"
       },
       {
+            "name": "BALLS TO THE WALL HANDBALL SUPPLY",
+            "episode": "The Laser-inth",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8a/Laser-inth_Store.png/revision/latest?cb=20170424142711",
+            "season": 7,
             "id": 124,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d2/Larp_Credits.png/revision/latest?cb=20170424132926",
-            "season": 7,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/124",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/124"
+            "url": "http://bobs-burgers-api/stores/124"
       },
       {
+            "name": "A CURD IN THE HAND HOMEMADE CHEESES",
+            "episode": "Thelma & Louise Except Thelma is Linda",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1e/Thelma_Store.png/revision/latest?cb=20170501010244",
+            "season": 7,
             "id": 125,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f7/Laser-inth_Credits.png/revision/latest?cb=20170424142723",
-            "season": 7,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/125",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/125"
+            "url": "http://bobs-burgers-api/stores/125"
       },
       {
+            "name": "SOCK HER, MOM LADIES BOXING GYM",
+            "episode": "Mom, Lies, and Videotape",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/46/Mom_Lies_Store.png/revision/latest?cb=20170508003709",
+            "season": 7,
             "id": 126,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Thelma_Credits.png/revision/latest?cb=20170501010927",
-            "season": 7,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/126",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/126"
+            "url": "http://bobs-burgers-api/stores/126"
       },
       {
+            "name": "GLAND HO! THYROID EXAMS",
+            "episode": "Paraders of the Lost Float",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Paraders_Store.png/revision/latest?cb=20170522005438",
+            "season": 7,
             "id": 127,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/26/Mom_Lies_Credits.png/revision/latest?cb=20170508003711",
-            "season": 7,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/127",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/127"
+            "url": "http://bobs-burgers-api/stores/127"
       },
       {
+            "name": "WELCOME BACK POTTER SECOND HAND CERAMICS",
+            "episode": "Into the Mild",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/Mild_Store.png/revision/latest?cb=20170612012137",
+            "season": 7,
             "id": 128,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/06/Paraders_Credits.png/revision/latest?cb=20170522005440",
-            "season": 7,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/128",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/128"
+            "url": "http://bobs-burgers-api/stores/128"
       },
       {
+            "name": "THAT THONG YOU DO",
+            "episode": "The Silence of the Louise",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ef/Silence_Store.png/revision/latest?cb=20171016010405",
+            "season": 8,
             "id": 129,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/84/Mild_Credits.png/revision/latest?cb=20170612012138",
-            "season": 7,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/129",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/129"
+            "url": "http://bobs-burgers-api/stores/129"
       },
       {
+            "name": "FREDDIE KUGEL HALLOWEEN NOODLES",
+            "episode": "The Wolf of Wharf Street",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/93/Wolf_Wharf_Store.png/revision/latest?cb=20171023003318",
+            "season": 8,
             "id": 130,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b0/Brunchsquatch_Credits.png/revision/latest?cb=20171002110729",
-            "season": 8,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/130",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/130"
+            "url": "http://bobs-burgers-api/stores/130"
       },
       {
+            "name": "PLUNGER GAMES AGGRESSIVE TOILET TOOLS",
+            "episode": "Sit Me Baby One More Time",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/Sit_Me_Store.png/revision/latest?cb=20171106014319",
+            "season": 8,
             "id": 131,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d3/Silence_Credits.png/revision/latest?cb=20171016010656",
-            "season": 8,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/131",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/131"
+            "url": "http://bobs-burgers-api/stores/131"
       },
       {
+            "name": "WE LATHER TOGETHER FAMILY SOAPS",
+            "episode": "\"Thanks-hoarding\"",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Thankshoarding_Store.png/revision/latest?cb=20171120012139",
+            "season": 8,
             "id": 132,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5a/Wolf_Wharf_Credits.png/revision/latest?cb=20171023003318",
-            "season": 8,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/132",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/132"
+            "url": "http://bobs-burgers-api/stores/132"
       },
       {
+            "episode": "The Bleakening Part 1",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/31/Bleakening.png/revision/latest?cb=20171211145006",
+            "season": 8,
             "id": 133,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d0/Sit_Me_Credits.png/revision/latest?cb=20171106014320",
-            "season": 8,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/133",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/133"
+            "url": "http://bobs-burgers-api/stores/133"
       },
       {
+            "episode": "The Bleakening Part 2",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8d/Bleakening_1.png/revision/latest?cb=20180105123957",
+            "season": 8,
             "id": 134,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/Thankshoarding_Credits.png/revision/latest?cb=20171120012140",
-            "season": 8,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/134",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/134"
+            "url": "http://bobs-burgers-api/stores/134"
       },
       {
+            "name": "GLOVES ACTUALLY",
+            "episode": "V for Valentine-detta",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Valentine-detta_Store.png/revision/latest?cb=20180115025516",
+            "season": 8,
             "id": 135,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2c/Bleakening_Credits_1.png/revision/latest?cb=20180105010447",
-            "season": 8,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/135",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/135"
+            "url": "http://bobs-burgers-api/stores/135"
       },
       {
+            "name": "DONT COMB AROUND HERE NO MORE GIFTS FOR BALD MEN",
+            "episode": "Y Tu Ga-Ga Tambien",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3c/Gaga_Store.png/revision/latest?cb=20180312003542",
+            "season": 8,
             "id": 136,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9e/Bleakening_Credits.png/revision/latest?cb=20171211154625",
-            "season": 8,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/136",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/136"
+            "url": "http://bobs-burgers-api/stores/136"
       },
       {
+            "name": "FUGGETTABOUTIT HARD DRIVE ERASING",
+            "episode": "The Secret Ceramics Room of Secrets",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Ceramics_Store.png/revision/latest?cb=20180319002130",
+            "season": 8,
             "id": 137,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a3/Valentine-detta_Credits.png/revision/latest?cb=20180115025843",
-            "season": 8,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/137",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/137"
+            "url": "http://bobs-burgers-api/stores/137"
       },
       {
+            "name": "THE WIZARD OF GAUZE NEW AND USED BANDAGES",
+            "episode": "Sleeping with the Frenemy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/24/Frenemy_Store.png/revision/latest?cb=20180326005136",
+            "season": 8,
             "id": 138,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/Gaga_Credits.png/revision/latest?cb=20180312003728",
-            "season": 8,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/138",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/138"
+            "url": "http://bobs-burgers-api/stores/138"
       },
       {
+            "name": "SLEEP TIGHT SMALL MATTRESSES",
+            "episode": "The Hurt Soccer",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/14/Hurt_Soccer_Store.png/revision/latest?cb=20180402005052",
+            "season": 8,
             "id": 139,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9e/Ceramics_Credits.png/revision/latest?cb=20180319002129",
-            "season": 8,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/139",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/139"
+            "url": "http://bobs-burgers-api/stores/139"
       },
       {
+            "name": "DRASTIC MEASURES EXTRA LONG TAPE MEASURES",
+            "episode": "Cheer Up, Sleepy Gene",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/56/Sleepy_Gene_Store.png/revision/latest?cb=20180409001926",
+            "season": 8,
             "id": 140,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/05/Frenemy_Credits.png/revision/latest?cb=20180326005136",
-            "season": 8,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/140",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/140"
+            "url": "http://bobs-burgers-api/stores/140"
       },
       {
+            "name": "SHAWL ME BY YOUR NAME EMBROIDERED SHAWLS",
+            "episode": "The Trouble with Doubles",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8f/Doubles_Store.png/revision/latest?cb=20180416003727",
+            "season": 8,
             "id": 141,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7b/Hurt_Soccer_Credits.png/revision/latest?cb=20180402005051",
-            "season": 8,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/141",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/141"
+            "url": "http://bobs-burgers-api/stores/141"
       },
       {
+            "name": "CRY ME A SLIVER SEMI-URGENT CARE",
+            "episode": "Go Tina on the Mountain",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/37/Tina_Mountain_Store.png/revision/latest?cb=20180423002824",
+            "season": 8,
             "id": 142,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4f/Sleepy_Gene_Credits.png/revision/latest?cb=20180409001925",
-            "season": 8,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/142",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/142"
+            "url": "http://bobs-burgers-api/stores/142"
       },
       {
+            "name": "DAMN I WISH I WAS YOUR HOVER... BOARD",
+            "episode": "Are You There Bob? It's Me, Birthday",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e0/Birthday_Store.png/revision/latest?cb=20180430005301",
+            "season": 8,
             "id": 143,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/bf/Doubles_Credits.png/revision/latest?cb=20180416004221",
-            "season": 8,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/143",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/143"
+            "url": "http://bobs-burgers-api/stores/143"
       },
       {
+            "name": "FAMILY JOWLS COSMETIC SURGERY",
+            "episode": "Boywatch",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7f/Boywatch_Store.png/revision/latest?cb=20180507012510",
+            "season": 8,
             "id": 144,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/db/Tina_Mountain_Credits.png/revision/latest?cb=20180423002824",
-            "season": 8,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/144",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/144"
+            "url": "http://bobs-burgers-api/stores/144"
       },
       {
+            "name": "BEAN THERE, DONE THAT REFRIED BEANS OUTLET",
+            "episode": "As I Walk Through the Alley of the Shadow of Ramps",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Ramps_Store.png/revision/latest?cb=20180514011536",
+            "season": 8,
             "id": 145,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ed/Birthday_Credits.png/revision/latest?cb=20180430005300",
-            "season": 8,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/145",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/145"
+            "url": "http://bobs-burgers-api/stores/145"
       },
       {
+            "name": "NOT THROWIN' AWAY MY POT RECYCLED KITCHEN WARE",
+            "episode": "Mo Mommy Mo Problems",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/Mo_Mommy_Store.png/revision/latest?cb=20180514021031",
+            "season": 8,
             "id": 146,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/97/Boywatch_Credits.png/revision/latest?cb=20180507012509",
-            "season": 8,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/146",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/146"
+            "url": "http://bobs-burgers-api/stores/146"
       },
       {
+            "name": "I'M GETTING TOO OLD FOR THIS SCHVITZ SAUNAS FOR THE ELDERLY",
+            "episode": "Mission Impos-slug-ble",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/87/Mission_Imposslugble_Store.png/revision/latest?cb=20180521002056",
+            "season": 8,
             "id": 147,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/Ramps_Credits.png/revision/latest?cb=20180514011537",
-            "season": 8,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/147",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/147"
+            "url": "http://bobs-burgers-api/stores/147"
       },
       {
+            "name": "JEANS OF THE STONE AGE VINTAGE DENIM",
+            "episode": "Something Old, Something New, Something Bob Caters for You",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f8/Something_Store.png/revision/latest?cb=20180521023505",
+            "season": 8,
             "id": 148,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/02/Mo_Mommy_Credits.png/revision/latest?cb=20180514021030",
-            "season": 8,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/148",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/148"
+            "url": "http://bobs-burgers-api/stores/148"
       },
       {
+            "name": "PAUL'S RISERS BLEACHERS, PLATFORMS AND STAGES",
+            "episode": "Just One of the Boyz 4 Now for Now",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b1/1B4N_Store.png/revision/latest?cb=20181001020009",
+            "season": 9,
             "id": 149,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/Mission_Imposslugble_Credits.png/revision/latest?cb=20180521002055",
-            "season": 8,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/149",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/149"
+            "url": "http://bobs-burgers-api/stores/149"
       },
       {
+            "name": "WE'VE ALWAYS HAD FERRETS EXOTIC PETS",
+            "episode": "The Taking of Funtime One Two Three",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c4/Funtime_Store.png/revision/latest?cb=20181008014403",
+            "season": 9,
             "id": 150,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3b/Something_Credits.png/revision/latest?cb=20180521023505",
-            "season": 8,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/150",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/150"
+            "url": "http://bobs-burgers-api/stores/150"
       },
       {
+            "name": "WHOLE LOTTA SHAKER FURNITURE GOING ON",
+            "episode": "Tweentrepreneurs",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a2/Tweentrepreneurs_Store.png/revision/latest?cb=20181015013052",
+            "season": 9,
             "id": 151,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/1B4N_Credits.png/revision/latest?cb=20181001020008",
-            "season": 9,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/151",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/151"
+            "url": "http://bobs-burgers-api/stores/151"
       },
       {
+            "name": "THOSE WHO CAN, DLE CANDLES",
+            "episode": "Nightmare on Ocean Avenue Street",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/05/Nightmare_Store.png/revision/latest?cb=20181022014638",
+            "season": 9,
             "id": 152,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4d/Funtime_Credits.png/revision/latest?cb=20181008014343",
-            "season": 9,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/152",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/152"
+            "url": "http://bobs-burgers-api/stores/152"
       },
       {
+            "name": "THE RARE ITCH PROJECT DERMATOLOGY",
+            "episode": "Live and Let Fly",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/66/Live_Let_Fly_Store.png/revision/latest?cb=20181105023955",
+            "season": 9,
             "id": 153,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1f/Tweentrepreneurs_Credits.png/revision/latest?cb=20181015013052",
-            "season": 9,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/153",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/153"
+            "url": "http://bobs-burgers-api/stores/153"
       },
       {
+            "name": "YOU MAKE MY SEAMS COME TRUE TAILORING AND DREAM INTERPRETATION",
+            "episode": "Bobby Driver",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/61/Bobby_Driver_Store.png/revision/latest?cb=20181112035348",
+            "season": 9,
             "id": 154,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/Nightmare_Credits.png/revision/latest?cb=20181022014638",
-            "season": 9,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/154",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/154"
+            "url": "http://bobs-burgers-api/stores/154"
       },
       {
+            "name": "PLYMOUTH JOCK OLD TIMEY ATHLETIC WEAR",
+            "episode": "I Bob Your Pardon",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/78/Pardon_Store.png/revision/latest?cb=20181119022231",
+            "season": 9,
             "id": 155,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/Live_Let_Fly_Credits.png/revision/latest?cb=20181105023954",
-            "season": 9,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/155",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/155"
+            "url": "http://bobs-burgers-api/stores/155"
       },
       {
+            "name": "THERE YACHT-A BE A LAW MARITIME LAWYERS",
+            "episode": "Roller? I Hardly Know Her!",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/Roller_Store.png/revision/latest?cb=20181126025139",
+            "season": 9,
             "id": 156,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/Bobby_Driver_Credits.png/revision/latest?cb=20181112035348",
-            "season": 9,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/156",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/156"
+            "url": "http://bobs-burgers-api/stores/156"
       },
       {
+            "name": "YOU'RE THE MAN NOW DOG SUITS FOR DOGS",
+            "episode": "UFO No You Didn't",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/60/UFO_Store.png/revision/latest?cb=20181203025036",
+            "season": 9,
             "id": 157,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b6/Pardon_Credits.png/revision/latest?cb=20181119022230",
-            "season": 9,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/157",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/157"
+            "url": "http://bobs-burgers-api/stores/157"
       },
       {
+            "name": "MANGER DANGER BABYPROOFING",
+            "episode": "Better Off Sled",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/Sled_Store.png/revision/latest?cb=20181210022241",
+            "season": 9,
             "id": 158,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/Roller_Credits.png/revision/latest?cb=20181126025139",
-            "season": 9,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/158",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/158"
+            "url": "http://bobs-burgers-api/stores/158"
       },
       {
+            "name": "THE THESAURUS SHOP STORE \u2022 MARKET \u2022 BOUTIQUE",
+            "episode": "Lorenzo's Oil? No, Linda's",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/49/Lorenzos_Oil_Store.png/revision/latest?cb=20190107022814",
+            "season": 9,
             "id": 159,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7c/UFO_Credits.png/revision/latest?cb=20181203025035",
-            "season": 9,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/159",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/159"
+            "url": "http://bobs-burgers-api/stores/159"
       },
       {
+            "name": "IF YOU DON'T GLOVE ME BY NOW GLOVE EMPORIUM",
+            "episode": "The Helen Hunt",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/78/Helen_Hunt_Store.png/revision/latest?cb=20190114023144",
+            "season": 9,
             "id": 160,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5f/Sled_Credits.png/revision/latest?cb=20181210022241",
-            "season": 9,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/160",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/160"
+            "url": "http://bobs-burgers-api/stores/160"
       },
       {
+            "name": "BEVERLY HILLS CUPS EXPENSIVE CUPS",
+            "episode": "Bed, Bob & Beyond",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c0/Bed_Bob_Store.png/revision/latest?cb=20190211022126",
+            "season": 9,
             "id": 161,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6f/Lorenzos_Oil_Credits.png/revision/latest?cb=20190107022814",
-            "season": 9,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/161",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/161"
+            "url": "http://bobs-burgers-api/stores/161"
       },
       {
+            "name": "BIG OLD KITTIES SENIOR CAT ADOPTION AGENCY",
+            "episode": "Every Which Way but Goose",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cb/Goose_Store.png/revision/latest?cb=20190218031833",
+            "season": 9,
             "id": 162,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/45/Helen_Hunt_Credits.png/revision/latest?cb=20190114023144",
-            "season": 9,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/162",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/162"
+            "url": "http://bobs-burgers-api/stores/162"
       },
       {
+            "name": "WEIGHT FOR IT GYM EQUIPMENT",
+            "episode": "The Fresh Princ-ipal",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/82/Fresh_Principal_Store.png/revision/latest?cb=20190304022030",
+            "season": 9,
             "id": 163,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/73/Bed_Bob_Credits.png/revision/latest?cb=20190211022126",
-            "season": 9,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/163",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/163"
+            "url": "http://bobs-burgers-api/stores/163"
       },
       {
+            "name": "CLOTHES BEFORE HOSE GARDENING ATTIRE",
+            "episode": "Roamin' Bob-iday",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4d/Bobiday_Store.png/revision/latest?cb=20190311013711",
+            "season": 9,
             "id": 164,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/46/Goose_Credits.png/revision/latest?cb=20190218031833",
-            "season": 9,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/164",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/164"
+            "url": "http://bobs-burgers-api/stores/164"
       },
       {
+            "name": "PELVIS HAS LEFT THE BUILDING HIP REPLACEMENT CLINIC",
+            "episode": "What About Blob?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ab/Blob_Store.png/revision/latest?cb=20190318015924",
+            "season": 9,
             "id": 165,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c6/Fresh_Principal_Credits.png/revision/latest?cb=20190304022029",
-            "season": 9,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/165",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/165"
+            "url": "http://bobs-burgers-api/stores/165"
       },
       {
+            "name": "THE LIDS ARE ALL TIGHT STORAGE CONTAINERS",
+            "episode": "If You Love It So Much, Why Don't You Marionette?",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/64/Marionette_Store.png/revision/latest?cb=20190328112156",
+            "season": 9,
             "id": 166,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/26/Bobiday_Credits.png/revision/latest?cb=20190311013711",
-            "season": 9,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/166",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/166"
+            "url": "http://bobs-burgers-api/stores/166"
       },
       {
+            "name": "THE RODS MUST BE DRAPEY CURTAINS RODS & MORE",
+            "episode": "Long Time Listener, First Time Bob",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/Listener_Store.png/revision/latest?cb=20190408014232",
+            "season": 9,
             "id": 167,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Blob_Credits.png/revision/latest?cb=20190318015925",
-            "season": 9,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/167",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/167"
+            "url": "http://bobs-burgers-api/stores/167"
       },
       {
+            "name": "I CANT BELIEVE IT'S NOT BROTHER",
+            "episode": "The Gene Mile",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/45/Gene_Mile_Store.png/revision/latest?cb=20190429013052",
+            "season": 9,
             "id": 168,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6a/Marionette_Credits.png/revision/latest?cb=20190328112156",
-            "season": 9,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/168",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/168"
+            "url": "http://bobs-burgers-api/stores/168"
       },
       {
+            "name": "DOLL THINGS CONSIDERED ACCESSORIES FOR DOLLS",
+            "episode": "P.T.A. It Ain't So",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/ff/PTA_Store.png/revision/latest?cb=20190506122158",
+            "season": 9,
             "id": 169,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/70/Listener_Credits.png/revision/latest?cb=20190408014233",
-            "season": 9,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/169",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/169"
+            "url": "http://bobs-burgers-api/stores/169"
       },
       {
+            "name": "GREGORIAN PANTS MONASTIC CLOTHING",
+            "episode": "Yes Without My Zeke",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/Yes_Without_Zeke_Store.png/revision/latest?cb=20190513013709",
+            "season": 9,
             "id": 170,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/98/Gene_Mile_Credits.png/revision/latest?cb=20190429013051",
-            "season": 9,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/170",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/170"
+            "url": "http://bobs-burgers-api/stores/170"
       },
       {
+            "name": "FROMAGE-INARY FRIENDS CHEESE SHOP",
+            "episode": "The Ring (But Not Scary)",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/901_Store.png/revision/latest?cb=20190930023901",
+            "season": 10,
             "id": 171,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/44/PTA_Credits.png/revision/latest?cb=20190506122158",
-            "season": 9,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/171",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/171"
+            "url": "http://bobs-burgers-api/stores/171"
       },
       {
+            "name": "WHINE COUNTRY MARRIAGE COUNSELING",
+            "episode": "Boys Just Wanna Have Fungus",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6b/902_Store.png/revision/latest?cb=20191007021611",
+            "season": 10,
             "id": 172,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6a/Yes_Without_Zeke_Credits.png/revision/latest?cb=20190513013708",
-            "season": 9,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/172",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/172"
+            "url": "http://bobs-burgers-api/stores/172"
       },
       {
+            "name": "PUT THE LOTION IN THE MASK-ET DAY SPA",
+            "episode": "Motor, She Boat",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/903_Store.png/revision/latest?cb=20191014031701",
+            "season": 10,
             "id": 173,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b0/901_Credits.png/revision/latest?cb=20190930023900",
-            "season": 10,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/173",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/173"
+            "url": "http://bobs-burgers-api/stores/173"
       },
       {
+            "name": "DRAG ME TO GEL HAIR SUPPLIES",
+            "episode": "Pig Trouble in Little Tina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/904_Store.png/revision/latest?cb=20191021114115",
+            "season": 10,
             "id": 174,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/37/902_Credits.png/revision/latest?cb=20191007021610",
-            "season": 10,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/174",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/174"
+            "url": "http://bobs-burgers-api/stores/174"
       },
       {
+            "name": "CHI'S GOTTA HAVE IT TAI CHI STUDIO",
+            "episode": "Legends of the Mall",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/db/905_Store.png/revision/latest?cb=20191104034436",
+            "season": 10,
             "id": 175,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8e/903_Credits.png/revision/latest?cb=20191014031700",
-            "season": 10,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/175",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/175"
+            "url": "http://bobs-burgers-api/stores/175"
       },
       {
+            "name": "PENNY FOR YOUR TOTS DAYCARE",
+            "episode": "The Hawkening: Look Who's Hawking Now!",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/be/906_Store.png/revision/latest?cb=20191111031243",
+            "season": 10,
             "id": 176,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dc/904_Credits.png/revision/latest?cb=20191021114114",
-            "season": 10,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/176",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/176"
+            "url": "http://bobs-burgers-api/stores/176"
       },
       {
+            "name": "HANKERCHEEKS MACHINE WASHABLE TOILET PAPER",
+            "episode": "Land of the Loft",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/908_Store.png/revision/latest?cb=20191118033822",
+            "season": 10,
             "id": 177,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/54/905_Credits.png/revision/latest?cb=20191104034435",
-            "season": 10,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/177",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/177"
+            "url": "http://bobs-burgers-api/stores/177"
       },
       {
+            "name": "WITH GREAT WHISK COMES GREAT REWARD CULINARY CLASSES",
+            "episode": "Now We're Not Cooking with Gas",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f9/907_Store.png/revision/latest?cb=20191126135754",
+            "season": 10,
             "id": 178,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/58/906_Credits.png/revision/latest?cb=20200108003040",
-            "season": 10,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/178",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/178"
+            "url": "http://bobs-burgers-api/stores/178"
       },
       {
+            "name": "STOP IN THE NAME OF GLOVES",
+            "episode": "All That Gene",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/ee/910_Store.png/revision/latest?cb=20191202030547",
+            "season": 10,
             "id": 179,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/28/908_Credits.png/revision/latest?cb=20191118033821",
-            "season": 10,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/179",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/179"
+            "url": "http://bobs-burgers-api/stores/179"
       },
       {
+            "name": "HEY, BIG SUSPENDER! PLUS-SIZE SUSPENDERS",
+            "episode": "Have Yourself a Maily Linda Christmas",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/67/909_Store.png/revision/latest?cb=20191216030304",
+            "season": 10,
             "id": 180,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fb/907_Credits.png/revision/latest?cb=20191126135753",
-            "season": 10,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/180",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/180"
+            "url": "http://bobs-burgers-api/stores/180"
       },
       {
+            "name": "THE BLOOM IS OFF THE NOSE WART REMOVAL",
+            "episode": "Drumforgiven",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c3/911_Store.png/revision/latest?cb=20200113115643",
+            "season": 10,
             "id": 181,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/cf/910_Credits.png/revision/latest?cb=20191202030547",
-            "season": 10,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/181",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/181"
+            "url": "http://bobs-burgers-api/stores/181"
       },
       {
+            "name": "PUMPIN PATCH FITNESS",
+            "episode": "A Fish Called Tina",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9d/912_Store.png/revision/latest?cb=20200217031455",
+            "season": 10,
             "id": 182,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/73/909_Credits.png/revision/latest?cb=20191216030304",
-            "season": 10,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/182",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/182"
+            "url": "http://bobs-burgers-api/stores/182"
       },
       {
+            "name": "NORTH BY KNOCKWURST SAUSAGE STORE",
+            "episode": "Three Girls and a Little Wharfy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d7/913_Store.png/revision/latest?cb=20200225162554",
+            "season": 10,
             "id": 183,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/38/911_Credits.png/revision/latest?cb=20200113115643",
-            "season": 10,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/183",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/183"
+            "url": "http://bobs-burgers-api/stores/183"
       },
       {
+            "name": "HANNAH AND HER TRANSISTORS ELECTRONIC PARTS",
+            "episode": "Wag the Song",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/72/914_Store.png/revision/latest?cb=20200302131539",
+            "season": 10,
             "id": 184,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/912_Credits.png/revision/latest?cb=20200217031454",
-            "season": 10,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/184",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/184"
+            "url": "http://bobs-burgers-api/stores/184"
       },
       {
+            "name": "A SMALL PRICE TOUPEE",
+            "episode": "Yurty Rotten Scoundrels",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5c/916_Store.png/revision/latest?cb=20200310001231",
+            "season": 10,
             "id": 185,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0c/913_Credits.png/revision/latest?cb=20200225162553",
-            "season": 10,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/185",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/185"
+            "url": "http://bobs-burgers-api/stores/185"
       },
       {
+            "name": "LET'S TALK ABOUT EX, BABY Divorce Counseling",
+            "episode": "Flat-Top o' the Morning to Ya",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/ad/915_Store.png/revision/latest?cb=20200316022543",
+            "season": 10,
             "id": 186,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/914_Credits.png/revision/latest?cb=20200302131538",
-            "season": 10,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/186",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/186"
+            "url": "http://bobs-burgers-api/stores/186"
       },
       {
+            "name": "YOU WALKIN' TO ME? PHYSICAL THERAPY",
+            "episode": "Just the Trip",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/30/917_Store.png/revision/latest?cb=20200323022557",
+            "season": 10,
             "id": 187,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/21/916_Credits.png/revision/latest?cb=20200310001230",
-            "season": 10,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/187",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/187"
+            "url": "http://bobs-burgers-api/stores/187"
       },
       {
+            "name": "NOT SAFES FOR WORK PERSONAL SAFES",
+            "episode": "Tappy Tappy Tappy Tap Tap Tap",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e1/918_Store.png/revision/latest?cb=20200420225510",
+            "season": 10,
             "id": 188,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f1/915_Credits.png/revision/latest?cb=20200316022543",
-            "season": 10,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/188",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/188"
+            "url": "http://bobs-burgers-api/stores/188"
       },
       {
+            "name": "PURPLE VEIN VARICOSE VEIN SURGERY",
+            "episode": "The Handyman Can",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c6/919_Store.png/revision/latest?cb=20200427235053",
+            "season": 10,
             "id": 189,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/00/917_Credits.png/revision/latest?cb=20200323022557",
-            "season": 10,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/189",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/189"
+            "url": "http://bobs-burgers-api/stores/189"
       },
       {
+            "name": "I ONLY HAVE RAB-EYES FOR YOU RABBINICAL DATING SERVICES",
+            "episode": "Poops!\u2026 I Didn't Do It Again",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a8/920_Store.png/revision/latest?cb=20200504021853",
+            "season": 10,
             "id": 190,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/918_Credits.png/revision/latest?cb=20200420225508",
-            "season": 10,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/190",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/190"
+            "url": "http://bobs-burgers-api/stores/190"
       },
       {
+            "name": "MIRROR MIRROR ON THE WOOL SEQUIN SWEATERS",
+            "episode": "Local She-ro",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7e/921_Store.png/revision/latest?cb=20200511025854",
+            "season": 10,
             "id": 191,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0d/919_Credits.png/revision/latest?cb=20200427235053",
-            "season": 10,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/191",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/191"
+            "url": "http://bobs-burgers-api/stores/191"
       },
       {
+            "name": "HEY NOW WE'RE A ROCK STORE",
+            "episode": "Prank You for Being a Friend",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/922_Store.png/revision/latest?cb=20200518015540",
+            "season": 10,
             "id": 192,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/71/920_Credits.png/revision/latest?cb=20200504021852",
-            "season": 10,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/192",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/192"
+            "url": "http://bobs-burgers-api/stores/192"
       },
       {
+            "name": "BEND IT LKE BEDPAN MEDICAL SUPPLIES",
+            "episode": "Dream a Little Bob of Bob",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9e/A01_Store.png/revision/latest?cb=20200928133510",
+            "season": 11,
             "id": 193,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7a/921_Credits.png/revision/latest?cb=20200511025854",
-            "season": 10,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/193",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/193"
+            "url": "http://bobs-burgers-api/stores/193"
       },
       {
+            "name": "GET ON MY LAWN LAWN ORNAMENTS",
+            "episode": "Worms of In-Rear-ment",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7d/923_Store.png/revision/latest?cb=20201005020221",
+            "season": 11,
             "id": 194,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fb/922_Credits.png/revision/latest?cb=20200518015541",
-            "season": 10,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/194",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/194"
+            "url": "http://bobs-burgers-api/stores/194"
       },
       {
+            "name": "LOU'S REEDS WIND INSTRUMENTS",
+            "episode": "Copa-Bob-bana",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e9/A02_Store.png/revision/latest?cb=20201012120440",
+            "season": 11,
             "id": 195,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e0/A01_Credits.png/revision/latest?cb=20200928133509",
-            "season": 11,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/195",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/195"
+            "url": "http://bobs-burgers-api/stores/195"
       },
       {
+            "name": "SOMEDAY BLOODY SOMEDAY GORY CALENDARS",
+            "episode": "Heartbreak Hotel-oween",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c1/A04_Store.png/revision/latest?cb=20201102121604",
+            "season": 11,
             "id": 196,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/06/923_Credits.png/revision/latest?cb=20201005020220",
-            "season": 11,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/196",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/196"
+            "url": "http://bobs-burgers-api/stores/196"
       },
       {
+            "name": "HOW CAN YOU MEND A BROKEN HEARTH? FIREPLACE REPAIR",
+            "episode": "Fast Time Capsules at Wagstaff School",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/88/A03_Store.png/revision/latest?cb=20201109030254",
+            "season": 11,
             "id": 197,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/c/c8/A02_Credits.png/revision/latest?cb=20201012120455",
-            "season": 11,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/197",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/197"
+            "url": "http://bobs-burgers-api/stores/197"
       },
       {
+            "name": "MY SO-CALLED KNIFE BUTTERKNIFE STORE",
+            "episode": "Bob Belcher and the Terrible, Horrible, No Good, Very Bad Kids",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7d/A05_Store.png/revision/latest?cb=20201116031537",
+            "season": 11,
             "id": 198,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/35/A04_Credits.png/revision/latest?cb=20201102121603",
-            "season": 11,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/198",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/198"
+            "url": "http://bobs-burgers-api/stores/198"
       },
       {
+            "name": "THE ROAD LESS GRAVELED ASPHALT PAVING",
+            "episode": "Diarrhea of a Poopy Kid",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f6/A08_Store.png/revision/latest?cb=20201123031922",
+            "season": 11,
             "id": 199,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/88/A03_Credits.png/revision/latest?cb=20201109030252",
-            "season": 11,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/199",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/199"
+            "url": "http://bobs-burgers-api/stores/199"
       },
       {
+            "name": "WHERE THE SUN DON'T SHINE TANNING SALON",
+            "episode": "The Terminalator II: Terminals of Endearment",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/dc/A07_Store.png/revision/latest?cb=20201130031749",
+            "season": 11,
             "id": 200,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/e/e2/A05_Credits.png/revision/latest?cb=20201116031536",
-            "season": 11,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/200",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/200"
+            "url": "http://bobs-burgers-api/stores/200"
       },
       {
+            "name": "A HOSE BY ANY OTHER NAME GARDEN SUPPLIES",
+            "episode": "Mommy Boy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/55/A06_Store.png/revision/latest?cb=20201207030253",
+            "season": 11,
             "id": 201,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/17/A08_Credits.png/revision/latest?cb=20201123031920",
-            "season": 11,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/201",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/201"
+            "url": "http://bobs-burgers-api/stores/201"
       },
       {
+            "name": "WREATH OF KHAN THEMED WREATHS",
+            "episode": "Yachty or Nice",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/79/A09_Store.png/revision/latest?cb=20201214025741",
+            "season": 11,
             "id": 202,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/25/A07_Credits.png/revision/latest?cb=20201130031747",
-            "season": 11,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/202",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/202"
+            "url": "http://bobs-burgers-api/stores/202"
       },
       {
+            "name": "OWED TO JOY PERSONAL LOANS",
+            "episode": "Romancing the Beef",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/75/A13_Store.png/revision/latest?cb=20210222023347",
+            "season": 11,
             "id": 203,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/39/A06_Credits.png/revision/latest?cb=20201207030250",
-            "season": 11,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/203",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/203"
+            "url": "http://bobs-burgers-api/stores/203"
       },
       {
+            "name": "SAY HELLO TO MY LITTLE FRENCH LANGUAGE SCHOOL",
+            "episode": "Die Card, or Card Trying",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2e/A10_Store.png/revision/latest?cb=20210301031639",
+            "season": 11,
             "id": 204,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fa/A09_Credits.png/revision/latest?cb=20201214025739",
-            "season": 11,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/204",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/204"
+            "url": "http://bobs-burgers-api/stores/204"
       },
       {
+            "name": "GONG IN 60 SECONDS GONGS AND BELLS NO WAITING",
+            "episode": "An Incon-Wheelie-ent Truth",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8f/A11_Store.png/revision/latest?cb=20210308031729",
+            "season": 11,
             "id": 205,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/9f/A13_Credits.png/revision/latest?cb=20210222023426",
-            "season": 11,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/205",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/205"
+            "url": "http://bobs-burgers-api/stores/205"
       },
       {
+            "name": "LIONEL STICHY PLASTIC SURGEON",
+            "episode": "Mr. Lonely Farts",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d3/A12_Store.png/revision/latest?cb=20210315020942",
+            "season": 11,
             "id": 206,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/88/A10_Credits.png/revision/latest?cb=20210301031627",
-            "season": 11,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/206",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/206"
+            "url": "http://bobs-burgers-api/stores/206"
       },
       {
+            "name": "HOW THE WEST WAS SPUN WOOLEN WESTERN WEAR",
+            "episode": "Sheshank Redumption",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1b/A14_Store.png/revision/latest?cb=20210322145223",
+            "season": 11,
             "id": 207,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/25/A11_Credits.png/revision/latest?cb=20210308031728",
-            "season": 11,
-            "episode": 13,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/207",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/207"
+            "url": "http://bobs-burgers-api/stores/207"
       },
       {
+            "name": "YES-TARY POSITIVE NOTARY",
+            "episode": "Y Tu Tina Tambi\u00e9n",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/98/A15_Store.png/revision/latest?cb=20210329022250",
+            "season": 11,
             "id": 208,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5e/A12_Credits.png/revision/latest?cb=20210315020940",
-            "season": 11,
-            "episode": 14,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/208",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/208"
+            "url": "http://bobs-burgers-api/stores/208"
       },
       {
+            "name": "BILLY'S EYELASH ACCESSORIES",
+            "episode": "Fingers-loose",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/A16_Store.png/revision/latest?cb=20210412020059",
+            "season": 11,
             "id": 209,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/5a/A14_Credits.png/revision/latest?cb=20210322145222",
-            "season": 11,
-            "episode": 15,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/209",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/209"
+            "url": "http://bobs-burgers-api/stores/209"
       },
       {
+            "name": "WHERE THE FILED THINGS ARE FILING CABINETS",
+            "episode": "Some Kind of Fender Benderful",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b7/A17_Store.png/revision/latest?cb=20210419123732",
+            "season": 11,
             "id": 210,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/8b/A15_Credits.png/revision/latest?cb=20210329022249",
-            "season": 11,
-            "episode": 16,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/210",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/210"
+            "url": "http://bobs-burgers-api/stores/210"
       },
       {
+            "name": "POTTY LIKE ITS 1999 HIGH FLOW TOILETS",
+            "episode": "Bridge Over Troubled Rudy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/60/A19_Store.png/revision/latest?cb=20210503015120",
+            "season": 11,
             "id": 211,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d9/A16_Credits.png/revision/latest?cb=20210412020056",
-            "season": 11,
-            "episode": 17,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/211",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/211"
+            "url": "http://bobs-burgers-api/stores/211"
       },
       {
+            "name": "AIN'T THAT A SHAM DECORATIVE PILLOW CASES",
+            "episode": "Steal Magazine-olias",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0f/A20_Store.png/revision/latest?cb=20210510175229",
+            "season": 11,
             "id": 212,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/A17_Credits.png/revision/latest?cb=20210419123706",
-            "season": 11,
-            "episode": 18,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/212",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/212"
+            "url": "http://bobs-burgers-api/stores/212"
       },
       {
+            "name": "A PIMPLE PLAN ACNE SUPERSTORE",
+            "episode": "Tell Me Dumb Thing Good",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a3/A21_Store.png/revision/latest?cb=20210517020128",
+            "season": 11,
             "id": 213,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/A19_Credits.png/revision/latest?cb=20210503015119",
-            "season": 11,
-            "episode": 19,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/213",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/213"
+            "url": "http://bobs-burgers-api/stores/213"
       },
       {
+            "name": "SLOPPY TOES PEDICURES",
+            "episode": "Vampire Disco Death Dance",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/3d/A18_Store.png/revision/latest?cb=20210524020912",
+            "season": 11,
             "id": 214,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/A20_Credits.png/revision/latest?cb=20210510175228",
-            "season": 11,
-            "episode": 20,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/214",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/214"
+            "url": "http://bobs-burgers-api/stores/214"
       },
       {
+            "name": "YOU'VE LOST THAT OVEN FEELIN' KITCHEN APPLIANCE REPAIR",
+            "episode": "Manic Pixie Crap Show",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4a/A22_Store.png/revision/latest?cb=20210927015240",
+            "season": 12,
             "id": 215,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/22/A20_Credits.png/revision/latest?cb=20210510175228",
-            "season": 11,
-            "episode": 21,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/215",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/215"
+            "url": "http://bobs-burgers-api/stores/215"
       },
       {
+            "name": "CLAZY FOR YOU CERMAMICS SUPPLIES",
+            "episode": "Crystal Mess",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/33/B01_Store.png/revision/latest?cb=20211004020815",
+            "season": 12,
             "id": 216,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/6e/A18_Credits.png/revision/latest?cb=20210524020909",
-            "season": 11,
-            "episode": 22,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/216",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/216"
+            "url": "http://bobs-burgers-api/stores/216"
       },
       {
+            "name": "COLOR ME DEAD PAINT YOUR OWN TOMBSTONE",
+            "episode": "The Pumpkinening",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/B02_Store.png/revision/latest?cb=20211011014918",
+            "season": 12,
             "id": 217,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/3/32/A22_Credits.png/revision/latest?cb=20210927015242",
-            "season": 12,
-            "episode": 1,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/217",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/217"
+            "url": "http://bobs-burgers-api/stores/217"
       },
       {
+            "name": "TALCUM IN THE MIDDLE POWDERS AND LOTIONS FOR DOWN THERE",
+            "episode": "Driving Big Dummy",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/09/B03_Store.png/revision/latest?cb=20211022222658",
+            "season": 12,
             "id": 218,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/a/a0/B01_Credits.png/revision/latest?cb=20211004020813",
-            "season": 12,
-            "episode": 2,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/218",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/218"
+            "url": "http://bobs-burgers-api/stores/218"
       },
       {
+            "name": "IT HAD TO BE EWE WOOL CLOTHING",
+            "episode": "Seven-tween Again",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/1/1d/B04_Store.png/revision/latest?cb=20211025021428",
+            "season": 12,
             "id": 219,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/83/B02_Credits.png/revision/latest?cb=20211011014916",
-            "season": 12,
-            "episode": 3,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/219",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/219"
+            "url": "http://bobs-burgers-api/stores/219"
       },
       {
+            "name": "SIPS OF THE FATHER SIPPY CUPS FOR MEN",
+            "episode": "Beach, Please",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/54/B05_Store.png/revision/latest?cb=20211108085648",
+            "season": 12,
             "id": 220,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/95/B03_Credits.png/revision/latest?cb=20211022222656",
-            "season": 12,
-            "episode": 4,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/220",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/220"
+            "url": "http://bobs-burgers-api/stores/220"
       },
       {
+            "name": "WHITE PAINT CAN'T DUMP PAINT RECYCLING CENTER",
+            "episode": "Loft in Bedslation",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/b/b8/B08_Store.png/revision/latest?cb=20211115025931",
+            "season": 12,
             "id": 221,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f5/B04_Credits.png/revision/latest?cb=20211025021426",
-            "season": 12,
-            "episode": 5,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/221",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/221"
+            "url": "http://bobs-burgers-api/stores/221"
       },
       {
+            "name": "STUFF IT STUFFING SUPERSTORE",
+            "episode": "Stuck in the Kitchen with You",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fb/B06_Store.png/revision/latest?cb=20211122032517",
+            "season": 12,
             "id": 222,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/9/97/B05_Credits.png/revision/latest?cb=20211108085646",
-            "season": 12,
-            "episode": 6,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/222",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/222"
+            "url": "http://bobs-burgers-api/stores/222"
       },
       {
+            "name": "THAT'S WHAT SHOE SAID SHOE STORE",
+            "episode": "FOMO You Didn't",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/6/68/B09_Store.png/revision/latest?cb=20211129030014",
+            "season": 12,
             "id": 223,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/42/B08_Credits.png/revision/latest?cb=20211115025936",
-            "season": 12,
-            "episode": 7,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/223",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/223"
+            "url": "http://bobs-burgers-api/stores/223"
       },
       {
+            "name": "IT'S A WONDERFUL KNIFE KNIFE STORE",
+            "episode": "Gene's Christmas Break",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/f2/B07_Store.png/revision/latest?cb=20211220211659",
+            "season": 12,
             "id": 224,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/5/53/B06_Credits.png/revision/latest?cb=20211122032515",
-            "season": 12,
-            "episode": 8,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/224",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/224"
+            "url": "http://bobs-burgers-api/stores/224"
       },
       {
+            "name": "REMEMERANCE OF DINGS PAST FURNITURE REPAIR",
+            "episode": "Touch of Eval(uations)",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/8/88/B10_Store.png/revision/latest?cb=20220110030443",
+            "season": 12,
             "id": 225,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d8/B09_Credits.png/revision/latest?cb=20211129030012",
-            "season": 12,
-            "episode": 9,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/225",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/225"
+            "url": "http://bobs-burgers-api/stores/225"
       },
       {
+            "name": "WHERE DO BROKEN HARPS GO HARP REPAIR",
+            "episode": "Ferry on My Wayward Bob and Linda",
+            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/4e/B13_Store.png/revision/latest?cb=20220228024443",
+            "season": 12,
             "id": 226,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7c/B07_Credits.png/revision/latest?cb=20211220211658",
-            "season": 12,
-            "episode": 10,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/226",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/226"
-      },
-      {
-            "id": 227,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/4/41/B10_Credits.png/revision/latest?cb=20220110030442",
-            "season": 12,
-            "episode": 11,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/227",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/227"
-      },
-      {
-            "id": 228,
-            "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/0c/B13_Credits.png/revision/latest?cb=20220228024442",
-            "season": 12,
-            "episode": 12,
-            "episode_url": "https://bobsburgers-api.herokuapp.com/episodes/228",
-            "url": "https://bobsburgers-api.herokuapp.com/endCreditsSequence/228"
+            "url": "http://bobs-burgers-api/stores/226"
       }
 ]

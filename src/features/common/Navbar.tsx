@@ -1,9 +1,10 @@
 import React from 'react';
+import * as Hooks from '../../redux/hooks';
 import { Menubar } from 'primereact/menubar';
 import { Sidebar as PRSidebar } from 'primereact/sidebar';
-import logo from '../images/logo.png';
+import logo from '../../images/logo.png';
 import { Button } from 'primereact/button';
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../../components/Sidebar';
 
 interface Props {
   parentClassName?: string;
@@ -12,9 +13,22 @@ interface Props {
 }
 
 const Navbar = (props: Props): JSX.Element => {
+  const state = Hooks.useAppSelector((state) => state.app);
   const [isSidebarVisible, setIsSidebarVisible] = React.useState(false);
   const rowClassName = props.parentClassName ?? '';
   const menubarClassName = props.menuClassName ?? '';
+  const currentTheme = state.currentTheme;
+  const themeIcon = currentTheme === 'light-mode' ? 'sun' : 'moon';
+
+  const { setCurrentTheme } = Hooks.useActions();
+
+  const toggleTheme = () => {
+    const updatedTheme =
+      currentTheme === 'light-mode' ? 'dark-mode' : 'light-mode';
+    localStorage.setItem('currentTheme', updatedTheme);
+    setCurrentTheme(updatedTheme);
+  };
+
   const start = (
     <div className="d-flex">
       {props.displayMenuButton && (
@@ -41,6 +55,12 @@ const Navbar = (props: Props): JSX.Element => {
         >
           <span className="p-menuitem-text">Documentation</span>
         </a>
+
+        <i
+          className={`pi pi-${themeIcon} ms-3 me-2 p-2 bg-primary rounded-circle mt-2`}
+          style={{ maxHeight: '32px' }}
+          onClick={() => toggleTheme()}
+        />
       </div>
     );
   };
