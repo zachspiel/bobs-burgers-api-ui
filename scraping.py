@@ -1,6 +1,5 @@
 import requests
 import time
-from datetime import date, datetime
 from bs4 import BeautifulSoup
 import urllib.request
 import json
@@ -113,12 +112,10 @@ def scrape_all_character_pages(seed_url, page_number=0):
     except Exception as e:
         return e
 
-# works for storefronts, episodes, and pest control trucks
+# works for storefronts, and pest control trucks
 def running_gags(url):
     wiki_tables = get_wiki_table(url, "wikitable")
-
     if(wiki_tables == None): return [] 
-
     running_gags = []
     id = 0
     table_index = 0
@@ -126,27 +123,28 @@ def running_gags(url):
         # skipping table 8 for 'brunchsquatch' episode
         if table_index != 8 and table_index != 0:
             rows = wiki_table.find_all("tr")
-            if rows != None and len(rows) > 0:
 
-                for index in range(1, len(rows)):
-                    running_gag = {}
-                    a_tags = rows[index].find_all("a")
-                    name = rows[index].find_all("td")[1].text.strip()
+            if rows == None or len(rows) == 0: return 
+        
+            for index in range(1, len(rows)):
+                running_gag = {}
+                a_tags = rows[index].find_all("a")
+                name = rows[index].find_all("td")[1].text.strip()
 
-                    if (len(name) != 0):
-                        running_gag["name"] = name
-                    running_gag["episode"] = a_tags[0].text.strip()
-                    running_gag["image"] = a_tags[1]["href"]
+                if (len(name) != 0):
+                    running_gag["name"] = name
+                running_gag["episode"] = a_tags[0].text.strip()
+                running_gag["image"] = a_tags[1]["href"]
 
-                    if table_index > 8:
-                        running_gag["season"] = table_index - 1
-                    else:
-                        running_gag["season"] = table_index
-                    running_gag["id"] = id
-                    running_gag["url"] = "http://bobs-burgers-api/stores/" + \
-                        str(id)
-                    running_gags.append(running_gag)
-                    id += 1
+                if table_index > 8:
+                    running_gag["season"] = table_index - 1
+                else:
+                    running_gag["season"] = table_index
+                running_gag["id"] = id
+                running_gag["url"] = "http://bobs-burgers-api/stores/" + \
+                    str(id)
+                running_gags.append(running_gag)
+                id += 1
         table_index += 1
 
     save_json_file(running_gags)
@@ -246,12 +244,13 @@ def scrape_total_Viewers(url, retried):
     else:
         return ""
 
-running_gags("https://bobs-burgers.fandom.com/wiki/Store_Next_Door")
+running_gags("https://bobs-burgers.fandom.com/wiki/Pest_Control_Truck")
 '''
 EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
 CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
 END_CREDITS = "https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence"
-STORE_NEXT_DOOR = "https://bobs-burgers.fandom.com/wiki/Store_Next_Door
+STORE_NEXT_DOOR = "https://bobs-burgers.fandom.com/wiki/Store_Next_Door"
+PEST_CONTROL = "https://bobs-burgers.fandom.com/wiki/Pest_Control_Truck"
 if __name__ == "__main__":
     seed_url = EPISODES_URL
     print("Web scraping has begun")

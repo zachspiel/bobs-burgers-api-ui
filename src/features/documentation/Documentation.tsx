@@ -14,6 +14,7 @@ import EpisodeSchema from './schemas/EpisodeSchema';
 import FilterExample from './FilterExample';
 import EndCreditsSequence from './schemas/EndCreditsSequence';
 import SortingLimiting from './SortingLimiting';
+import STORE_NEXT_DOOR from './schemas/StoreNextDoor';
 
 const Documentation = (): JSX.Element => {
   const [rootData, setRootData] = React.useState('');
@@ -106,7 +107,7 @@ const Documentation = (): JSX.Element => {
           name="Store Next Door"
           pluralName="stores next door"
           url="storeNextDoor/"
-          schema={getRunningGag('store')}
+          schema={STORE_NEXT_DOOR}
         />
         <Endpoint
           about="pest control trucks in"

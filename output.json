@@ -65,7 +65,7 @@
       },
       {
             "name": "STD B-Gone! FREE CLINIC",
-            "episode": "Spaghetti Western & Meatballs",
+            "episode": "Spaghetti Western and Meatballs",
             "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/f/fc/Bobs-Burgers-Wiki_Store-next-door_S01-E09.jpg/revision/latest?cb=20140111160750",
             "season": 1,
             "id": 8,
@@ -433,7 +433,7 @@
       },
       {
             "name": "CATS A RISING STAR PET IMPROV",
-            "episode": "Presto Tina-O",
+            "episode": "Presto Tina-o",
             "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/7/7a/Bobs-Burgers-Wiki_Store-next-door_S04-E10.jpg/revision/latest?cb=20140122083025",
             "season": 4,
             "id": 54,
@@ -520,14 +520,16 @@
             "url": "http://bobs-burgers-api/stores/64"
       },
       {
-            "episode": "Wharf Horse (or How Bob Saves/Destroys the Town - Part I)",
+            "name": "Wharf Horse (How Bob Saves/Destroys the Town - Part I)",
+            "episode": "\"Wharf Horse\"",
             "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/0/04/Bobs-Burgers-Wiki_Store-next-door_S04-E21.jpg/revision/latest?cb=20140624214041",
             "season": 4,
             "id": 65,
             "url": "http://bobs-burgers-api/stores/65"
       },
       {
-            "episode": "World Wharf II: The Wharfening (or How Bob Saves/Destroys the Town - Part II)",
+            "name": "World Wharf II: The Wharfening (How Bob Saves/Destroys the Town - Part II)",        
+            "episode": "\"World Wharf II: The Wharfening\"",
             "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/d/d6/Bobs-Burgers-Wiki_Store-next-door_S04-E22.jpg/revision/latest?cb=20140624214007",
             "season": 4,
             "id": 66,
@@ -604,7 +606,7 @@
       },
       {
             "name": "TAKES ALL RINDS COMPOSTING CENTER",
-            "episode": "Late Afternoon in the Garden of Bob & Louise",
+            "episode": "Late Afternoon in the Garden of Bob and Louise",
             "image": "https://static.wikia.nocookie.net/bobsburgerpedia/images/2/2f/Rinds.png/revision/latest?cb=20150126111926",
             "season": 5,
             "id": 76,
