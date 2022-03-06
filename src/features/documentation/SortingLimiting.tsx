@@ -6,7 +6,6 @@ import { getJsonCodeBlock, getUrlCodeBlock } from '../../util';
 const SortingLimiting = (): JSX.Element => {
   const [sortAsc, setSortAsc] = React.useState([]);
   const [sortDesc, setSortDesc] = React.useState([]);
-  const sortByOptions = ['sortBy', 'orderBy', 'limit and', 'skip paramters.'];
 
   React.useEffect(() => {
     performGetRequest('characters?sortBy=name&OrderBy=asc&limit=1&skip=0').then(
