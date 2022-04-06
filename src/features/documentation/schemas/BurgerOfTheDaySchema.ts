@@ -7,9 +7,9 @@ const BURGER_OF_THE_DAY: EndpointSchema = [
     description: "The unique id for the burger of the day",
   },
   {
-    key: "burgers",
-    type: "string[]",
-    description: "The burger of the day that appeared in the episode",
+    key: "name",
+    type: "string",
+    description: "The name of the burger of the day",
   },
   {
     key: "price",
