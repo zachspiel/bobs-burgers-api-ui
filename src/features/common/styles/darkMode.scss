@@ -13,6 +13,14 @@ $font-color: #ffffff;
     color: $font-color;
   }
 
+  .p-menubar-button {
+    display: none !important;
+  }
+
+  .text-primary {
+    color: rgb(156, 220, 254) !important;
+  }
+
   .p-menubar {
     background: $raised-background;
     border: $raised-background;

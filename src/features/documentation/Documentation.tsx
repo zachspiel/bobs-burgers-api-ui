@@ -52,12 +52,13 @@ const Documentation = (): JSX.Element => {
               >
                 Bob's Burgers
               </a>
-              . The Bob's Burgers API contains data for hundreds of characters, episodes,
-              running gags, and images from the show.
+              . The Bob's Burgers API contains data for hundreds of characters,
+              episodes, running gags, and images from the show.
             </p>
 
             <p>
-              If you are using this API please consider supporting the project by{" "}
+              If you are using this API please consider supporting the project
+              by{" "}
               <a
                 href="https://www.buymeacoffee.com/bobsburgersapi"
                 target="_blank"
@@ -71,14 +72,7 @@ const Documentation = (): JSX.Element => {
           </div>
         </div>
         <Playground />
-        <Statistics
-          totalCharacters={501}
-          totalEpisodes={228}
-          totalStoresNextDoor={225}
-          totalPestControlTrucks={225}
-          totalEndCreditsSequences={228}
-          totalBurgersOfTheDay={162}
-        />
+        <Statistics />
         <Endpoint
           about="The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS."
           name="Root URL"

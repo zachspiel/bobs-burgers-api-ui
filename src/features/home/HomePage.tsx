@@ -1,10 +1,10 @@
-import React from 'react';
-import { performGetRequest } from '../../services/apiService';
-import { Carousel } from 'primereact/carousel';
-import { Button } from 'primereact/button';
-import Navbar from '../common/Navbar';
-import Footer from '../common/Footer';
-import { getUrlCodeBlock } from '../../util';
+import React from "react";
+import { performGetRequest } from "../../services/apiService";
+import { Carousel } from "primereact/carousel";
+import { Button } from "primereact/button";
+import Navbar from "../common/Navbar";
+import Footer from "../common/Footer";
+import { getUrlCodeBlock } from "../../util";
 
 interface Character {
   id: number;
@@ -23,13 +23,13 @@ interface Character {
 const HomePage = () => {
   const [characters, setCharacters] = React.useState([]);
   const [isLoading, setIsLoading] = React.useState(false);
-  const [currentUrl, setCurrentUrl] = React.useState('');
+  const [currentUrl, setCurrentUrl] = React.useState("");
   const getCharacters = () => {
     const skip = Math.random() * (493 - 0) + 0;
     setIsLoading(true);
     setCurrentUrl(`characters/?limit=9&skip=${Math.ceil(skip)}`);
     performGetRequest(
-      'characters',
+      "characters",
       undefined,
       `?limit=9&skip=${Math.ceil(skip)}`
     ).then((data) => {
@@ -44,17 +44,17 @@ const HomePage = () => {
 
   const responsiveOptions = [
     {
-      breakpoint: '1024px',
+      breakpoint: "1024px",
       numVisible: 3,
       numScroll: 3,
     },
     {
-      breakpoint: '600px',
+      breakpoint: "600px",
       numVisible: 2,
       numScroll: 2,
     },
     {
-      breakpoint: '480px',
+      breakpoint: "480px",
       numVisible: 1,
       numScroll: 1,
     },
@@ -76,9 +76,9 @@ const HomePage = () => {
           </a>
         </h3>
         <span className="text-muted ">First Episode: </span>
-        <p>{character?.firstEpisode ?? 'Unkown'}</p>
+        <p>{character?.firstEpisode ?? "Unknown"}</p>
         <span className="text-muted">Voiced By: </span>
-        <p>{character.voicedBy ?? 'Unkown'}</p>
+        <p>{character.voicedBy ?? "Unknown"}</p>
       </div>
     );
   };
@@ -98,14 +98,14 @@ const HomePage = () => {
             loading={isLoading}
             icon="pi pi-refresh"
             className="p-button-rounded mt-2"
-            style={{ height: '40px' }}
+            style={{ height: "40px" }}
             onClick={getCharacters}
           />
         </div>
       </div>
 
       <div className="d-flex mt-2 ps-5">
-        {getUrlCodeBlock(currentUrl, 'w-75')}
+        {getUrlCodeBlock(currentUrl, "w-75")}
       </div>
 
       <div className="row mt-0">
