@@ -1,46 +1,51 @@
-import { EndpointSchema } from '../Schema';
+import { EndpointSchema } from "../Schema";
 
 const CharacterSchema: EndpointSchema = [
-  { key: 'id', type: 'number', description: 'The unique id for the character' },
-  { key: 'name', type: 'string', description: `The character's name` },
+  { key: "id", type: "number", description: "The unique id for the character" },
+  { key: "name", type: "string", description: `The character's name` },
   {
-    key: 'image',
-    type: 'url',
+    key: "image",
+    type: "url",
     description: `The url for the character's image`,
   },
   {
-    key: 'hairColor',
-    type: 'string | undefined',
+    key: "hairColor",
+    type: "string | undefined",
     description: `The character's hair color`,
   },
   {
-    key: 'gender',
-    type: 'string | undefined',
+    key: "gender",
+    type: "string | undefined",
     description: `The character's gender`,
   },
   {
-    key: 'occupation',
-    type: 'string | undefined',
+    key: "occupation",
+    type: "string | undefined",
     description: `The character's occupation`,
   },
   {
-    key: 'relatives',
-    type: 'string[] | undefined',
+    key: "relatives",
+    type: "[{name: string, wikiUrl: string, url: string}] | undefined",
     description: `The character's relatives`,
   },
   {
-    key: 'firstEpisode',
-    type: 'string | undefined',
+    key: "firstEpisode",
+    type: "string | undefined",
     description: `The first episode the character appeared in`,
   },
   {
-    key: 'voicedBy',
-    type: 'string | undefined',
+    key: "voicedBy",
+    type: "string | undefined",
     description: `The voice actor for the character`,
   },
   {
-    key: 'url',
-    type: 'url',
+    key: "wikiUrl",
+    type: "string",
+    description: `The unique for link the character's wiki page`,
+  },
+  {
+    key: "url",
+    type: "string",
     description: `The unique for link the character`,
   },
 ];

@@ -1,28 +1,49 @@
 import json
+import requests
 
-
-burger_file = open("burgerOfDay.json", "r")
-
+burger_file = open("characters.json", "r")
 burgers = json.load(burger_file)
 
 result = []
 
-for burger in burgers:
+for character in burgers:
 
-    episode_burgers = burger["burgers"]
+    formatted = {
+        "id": character["id"],
+        "name": character["name"],
+        "image": character["image"],
+    }
 
-    for episode_burger in episode_burgers:
-        current_id = len(result) + 1
-        formatted = {
-            "id": current_id,
-            "name": episode_burger,
-            "price": burger["price"],
-            "season": burger["season"],
-            "episode": burger["episode"],
-            "episodeUrl": burger["episodeUrl"],
-            "url": burger["url"]
-        }
-        result.append(formatted)
+    if "gender" in character:
+        formatted["gender"] = character["gender"]
+    if "hairColor" in character:
+        formatted["hairColor"] = character["hairColor"]
+    if "occupation" in character:
+        formatted["occupation"] = character["occupation"]
+
+    relatives = []
+    relative_urls = []
+    if "relatives" in character:
+        for relative in character["relatives"]:
+            if "https" not in relative:
+                relatives.append({"name": relative})
+            else:
+                relative_urls.append(relative)
+                data = requests.get(relative).json()
+                name = ""
+                if "name" in data:
+                    name = data["name"]
+                relatives.append({"name": name, "url": relative})
+
+    formatted["relatives"] = relatives
+    formatted["relativeUrls"] = relative_urls
+    if "firstEpisode" in character:
+        formatted["firstEpisode"] = character["firstEpisode"]
+    if "voicedBy" in character:
+        formatted["voicedBy"] = character["voicedBy"]
+
+    formatted["url"] = character["url"]
+    result.append(formatted)
 
 
 with open('json_data_new_new.json', 'w') as outfile:

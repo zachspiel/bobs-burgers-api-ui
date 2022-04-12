@@ -28,7 +28,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/3.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["Unnamed wife"],
+    "relatives": [
+      "Unnamed wife"
+    ],
     "firstEpisode": "\"Mr. Lonely Farts\"",
     "voicedBy": "Brian Huskey",
     "url": "https://bobsburgers-api.herokuapp.com/characters/3"
@@ -86,8 +88,14 @@
     "hairColor": "Brown",
     "occupation": "Wagstaff School student",
     "relatives": [
-      "https://bobsburgers-api.herokuapp.com/characters/338",
-      "https://bobsburgers-api.herokuapp.com/characters/345"
+      {
+        "name": "Mr. Papasian",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/334"
+      },
+      {
+        "name": "Mrs. Papasian",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/340"
+      }
     ],
     "firstEpisode": "\"Cheer Up Sleepy Gene\"",
     "voicedBy": "Paul Rust",
@@ -132,8 +140,14 @@
     "gender": "Female",
     "hairColor": "Brown",
     "relatives": [
-      "https://bobsburgers-api.herokuapp.com/characters/46",
-      "https://bobsburgers-api.herokuapp.com/characters/92"
+      {
+        "name": "Blake",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/46"
+      },
+      {
+        "name": "Colton",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/92"
+      }
     ],
     "firstEpisode": "\"Bobby Driver\"",
     "voicedBy": "Kerri Kenney-Silver",
@@ -156,7 +170,12 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/13.jpg",
     "gender": "Female",
     "hairColor": "Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/119"],
+    "relatives": [
+      {
+        "name": "Dillon",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/119"
+      }
+    ],
     "firstEpisode": "\"The Grand Mama-pest Hotel\"",
     "voicedBy": "Kerri Kenney-Silver",
     "url": "https://bobsburgers-api.herokuapp.com/characters/13"
@@ -192,9 +211,17 @@
     "hairColor": "Golden Blonde",
     "occupation": "Students at Wagstaff School",
     "relatives": [
-      "https://bobsburgers-api.herokuapp.com/characters/230",
-      "https://bobsburgers-api.herokuapp.com/characters/228",
-      "Unnamed mother"
+      {
+        "name": "Jimmy Pesto",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/227"
+      },
+      {
+        "name": "Jimmy Pesto Jr.",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/228"
+      },
+      {
+        "name": "Unnamed mother"
+      }
     ],
     "firstEpisode": "\"Art Crawl\"",
     "voicedBy": "Laura Silverman (Andy), Sarah Silverman (Ollie)",
@@ -272,7 +299,7 @@
     "name": "Arnold Adams",
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/23.jpg",
     "gender": "Male",
-    "age": "8",
+    "age": 8,
     "hairColor": "Black",
     "occupation": "Student at Wagstaff School",
     "firstEpisode": "\"Yes Without My Zeke\"",
@@ -307,7 +334,7 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "First mate on the Windbreaker",
-    "firstEpisode": "First mate on the Windbreaker",
+    "firstEpisode": "Mutiny on the Windbreaker",
     "voicedBy": "Larry Murphy",
     "url": "https://bobsburgers-api.herokuapp.com/characters/26"
   },
@@ -392,7 +419,7 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Student",
-    "firstEpisode": "\"Bye Bye Boo Boo\"",
+    "firstEpisode": "\"Seven-tween again\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/34"
   },
   {
@@ -400,7 +427,7 @@
     "name": "Becket",
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/35.jpg",
     "gender": "Male",
-    "age": "49",
+    "age": 49,
     "hairColor": "Blonde",
     "firstEpisode": "\"Land of the Loft\"",
     "voicedBy": "Ken Marino",
@@ -411,7 +438,7 @@
     "name": "Becky",
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/36.jpg",
     "gender": "Female",
-    "age": "43",
+    "age": 43,
     "hairColor": "Blonde",
     "occupation": "Student at Buchannan Middle School (30 years ago)",
     "firstEpisode": "\"Two for Tina\"",
@@ -475,7 +502,12 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/42.jpg",
     "gender": "Female",
     "hairColor": "Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/214"],
+    "relatives": [
+      {
+        "name": "Jacob",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/214"
+      }
+    ],
     "firstEpisode": "\"Wag the Hog\"",
     "voicedBy": "Sarah Baker",
     "url": "https://bobsburgers-api.herokuapp.com/characters/42"
@@ -487,7 +519,7 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Thundergirl Troop 257 leader",
-    "firstEpisode": "\"Wag the Hog\"",
+    "firstEpisode": "\"Tina Tailer Soldier Spy\"",
     "voicedBy": "Sarah Baker",
     "url": "https://bobsburgers-api.herokuapp.com/characters/43"
   },
@@ -497,9 +529,12 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/44.jpg",
     "gender": "Female",
     "hairColor": "Gray",
-    "occupation": "Blueberry Farmer/Drug Dealer",
+    "occupation": "Blueberry Farmer/Marijuana Farmer",
     "relatives": [
-      "https://bobsburgers-api.herokuapp.com/characters/94",
+      {
+        "name": "Cooper",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/94"
+      },
       "5 unnamed children"
     ],
     "firstEpisode": "\"Bob Fires the Kids\"",
@@ -583,6 +618,7 @@
     "name": "Brenda",
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/49.jpg",
     "gender": "Female",
+    "hairColor": "Blonde",
     "firstEpisode": "\"Roller? I Hardly Know Her!\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/49"
@@ -594,8 +630,8 @@
     "gender": "Female",
     "hairColor": "Black",
     "occupation": "Student",
-    "firstEpisode": "\"Roller? I Hardly Know Her!\"",
-    "voicedBy": "Brooke Dillman",
+    "firstEpisode": "\"Ain't Miss Debatin'\"",
+    "voicedBy": "John Roberts",
     "url": "https://bobsburgers-api.herokuapp.com/characters/50"
   },
   {
@@ -605,7 +641,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Private School Student",
-    "relatives": ["Unnamed grandfather"],
+    "relatives": [
+      "Unnamed grandfather"
+    ],
     "firstEpisode": "\"Sleeping with the Frenemy\"",
     "voicedBy": "Andy Samberg",
     "url": "https://bobsburgers-api.herokuapp.com/characters/51"
@@ -661,7 +699,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Cashier/Deli Worker",
-    "relatives": ["Tony"],
+    "relatives": [
+      "Tony"
+    ],
     "firstEpisode": "\"Turkey in a Can\"",
     "voicedBy": "Tuc Watkins",
     "url": "https://bobsburgers-api.herokuapp.com/characters/56"
@@ -801,7 +841,9 @@
     "gender": "Female",
     "hairColor": "Black",
     "occupation": "Sex Worker",
-    "relatives": ["Unnamed wife"],
+    "relatives": [
+      "Unnamed wife"
+    ],
     "firstEpisode": "\"Sheesh! Cab, Bob?\"",
     "voicedBy": "Oscar Nunez",
     "url": "https://bobsburgers-api.herokuapp.com/characters/68"
@@ -866,7 +908,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/74.jpg",
     "gender": "Male",
     "hairColor": "Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/447"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/447"
+    ],
     "firstEpisode": "\"Roller? I Hardly Know Her!\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/74"
   },
@@ -969,7 +1013,9 @@
     "age": "20s-30s",
     "hairColor": "Brown",
     "occupation": "Television Personality",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/381"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/381"
+    ],
     "firstEpisode": "\"Beefsquatch\"",
     "voicedBy": "Thomas Lennon",
     "url": "https://bobsburgers-api.herokuapp.com/characters/83"
@@ -991,7 +1037,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/85.jpg",
     "gender": "Female",
     "hairColor": "Brown",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/266"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/266"
+    ],
     "firstEpisode": "\"Mo Mommy Mo Problems\"",
     "voicedBy": "Andrea Savage",
     "url": "https://bobsburgers-api.herokuapp.com/characters/85"
@@ -1014,7 +1062,10 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "High School Student",
-    "relatives": ["Unnamed father", "Unnamed mother"],
+    "relatives": [
+      "Unnamed father",
+      "Unnamed mother"
+    ],
     "firstEpisode": "\"Uncle Teddy\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/87"
@@ -1084,7 +1135,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/93.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/156"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/156"
+    ],
     "firstEpisode": "\"Something Old, Something New, Something Bob Caters for You\"",
     "voicedBy": "Pete Holmes",
     "url": "https://bobsburgers-api.herokuapp.com/characters/93"
@@ -1167,7 +1220,9 @@
     "age": "Early-40s",
     "hairColor": "Blonde",
     "occupation": "Leasing Agent",
-    "relatives": ["Tom Bush  Logan Bush"],
+    "relatives": [
+      "Tom Bush  Logan Bush"
+    ],
     "firstEpisode": "\"Ear-sy Rider\"",
     "voicedBy": "Lindsey Stoddart",
     "url": "https://bobsburgers-api.herokuapp.com/characters/99"
@@ -1251,7 +1306,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Employee at Kim & Son's Hardware",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/335"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/335"
+    ],
     "firstEpisode": "\"P.T.A. It Ain't So\"",
     "voicedBy": "Keisuke Hoashi",
     "url": "https://bobsburgers-api.herokuapp.com/characters/106"
@@ -1264,7 +1321,10 @@
     "age": "12-13",
     "hairColor": "Black",
     "occupation": "Student at Wagstaff School",
-    "relatives": ["Unnamed grandfather", "Unnamed mother"],
+    "relatives": [
+      "Unnamed grandfather",
+      "Unnamed mother"
+    ],
     "firstEpisode": "\"Burgerboss\"",
     "voicedBy": "Aziz Ansari",
     "url": "https://bobsburgers-api.herokuapp.com/characters/107"
@@ -1401,7 +1461,9 @@
     "age": "13",
     "hairColor": "Dyed Purple",
     "occupation": "Student",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/12"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/12"
+    ],
     "firstEpisode": "\"The Grand Mama-pest Hotel\"",
     "voicedBy": "Laura Silverman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/119"
@@ -1456,7 +1518,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Guidance Counsellor at Wagstaff School (former)",
-    "relatives": ["Principal Spoors"],
+    "relatives": [
+      "Principal Spoors"
+    ],
     "firstEpisode": "\"The Fresh Princ-ipal\"",
     "voicedBy": "Joe Lo Truglio",
     "url": "https://bobsburgers-api.herokuapp.com/characters/124"
@@ -1479,7 +1543,9 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Post Office Manager",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/150"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/150"
+    ],
     "firstEpisode": "\"Have Yourself a Maily Linda Christmas\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/126"
@@ -1605,7 +1671,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Chiropractor",
-    "relatives": ["Teresa"],
+    "relatives": [
+      "Teresa"
+    ],
     "firstEpisode": "\"Zero Larp Thirty\"",
     "voicedBy": "Keegan-Michael Key",
     "url": "https://bobsburgers-api.herokuapp.com/characters/137"
@@ -1671,7 +1739,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/143.jpg",
     "gender": "Male",
     "age": "40s",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/368"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/368"
+    ],
     "firstEpisode": "\"Bed & Breakfast\"",
     "voicedBy": "H. Jon Benjamin",
     "url": "https://bobsburgers-api.herokuapp.com/characters/143"
@@ -1695,7 +1765,9 @@
     "age": "70s-80s",
     "hairColor": "Gray",
     "occupation": "Co-owner of Reflections",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/191"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/191"
+    ],
     "firstEpisode": "\"Art Crawl\"",
     "voicedBy": "Larry Murphy",
     "url": "https://bobsburgers-api.herokuapp.com/characters/145"
@@ -1729,7 +1801,7 @@
     "gender": "Female",
     "hairColor": "Blonde",
     "occupation": "Bog Harbor Aquarium employee",
-    "firstEpisode": "\"Poops!\u2026 I Didn't Do It Again\"",
+    "firstEpisode": "\"Poops!… I Didn't Do It Again\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/148"
   },
@@ -1772,7 +1844,9 @@
     "gender": "Female",
     "hairColor": "Gray",
     "occupation": "Retired",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/459"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/459"
+    ],
     "firstEpisode": "\"Mo Mommy Mo Problems\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/152"
@@ -1805,7 +1879,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/155.jpg",
     "gender": "Female",
     "hairColor": "Black",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/93"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/93"
+    ],
     "firstEpisode": "\"Something Old, Something New, Something Bob Caters for You\"",
     "voicedBy": "Kulap Vilaysack",
     "url": "https://bobsburgers-api.herokuapp.com/characters/155"
@@ -1818,7 +1894,9 @@
     "age": "50s",
     "hairColor": "Blonde",
     "occupation": "Landlord",
-    "relatives": ["Calvin FischoederGrover Fischoeder"],
+    "relatives": [
+      "Calvin FischoederGrover Fischoeder"
+    ],
     "firstEpisode": "\"Ambergris\"",
     "voicedBy": "Zach Galifianakis",
     "url": "https://bobsburgers-api.herokuapp.com/characters/156"
@@ -1830,7 +1908,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Head of Spratt's Sweets",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/158"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/158"
+    ],
     "firstEpisode": "\"Like Gene for Chocolate\"",
     "voicedBy": "Judah Friedlander",
     "url": "https://bobsburgers-api.herokuapp.com/characters/157"
@@ -1852,7 +1932,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/159.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/451"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/451"
+    ],
     "firstEpisode": "\"Bob Actually\"",
     "voicedBy": "Daniel Van Kirk",
     "url": "https://bobsburgers-api.herokuapp.com/characters/159"
@@ -1904,7 +1986,10 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Distribution Center Manager",
-    "relatives": ["Unnamed wife", "Unnamed daughter"],
+    "relatives": [
+      "Unnamed wife",
+      "Unnamed daughter"
+    ],
     "firstEpisode": "\"Have Yourself a Maily Linda Christmas\"",
     "voicedBy": "Gary Anthony Williams",
     "url": "https://bobsburgers-api.herokuapp.com/characters/164"
@@ -2100,7 +2185,7 @@
       "Burt",
       "Marie"
     ],
-    "voicedBy": "Ren\u00e9e Taylor",
+    "voicedBy": "Renée Taylor",
     "url": "https://bobsburgers-api.herokuapp.com/characters/178"
   },
   {
@@ -2120,7 +2205,9 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Biker",
-    "relatives": ["Unnamed child"],
+    "relatives": [
+      "Unnamed child"
+    ],
     "firstEpisode": "\"Roamin' Bob-iday\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/180"
@@ -2187,7 +2274,9 @@
     "age": "40s",
     "hairColor": "Brown",
     "occupation": "Lawyer",
-    "relatives": ["Calvin FischoederFelix Fischoeder"],
+    "relatives": [
+      "Calvin FischoederFelix Fischoeder"
+    ],
     "firstEpisode": "\"Roamin' Bob-iday\"",
     "voicedBy": "David Wain",
     "url": "https://bobsburgers-api.herokuapp.com/characters/186"
@@ -2222,7 +2311,9 @@
     "age": "70s",
     "hairColor": "Bald & Gray",
     "occupation": "Co-owner of Reflections",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/146"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/146"
+    ],
     "firstEpisode": "\"Art Crawl\"",
     "voicedBy": "Sam Seder",
     "url": "https://bobsburgers-api.herokuapp.com/characters/189"
@@ -2256,7 +2347,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "College Student",
-    "relatives": ["Unnamed father"],
+    "relatives": [
+      "Unnamed father"
+    ],
     "firstEpisode": "\"My Big Fat Greek Bob\"",
     "voicedBy": "Hannibal Buress",
     "url": "https://bobsburgers-api.herokuapp.com/characters/192"
@@ -2269,7 +2362,9 @@
     "age": "20s-30s",
     "hairColor": "Blonde",
     "occupation": "Unemployed",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/270"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/270"
+    ],
     "firstEpisode": "\"Housetrap\"",
     "voicedBy": "Kaitlin Olson",
     "url": "https://bobsburgers-api.herokuapp.com/characters/193"
@@ -2304,7 +2399,9 @@
     "age": "13-14",
     "hairColor": "Brown",
     "occupation": "Student at Wagstaff School",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/203"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/203"
+    ],
     "firstEpisode": "\"Carpe Museum\"",
     "voicedBy": "Jim Gaffigan",
     "url": "https://bobsburgers-api.herokuapp.com/characters/196"
@@ -2350,7 +2447,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Student at Wagstaff School",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/199"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/199"
+    ],
     "firstEpisode": "\"The Millie-Churian Candidate\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/200"
   },
@@ -2448,7 +2547,10 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Owner & Operator of Conway Meats (former)",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/292", "Unnamed son"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/292",
+      "Unnamed son"
+    ],
     "firstEpisode": "\"They Serve Horses, Don't They?\"",
     "voicedBy": "Ken Marino",
     "url": "https://bobsburgers-api.herokuapp.com/characters/209"
@@ -2470,7 +2572,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/211.jpg",
     "gender": "Male",
     "hairColor": "Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/43"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/43"
+    ],
     "firstEpisode": "\"Wag the Hog\"",
     "voicedBy": "Sarah Baker",
     "url": "https://bobsburgers-api.herokuapp.com/characters/211"
@@ -2525,7 +2629,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/216.jpg",
     "gender": "Male",
     "hairColor": "Black",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/505"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/505"
+    ],
     "firstEpisode": "\"Boywatch\"",
     "voicedBy": "John Roberts",
     "url": "https://bobsburgers-api.herokuapp.com/characters/216"
@@ -2593,7 +2699,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Trapeze Artist",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/480"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/480"
+    ],
     "firstEpisode": "\"V for Valentine-detta\"",
     "voicedBy": "Wyatt Cenac",
     "url": "https://bobsburgers-api.herokuapp.com/characters/222"
@@ -2681,7 +2789,10 @@
     "gender": "Female",
     "hairColor": "Strawberry Blonde",
     "occupation": "Co-owner of Jo-Jo Bear Publishing",
-    "relatives": ["Barry", "Unnamed child"],
+    "relatives": [
+      "Barry",
+      "Unnamed child"
+    ],
     "firstEpisode": "\"P.T.A. It Ain't So\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/229"
   },
@@ -2693,7 +2804,11 @@
     "age": "13-14",
     "hairColor": "Blonde",
     "occupation": "Student at Wagstaff School",
-    "relatives": ["Unnamed mother", "Tina (cousin, not Tina Belcher)", "Unnamed brother"],
+    "relatives": [
+      "Unnamed mother",
+      "Tina (cousin, not Tina Belcher)",
+      "Unnamed brother"
+    ],
     "firstEpisode": "\"Spaghetti Western & Meatballs\"",
     "voicedBy": "John Roberts",
     "url": "https://bobsburgers-api.herokuapp.com/characters/230"
@@ -2750,7 +2865,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/235.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/309"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/309"
+    ],
     "firstEpisode": "\"Secret Admiral-irer\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/235"
@@ -2906,7 +3023,9 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Accountant for The Happy Mask Sad Mask Players Theater Company",
-    "relatives": ["Unnamed husband"],
+    "relatives": [
+      "Unnamed husband"
+    ],
     "firstEpisode": "\"The Helen Hunt\"",
     "voicedBy": "Sharon Horgan",
     "url": "https://bobsburgers-api.herokuapp.com/characters/249"
@@ -3045,7 +3164,9 @@
     "gender": "Male",
     "hairColor": "Blonde",
     "occupation": "Pilot",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/271"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/271"
+    ],
     "firstEpisode": "\"Seaplane!\"",
     "voicedBy": "Will Forte",
     "url": "https://bobsburgers-api.herokuapp.com/characters/261"
@@ -3056,7 +3177,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/262.jpg",
     "gender": "Male",
     "hairColor": "Black",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/85"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/85"
+    ],
     "firstEpisode": "\"Mo Mommy Mo Problems\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/262"
@@ -3111,7 +3234,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Clock Mandate for Goodwin Clocks",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/196"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/196"
+    ],
     "firstEpisode": "\"Housetrap\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/267"
   },
@@ -3122,7 +3247,9 @@
     "gender": "Female",
     "hairColor": "Blonde",
     "occupation": "Pilot",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/264"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/264"
+    ],
     "firstEpisode": "\"Live and Let Fly\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/268"
@@ -3145,7 +3272,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/270.jpg",
     "gender": "Male",
     "hairColor": "Dark Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/511"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/511"
+    ],
     "firstEpisode": "\"Boyz 4 Now\"",
     "voicedBy": "Jack McBrayer",
     "url": "https://bobsburgers-api.herokuapp.com/characters/270"
@@ -3157,7 +3286,9 @@
     "gender": "Female",
     "hairColor": "White",
     "occupation": "Retired",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/444"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/444"
+    ],
     "firstEpisode": "\"Bobby Driver\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/271"
@@ -3344,7 +3475,9 @@
     "gender": "Female",
     "hairColor": "Reddish Brown",
     "occupation": "Student",
-    "relatives": ["Unnamed father"],
+    "relatives": [
+      "Unnamed father"
+    ],
     "firstEpisode": "\"The Hurt Soccer\"",
     "voicedBy": "Melissa Bardin Galsky",
     "url": "https://bobsburgers-api.herokuapp.com/characters/284"
@@ -3399,7 +3532,10 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/289.jpg",
     "gender": "Female",
     "hairColor": "Black",
-    "relatives": ["Jack Conway", "Unnamed son"],
+    "relatives": [
+      "Jack Conway",
+      "Unnamed son"
+    ],
     "firstEpisode": "\"They Serve Horses, Don't They?\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/289"
   },
@@ -3412,7 +3548,7 @@
     "hairColor": "Brown",
     "occupation": "Magician",
     "firstEpisode": "\"Presto Tina-o\"",
-    "voicedBy": "Andr\u00e9s du Bouchet",
+    "voicedBy": "Andrés du Bouchet",
     "url": "https://bobsburgers-api.herokuapp.com/characters/290"
   },
   {
@@ -3422,7 +3558,10 @@
     "gender": "Female",
     "hairColor": "Black",
     "occupation": "Assistant to the Mayor (former)",
-    "relatives": ["Lisa", "Unnamed mother"],
+    "relatives": [
+      "Lisa",
+      "Unnamed mother"
+    ],
     "firstEpisode": "\"I Bob Your Pardon\"",
     "voicedBy": "Lennon Parham",
     "url": "https://bobsburgers-api.herokuapp.com/characters/291"
@@ -3499,7 +3638,9 @@
     "age": "70s",
     "hairColor": "Gray",
     "occupation": "Music Teacher at Wagstaff School",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/448"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/448"
+    ],
     "firstEpisode": "\"Work Hard or Die Trying, Girl\"",
     "voicedBy": "Brian Huskey",
     "url": "https://bobsburgers-api.herokuapp.com/characters/298"
@@ -3576,7 +3717,9 @@
     "age": "90",
     "hairColor": "White",
     "occupation": "Retired",
-    "relatives": ["Joel Glassman (grandnephew)"],
+    "relatives": [
+      "Joel Glassman (grandnephew)"
+    ],
     "firstEpisode": "\"Secret Admiral-irer\"",
     "voicedBy": "Cloris Leachman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/305"
@@ -3743,7 +3886,9 @@
     "gender": "Male",
     "age": "50s",
     "occupation": "Funeral Director & Owner of It's Your Funeral Home & Crematorium",
-    "relatives": ["Mother"],
+    "relatives": [
+      "Mother"
+    ],
     "firstEpisode": "\"Human Flesh\"",
     "voicedBy": "Andy Kindler",
     "url": "https://bobsburgers-api.herokuapp.com/characters/320"
@@ -3755,7 +3900,9 @@
     "gender": "Female",
     "age": "86",
     "hairColor": "Gray",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/324"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/324"
+    ],
     "firstEpisode": "\"Burger Wars\"",
     "voicedBy": "Andy Kindler",
     "url": "https://bobsburgers-api.herokuapp.com/characters/321"
@@ -3874,7 +4021,9 @@
     "gender": "Male",
     "hairColor": "White",
     "occupation": "Owner of Kim & Son's Hardware",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/106"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/106"
+    ],
     "firstEpisode": "\"P.T.A. It Ain't So\"",
     "voicedBy": "Keisuke Hoashi",
     "url": "https://bobsburgers-api.herokuapp.com/characters/331"
@@ -3910,7 +4059,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/334.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["Alex PapasianMrs. Papasian"],
+    "relatives": [
+      "Alex PapasianMrs. Papasian"
+    ],
     "firstEpisode": "\"Cheer Up Sleepy Gene\"",
     "voicedBy": "Larry Murphy",
     "url": "https://bobsburgers-api.herokuapp.com/characters/334"
@@ -3980,7 +4131,9 @@
     "gender": "Female",
     "hairColor": "Dark Blonde",
     "occupation": "Housewife",
-    "relatives": ["Alex PapasianMr. Papasian"],
+    "relatives": [
+      "Alex PapasianMr. Papasian"
+    ],
     "firstEpisode": "\"Cheer Up Sleepy Gene\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/340"
@@ -4030,7 +4183,9 @@
     "age": "50-60s",
     "hairColor": "Gray",
     "occupation": "Secretary for Principal Spoors at Wagstaff School",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/358"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/358"
+    ],
     "firstEpisode": "\"Broadcast Wagstaff School News\"",
     "voicedBy": "Sarah Silverman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/344"
@@ -4077,7 +4232,9 @@
     "age": "20s-30s",
     "hairColor": "Brown",
     "occupation": "Member of the One Eyed Snakes",
-    "relatives": ["Sidecar Critter"],
+    "relatives": [
+      "Sidecar Critter"
+    ],
     "firstEpisode": "\"Ear-sy Rider\"",
     "voicedBy": "Wendi McLendon-Covey",
     "url": "https://bobsburgers-api.herokuapp.com/characters/348"
@@ -4140,7 +4297,9 @@
     "name": "Ned",
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/354.jpg",
     "gender": "Male",
-    "relatives": ["Unnamed brother"],
+    "relatives": [
+      "Unnamed brother"
+    ],
     "firstEpisode": "\"Full Bars\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/354"
   },
@@ -4183,7 +4342,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/358.jpg",
     "gender": "Male",
     "hairColor": "Brown",
-    "relatives": ["Ruthanne DonahuePatrick Donahue"],
+    "relatives": [
+      "Ruthanne DonahuePatrick Donahue"
+    ],
     "firstEpisode": "\"Crawl Space\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/358"
   },
@@ -4225,7 +4386,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/362.jpg",
     "gender": "Female",
     "age": "40s",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/144"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/144"
+    ],
     "firstEpisode": "\"Bed & Breakfast\"",
     "voicedBy": "Melissa Bardin Galsky",
     "url": "https://bobsburgers-api.herokuapp.com/characters/362"
@@ -4303,7 +4466,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Police Officer",
-    "relatives": ["Paul McGill"],
+    "relatives": [
+      "Paul McGill"
+    ],
     "firstEpisode": "\"O.T.: The Outside Toilet\"",
     "voicedBy": "Larry Murphy",
     "url": "https://bobsburgers-api.herokuapp.com/characters/369"
@@ -4368,7 +4533,9 @@
     "age": "30s",
     "hairColor": "Blonde",
     "occupation": "Television Presenter",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/83"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/83"
+    ],
     "firstEpisode": "\"Beefsquatch\"",
     "voicedBy": "Samantha Bee",
     "url": "https://bobsburgers-api.herokuapp.com/characters/375"
@@ -4478,7 +4645,9 @@
     "gender": "Male",
     "hairColor": "Gray",
     "occupation": "Owner of The Junk Yard",
-    "relatives": ["Unnamed cousin"],
+    "relatives": [
+      "Unnamed cousin"
+    ],
     "firstEpisode": "\"Father of the Bob\"",
     "voicedBy": "Nick Offerman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/385"
@@ -4536,7 +4705,10 @@
     "age": "40-41",
     "hairColor": "Brown",
     "occupation": "Wagstaff School Guidance Counselor",
-    "relatives": ["Unnamed mother", "Unnamed aunt"],
+    "relatives": [
+      "Unnamed mother",
+      "Unnamed aunt"
+    ],
     "firstEpisode": "\"Crawl Space\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/390"
@@ -4602,7 +4774,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Reporter",
-    "relatives": ["Unnamed niece"],
+    "relatives": [
+      "Unnamed niece"
+    ],
     "firstEpisode": "\"I Bob Your Pardon\"",
     "voicedBy": "Rob Huebel",
     "url": "https://bobsburgers-api.herokuapp.com/characters/396"
@@ -4614,7 +4788,7 @@
     "gender": "Male",
     "hairColor": "Gray",
     "firstEpisode": "\"The Last Gingerbread House on the Left\"",
-    "voicedBy": "Andr\u00e9s du Bouchet",
+    "voicedBy": "Andrés du Bouchet",
     "url": "https://bobsburgers-api.herokuapp.com/characters/397"
   },
   {
@@ -4706,7 +4880,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/405.jpg",
     "gender": "Female",
     "hairColor": "Red",
-    "relatives": ["Unnamed younger sister"],
+    "relatives": [
+      "Unnamed younger sister"
+    ],
     "firstEpisode": "\"Tina Tailor Soldier Spy\"",
     "voicedBy": "Sarah Baker",
     "url": "https://bobsburgers-api.herokuapp.com/characters/405"
@@ -4817,7 +4993,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Student",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/168"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/168"
+    ],
     "firstEpisode": "\"Lorenzo's Oil? No, Linda's\"",
     "voicedBy": "H. Jon Benjamin",
     "url": "https://bobsburgers-api.herokuapp.com/characters/415"
@@ -4839,7 +5017,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/417.jpg",
     "gender": "Female",
     "hairColor": "Blonde",
-    "relatives": ["Unnamed son"],
+    "relatives": [
+      "Unnamed son"
+    ],
     "firstEpisode": "\"The Secret Ceramics Room of Secrets\"",
     "voicedBy": "Pamela Adlon",
     "url": "https://bobsburgers-api.herokuapp.com/characters/417"
@@ -4872,7 +5052,10 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/420.jpg",
     "gender": "Female",
     "hairColor": "Brown",
-    "relatives": ["Nicholas Donahue", "Patrick Donahue"],
+    "relatives": [
+      "Nicholas Donahue",
+      "Patrick Donahue"
+    ],
     "firstEpisode": "\"The Trouble with Doubles\"",
     "voicedBy": "Tami Sagher",
     "url": "https://bobsburgers-api.herokuapp.com/characters/420"
@@ -5066,7 +5249,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/437.jpg",
     "gender": "Female",
     "hairColor": "Brown",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/74"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/74"
+    ],
     "firstEpisode": "\"Roller? I Hardly Know Her!\"",
     "url": "https://bobsburgers-api.herokuapp.com/characters/437"
   },
@@ -5077,7 +5262,9 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Actress",
-    "relatives": ["Matilda Merkin"],
+    "relatives": [
+      "Matilda Merkin"
+    ],
     "firstEpisode": "\"The Hurt Soccer\"",
     "voicedBy": "David Herman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/438"
@@ -5112,7 +5299,9 @@
     "gender": "Female",
     "hairColor": "Brown",
     "occupation": "Hip hop dance teacher",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/160"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/160"
+    ],
     "firstEpisode": "\"Bob Actually\"",
     "voicedBy": "Brooke Dillman",
     "url": "https://bobsburgers-api.herokuapp.com/characters/441"
@@ -5177,7 +5366,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Salesperson at Sofa Queen/advertising character",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/457"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/457"
+    ],
     "firstEpisode": "\"Sacred Couch\"",
     "voicedBy": "Jordan Peele",
     "url": "https://bobsburgers-api.herokuapp.com/characters/446"
@@ -5189,7 +5380,9 @@
     "gender": "Female",
     "hairColor": "Black",
     "occupation": "Spokesperson/owner of Sofa Queen",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/456"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/456"
+    ],
     "firstEpisode": "\"Sacred Couch\"",
     "voicedBy": "Wanda Sykes",
     "url": "https://bobsburgers-api.herokuapp.com/characters/447"
@@ -5211,7 +5404,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/449.jpg",
     "gender": "Male",
     "hairColor": "Dark Blonde",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/153"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/153"
+    ],
     "firstEpisode": "\"Mo Mommy Mo Problems\"",
     "voicedBy": "Michael Cyril Creighton",
     "url": "https://bobsburgers-api.herokuapp.com/characters/449"
@@ -5266,7 +5461,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Archeologist",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/510"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/510"
+    ],
     "firstEpisode": "\"The Cook, The Steve, The Gayle, & Her Lover\"",
     "voicedBy": "Rob Huebel",
     "url": "https://bobsburgers-api.herokuapp.com/characters/454"
@@ -5462,7 +5659,9 @@
     "gender": "Male",
     "hairColor": "Black",
     "occupation": "Trapeze Artist",
-    "relatives": ["Jerry Flanagan"],
+    "relatives": [
+      "Jerry Flanagan"
+    ],
     "firstEpisode": "\"V for Valentine-detta\"",
     "voicedBy": "Ron Funches",
     "url": "https://bobsburgers-api.herokuapp.com/characters/470"
@@ -5693,7 +5892,9 @@
     "gender": "Male",
     "hairColor": "Brown",
     "occupation": "Station manager at WIXU",
-    "relatives": ["A son"],
+    "relatives": [
+      "A son"
+    ],
     "firstEpisode": "\"Long Time Listener, First Time Bob\"",
     "voicedBy": "Rob Huebel",
     "url": "https://bobsburgers-api.herokuapp.com/characters/489"
@@ -5759,7 +5960,9 @@
     "image": "https://bobsburgers-api.herokuapp.com/images/characters/495.jpg",
     "gender": "Female",
     "hairColor": "Black",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/219"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/219"
+    ],
     "firstEpisode": "\"Boywatch\"",
     "voicedBy": "Natalie Palamides",
     "url": "https://bobsburgers-api.herokuapp.com/characters/495"
@@ -5822,7 +6025,9 @@
     "age": "10",
     "hairColor": "Brown",
     "occupation": "Student",
-    "relatives": ["https://bobsburgers-api.herokuapp.com/characters/465"],
+    "relatives": [
+      "https://bobsburgers-api.herokuapp.com/characters/465"
+    ],
     "firstEpisode": "\"The Cook, The Steve, The Gayle, & Her Lover\"",
     "voicedBy": "H. Jon Benjamin",
     "url": "https://bobsburgers-api.herokuapp.com/characters/500"

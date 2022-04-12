@@ -1,14 +1,26 @@
 import requests
 import time
 from bs4 import BeautifulSoup
-import urllib.request
 import json
 
 
+EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
+CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
+END_CREDITS_URL = "https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence"
+STORE_NEXT_DOOR_URL = "https://bobs-burgers.fandom.com/wiki/Store_Next_Door"
+PEST_CONTROL_TRUCKS_URL = "https://bobs-burgers.fandom.com/wiki/Pest_Control_Truck"
+OUTPUT_FILE = "data.json"
+
+
+characters_file = open("data/characters.json", "r")
+characters = json.load(characters_file)
+
+
 def save_json_file(data):
-    out_file = open("output.json", "w")
+    out_file = open(OUTPUT_FILE, "w")
     json.dump(data, out_file, indent=6)
     out_file.close()
+
 
 def filter_rows(rows, text):
     filtered = filter(lambda row: text in row.text.strip(), rows)
@@ -19,6 +31,14 @@ def filter_rows(rows, text):
     return list(filtered)
 
 
+def character_exists_locally(name):
+    filtered = filter(lambda character: name == character["name"], characters)
+
+    print("NAME: " + name)
+
+    return len(list(filtered)) == 1
+
+
 def filter_text(text):
     text_array = text[0].text.strip().split('\n')
     filtered_array = list(filter(
@@ -26,24 +46,28 @@ def filter_text(text):
 
     return filtered_array[1]
 
+
 def get_wiki_table(url, table_classname):
     html_text = requests.get(url).text
     soup = BeautifulSoup(html_text, "html.parser")
-    
-    return soup.find_all("table", class_=table_classname)
+
+    return soup.find("table", class_=table_classname)
+
+
+character_objects = []
+
 
 def scrape_characters_page(source_url, soup):
-    characters = soup.find_all("a", class_="category-page__member-link")
+    characters_new = soup.find_all("a", class_="category-page__member-link")
     urls = []
-    file = open('final.json')
-    character_objects = json.load(file)
-    file.close()
 
-    for character in characters:
-        new_url = source_url+ character["href"]
+    for character in characters_new:
+        new_url = source_url + character["href"]
         urls.append(new_url)
 
     for url in urls:
+        print(len(character_objects))
+        print(url)
         info_table = get_wiki_table(url, "infobox")
 
         if info_table != None:
@@ -78,14 +102,15 @@ def scrape_characters_page(source_url, soup):
                     character_object["occupation"] = filter_text(occupation)
                 if len(age) > 0:
                     character_object["age"] = filter_text(age)
-                if len(age) > 0:
+                if len(first_episode) > 0:
                     character_object["firstEpisode"] = filter_text(
                         first_episode)
                 if len(voiced_by) > 0:
                     character_object["voicedBy"] = filter_text(voiced_by)
-
+                character_object["wikiUrl"] = url
             character_objects.append(character_object)
-        time.sleep(0.5)
+        else:
+            continue
 
     save_json_file(character_objects)
 
@@ -110,12 +135,14 @@ def scrape_all_character_pages(seed_url, page_number=0):
         else:
             return False
     except Exception as e:
+        print(e)
         return e
 
-# works for storefronts, and pest control trucks
-def running_gags(url):
+
+def scrape_stores_and_trucks(url):
     wiki_tables = get_wiki_table(url, "wikitable")
-    if(wiki_tables == None): return [] 
+    if(wiki_tables == None):
+        return []
     running_gags = []
     id = 0
     table_index = 0
@@ -124,8 +151,9 @@ def running_gags(url):
         if table_index != 8 and table_index != 0:
             rows = wiki_table.find_all("tr")
 
-            if rows == None or len(rows) == 0: return 
-        
+            if rows == None or len(rows) == 0:
+                return
+
             for index in range(1, len(rows)):
                 running_gag = {}
                 a_tags = rows[index].find_all("a")
@@ -148,6 +176,7 @@ def running_gags(url):
         table_index += 1
 
     save_json_file(running_gags)
+
 
 def scrape_end_credits(url):
     html_text = requests.get(url).text
@@ -176,7 +205,6 @@ def scrape_end_credits(url):
             table_index += 1
 
         save_json_file(end_credits)
-
 
 
 def scrape_episodes(url):
@@ -244,20 +272,5 @@ def scrape_total_Viewers(url, retried):
     else:
         return ""
 
-running_gags("https://bobs-burgers.fandom.com/wiki/Pest_Control_Truck")
-'''
-EPISODES_URL = "https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order"
-CHARACTERS_URL = "https://bobs-burgers.fandom.com/wiki/Category:Characters"
-END_CREDITS = "https://bobs-burgers.fandom.com/wiki/End_Credits_Sequence"
-STORE_NEXT_DOOR = "https://bobs-burgers.fandom.com/wiki/Store_Next_Door"
-PEST_CONTROL = "https://bobs-burgers.fandom.com/wiki/Pest_Control_Truck"
-if __name__ == "__main__":
-    seed_url = EPISODES_URL
-    print("Web scraping has begun")
-    result = scrape_episodes("https://bobs-burgers.fandom.com/wiki/List_of_episodes_by_production_order")
 
-    if result == True:
-        print("Web scraping is now complete!")
-    else:
-        print(f"Error - {result}")
-'''
+scrape_all_character_pages(CHARACTERS_URL)
