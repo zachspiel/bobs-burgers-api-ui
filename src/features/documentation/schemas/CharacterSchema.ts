@@ -25,7 +25,7 @@ const CharacterSchema: EndpointSchema = [
   },
   {
     key: "relatives",
-    type: "[{name: string, wikiUrl: string, url: string}] | undefined",
+    type: "[Relative (see below)] | undefined",
     description: `The character's relatives`,
   },
   {

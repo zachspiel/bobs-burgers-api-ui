@@ -16,6 +16,8 @@ import EndCreditsSequence from "./schemas/EndCreditsSequence";
 import SortingLimiting from "./SortingLimiting";
 import STORE_NEXT_DOOR from "./schemas/StoreNextDoor";
 import BURGER_OF_THE_DAY from "./schemas/BurgerOfTheDaySchema";
+import RelativeSchema from "./schemas/RelativeSchema";
+import Schema from "./Schema";
 
 const Documentation = (): JSX.Element => {
   const [rootData, setRootData] = React.useState("");
@@ -82,6 +84,7 @@ const Documentation = (): JSX.Element => {
         />
         <SortingLimiting />
         <FilterExample />
+
         <Endpoint
           schema={CharacterSchema}
           about="characters in"
@@ -90,6 +93,11 @@ const Documentation = (): JSX.Element => {
           singularName="character"
           url="characters/"
         />
+        <div className="row justify-content-center mt-5">
+          <div className="col-md-7 col-sm-12">
+            <Schema name={"Relatives"} schema={RelativeSchema} />
+          </div>
+        </div>
         <Endpoint
           about="episodes in"
           name="Episodes"
