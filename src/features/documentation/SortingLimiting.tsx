@@ -1,19 +1,19 @@
-import React from 'react';
-import { Divider } from 'primereact/divider';
-import { performGetRequest } from '../../services/apiService';
-import { getJsonCodeBlock, getUrlCodeBlock } from '../../util';
+import React from "react";
+import { Divider } from "primereact/divider";
+import { performGetRequest } from "../../services/apiService";
+import { getJsonCodeBlock, getUrlCodeBlock } from "../../util";
 
 const SortingLimiting = (): JSX.Element => {
   const [sortAsc, setSortAsc] = React.useState([]);
   const [sortDesc, setSortDesc] = React.useState([]);
 
   React.useEffect(() => {
-    performGetRequest('characters?sortBy=name&OrderBy=asc&limit=1&skip=0').then(
-      (data) => setSortAsc(data)
+    performGetRequest("characters?sortBy=name&OrderBy=asc&limit=1&skip=0").then((data) =>
+      setSortAsc(data)
     );
-    performGetRequest(
-      'characters?sortBy=name&OrderBy=desc&limit=1&skip=0'
-    ).then((data) => setSortDesc(data));
+    performGetRequest("characters?sortBy=name&OrderBy=desc&limit=1&skip=0").then((data) =>
+      setSortDesc(data)
+    );
   }, []);
 
   return (
@@ -23,18 +23,20 @@ const SortingLimiting = (): JSX.Element => {
           Sorting and Limiting
         </h2>
         <Divider />
-        <span>All endpoints support the </span>
-        <span className="highlight-block"> sortBy</span>,{' '}
-        <span className="highlight-block"> orderBy</span>,{' '}
-        <span className="highlight-block">limit</span>, and{' '}
-        <span className="highlight-block"> skip</span>
-        <span> parameters.</span>
+        <p>
+          <span>All endpoints support the </span>
+          <span className="highlight-block"> sortBy</span>,{" "}
+          <span className="highlight-block"> orderBy</span>,{" "}
+          <span className="highlight-block">limit</span>, and{" "}
+          <span className="highlight-block"> skip</span>
+          <span> parameters.</span>
+        </p>
         <h4 className="fw-bold">Example Results:</h4>
         Sort in ascending order:
-        {getUrlCodeBlock('characters?sortBy=name&OrderBy=asc&limit=1&skip=0')}
+        {getUrlCodeBlock("characters?sortBy=name&OrderBy=asc&limit=1&skip=0")}
         {getJsonCodeBlock(sortAsc)}
         Sort in descending order:
-        {getUrlCodeBlock('characters?sortBy=name&OrderBy=desc&limit=1&skip=0')}
+        {getUrlCodeBlock("characters?sortBy=name&OrderBy=desc&limit=1&skip=0")}
         {getJsonCodeBlock(sortDesc)}
       </div>
     </div>

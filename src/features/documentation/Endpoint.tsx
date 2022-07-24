@@ -1,8 +1,8 @@
-import React from 'react';
-import { Divider } from 'primereact/divider';
-import Schema, { EndpointSchema } from './Schema';
-import { performGetRequest } from '../../services/apiService';
-import { getJsonCodeBlock, getUrlCodeBlock } from '../../util';
+import React from "react";
+import { Divider } from "primereact/divider";
+import Schema, { EndpointSchema } from "./Schema";
+import { performGetRequest } from "../../services/apiService";
+import { getJsonCodeBlock, getUrlCodeBlock } from "../../util";
 
 interface Props {
   about: string;
@@ -13,6 +13,7 @@ interface Props {
   exampleData?: string;
   schema?: EndpointSchema;
   skipFetch?: boolean;
+  message?: JSX.Element;
 }
 
 const Endpoint = (props: Props): JSX.Element => {
@@ -21,7 +22,7 @@ const Endpoint = (props: Props): JSX.Element => {
   const shouldFetchData = !props.skipFetch ?? false;
   const pluralName = props.pluralName ?? props.name.toLowerCase();
   const singularName = props.singularName ?? props.name.toLowerCase();
-  const endpointId = props.name.toLocaleLowerCase().split(' ').join('-');
+  const endpointId = props.name.toLocaleLowerCase().split(" ").join("-");
 
   React.useEffect(() => {
     if (shouldFetchData) {
@@ -45,42 +46,39 @@ const Endpoint = (props: Props): JSX.Element => {
         {shouldFetchData && (
           <>
             <>
-              The {props.name} endpoint provides information on all{' '}
-              {props.about} Bob's Burgers.
+              The {props.name} endpoint provides information on all {props.about} Bob's
+              Burgers.
             </>
+            {props.message}
 
             <h4 className="fw-bold mt-5">Get all {pluralName}</h4>
 
             <p>
-              The list of all {pluralName} can be found by using the{' '}
+              The list of all {pluralName} can be found by using the{" "}
               <span className="highlight-block">/{props.url}</span> endpoint.
             </p>
             {getUrlCodeBlock(`${props.url}`)}
 
             <h4 className="fw-bold mt-5">Get a single {singularName}</h4>
             <p>
-              A single {singularName} can be found by adding the id parameter to
-              the <span className="highlight-block">/{props.url}</span>{' '}
-              endpoint.
+              A single {singularName} can be found by adding the id parameter to the{" "}
+              <span className="highlight-block">/{props.url}</span> endpoint.
             </p>
             {getUrlCodeBlock(`${props.url}1`)}
-            {getJsonCodeBlock(exampleData[0] ?? '')}
+            {getJsonCodeBlock(exampleData[0] ?? "")}
 
             <h4 className="fw-bold mt-5">Get multiple {pluralName}</h4>
             <p>
-              Multiple {pluralName} can be found by adding an array of ids to
-              the <span className="highlight-block">/{props.url}</span>{' '}
-              endpoint. (E.g. <span className="highlight-block">[1,2,3]</span>{' '}
-              or
+              Multiple {pluralName} can be found by adding an array of ids to the{" "}
+              <span className="highlight-block">/{props.url}</span> endpoint. (E.g.{" "}
+              <span className="highlight-block">[1,2,3]</span> or
               <span className="highlight-block">1,2,3</span> )
             </p>
             {getUrlCodeBlock(`${props.url}[1,2,3]`)}
             {getJsonCodeBlock(exampleData)}
           </>
         )}
-        {props.schema !== undefined && (
-          <Schema name={props.name} schema={props.schema} />
-        )}
+        {props.schema !== undefined && <Schema name={props.name} schema={props.schema} />}
         {!shouldFetchData && (
           <>
             <h4 className="fw-bold">Example Result:</h4>

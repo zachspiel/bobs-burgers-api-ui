@@ -8,6 +8,7 @@ import { performGetRequest } from "../../services/apiService";
 import { ScrollTop } from "primereact/scrolltop";
 import Footer from "../common/Footer";
 import { Divider } from "primereact/divider";
+import { Message } from "primereact/message";
 import CharacterSchema from "./schemas/CharacterSchema";
 import getRunningGag from "./schemas/RunningGagSchema";
 import EpisodeSchema from "./schemas/EpisodeSchema";
@@ -54,13 +55,12 @@ const Documentation = (): JSX.Element => {
               >
                 Bob's Burgers
               </a>
-              . The Bob's Burgers API contains data for hundreds of characters,
-              episodes, running gags, and images from the show.
+              . The Bob's Burgers API contains data for hundreds of characters, episodes,
+              running gags, and images from the show.
             </p>
 
             <p>
-              If you are using this API please consider supporting the project
-              by{" "}
+              If you are using this API please consider supporting the project by{" "}
               <a
                 href="https://www.buymeacoffee.com/bobsburgersapi"
                 target="_blank"
@@ -118,6 +118,13 @@ const Documentation = (): JSX.Element => {
           pluralName="pest control trucks"
           url="pestControlTruck/"
           schema={getRunningGag("pest control truck")}
+          message={
+            <Message
+              severity="info"
+              className="highlight-block"
+              text="Please note, the first 13 pest control trucks all have the same name and image. This is because the same pest control truck was used in every episode in the first season. "
+            />
+          }
         />
         <Endpoint
           about="end credits sequences in"

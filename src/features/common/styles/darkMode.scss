@@ -21,7 +21,10 @@ $font-color: #ffffff;
     color: rgb(156, 220, 254) !important;
   }
 
-  .p-menubar {
+  .p-menubar,
+  .p-card,
+  .p-card .p-card-body,
+  .p-card .p-card-header {
     background: $raised-background;
     border: $raised-background;
     border-radius: 0px;

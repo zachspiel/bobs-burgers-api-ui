@@ -1,18 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  /* background-color: rgb(243, 247, 249) !important; */
+  background: #f4f4f4 !important;
 }
 
 @font-face {
   font-family: "BobsBurgers";
   src: url("fonts/Bob's\ Burgers.woff") format("woff"),
     url("fonts/Bob's\ Burgers.ttf") format("truetype");
+}
+
+.theme-toggle:hover {
+  cursor: pointer !important;
 }
 
 .rounded-circle {
@@ -80,6 +83,10 @@ body {
   padding: 0.5em !important;
 }
 
+.p-card {
+  height: 100% !important;
+}
+
 .character-card {
   box-shadow: 0 0 6px 0 hsla(0, 0%, 0%, 0.2);
   border: 0;
@@ -88,7 +95,7 @@ body {
   word-wrap: break-word !important;
   padding: 0.5em;
   display: flex;
-  height: 95%;
+  height: 95% !important;
   flex-direction: column;
 }
 
@@ -170,10 +177,14 @@ body {
 }
 
 .highlight-block {
-  background-color: rgba(59, 152, 252, 0.137);
-  border-color: #3b99fc;
-  color: #3b99fc;
+  background-color: rgba(59, 152, 252, 0.137) !important;
+  border-color: #3b99fc !important;
+  color: #3b99fc !important;
   padding: 0.2em;
+
+  .pi {
+    color: #3b99fc !important;
+  }
 }
 
 .info-box {
