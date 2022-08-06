@@ -34,7 +34,7 @@ const Navbar = (props: Props): JSX.Element => {
         <Button
           icon="pi pi-bars"
           onClick={() => setIsSidebarVisible(true)}
-          className="p-button-rounded p-button-text me-2 sidebar-button p-button-secondary"
+          className="p-button-rounded p-button-text me-2 sidebar-button d-lg-none p-button-secondary"
         />
       )}
       <a href="/">
@@ -64,7 +64,7 @@ const Navbar = (props: Props): JSX.Element => {
   };
 
   return (
-    <div className={`row position-sticky ${rowClassName}`}>
+    <div className={`row ${rowClassName}`}>
       <Menubar
         start={start}
         end={getRightContent}

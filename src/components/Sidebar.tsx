@@ -14,7 +14,7 @@ const Sidebar = (props: Props): JSX.Element => {
   };
 
   return (
-    <>
+    <div className="position-fixed">
       <h5 className="fw-bold mt-3">Getting Started</h5>
       {getSidebarLink("Introduction", "#introduction")}
       {getSidebarLink("Try Now", "#try-now")}
@@ -29,7 +29,7 @@ const Sidebar = (props: Props): JSX.Element => {
       {getSidebarLink("Pest Control Truck", "#pest-control-truck")}
       {getSidebarLink("End Credits Sequence", "#end-credits-sequence")}
       {getSidebarLink("Burger of The Day", "#burger-of-the-day")}
-    </>
+    </div>
   );
 };
 

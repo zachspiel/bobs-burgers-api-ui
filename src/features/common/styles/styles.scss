@@ -6,6 +6,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background: #f4f4f4 !important;
+  font-variant-ligatures: none;
+  text-rendering: optimizelegibility;
+  text-decoration-skip-ink: auto;
 }
 
 @font-face {
@@ -60,16 +63,12 @@ body {
 }
 
 .sidebar {
-  width: 15%;
   margin-top: 63px;
   min-height: 100vh;
-  position: fixed;
-  display: block;
   overflow: auto;
 }
 
 .main-content {
-  width: 100%;
   margin-top: 63px;
 }
 
@@ -104,10 +103,6 @@ body {
   letter-spacing: -0.025em !important;
 }
 
-.sidebar-button {
-  display: none !important;
-}
-
 @media only screen and (max-width: 450px) {
   .header {
     margin-top: 20px !important;
@@ -128,10 +123,6 @@ body {
   .header {
     margin-top: 20px !important;
   }
-  .sidebar {
-    width: 25%;
-    display: none;
-  }
 
   .p-inputgroup-addon {
     width: 45% !important;
@@ -139,17 +130,8 @@ body {
     min-width: 0px !important;
   }
 
-  .main-content {
-    width: 100%;
-    margin-top: 20px !important;
-  }
-
   .p-menubar-button {
     display: none !important;
-  }
-
-  .sidebar-button {
-    display: block !important;
   }
 
   .copy-button {
@@ -241,6 +223,7 @@ a:hover {
 }
 
 .custom-menubar .p-menubar {
+  position: fixed;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
 }
 
