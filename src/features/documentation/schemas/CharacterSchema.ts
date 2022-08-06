@@ -14,6 +14,11 @@ const CharacterSchema: EndpointSchema = [
     description: `The character's hair color`,
   },
   {
+    key: "age",
+    type: "string | undefined",
+    description: `The character's age`,
+  },
+  {
     key: "gender",
     type: "string | undefined",
     description: `The character's gender`,

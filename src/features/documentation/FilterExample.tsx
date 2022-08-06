@@ -19,10 +19,12 @@ const FilterExample = (): JSX.Element => {
   return (
     <div className="row justify-content-center mt-5">
       <div className="col-md-7 col-sm-12">
-        <h2 id="filter-endpoints">Filtering Endpoints</h2>
+        <h2 id="filter-endpoints" className="fw-bold">
+          Filtering Endpoints
+        </h2>
         <Divider />
         <p>All endpoints support filtering on any available key within their schema.</p>
-        <h4>Example Results:</h4>
+        <h4 className="fw-bold">Example Results:</h4>
         <p>
           Find a character characters with <span className="highlight-block">Blonde</span>{" "}
           hair

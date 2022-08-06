@@ -1,4 +1,3 @@
-import { Divider } from "primereact/divider";
 import React from "react";
 
 interface Props {
@@ -20,7 +19,6 @@ const Sidebar = (props: Props): JSX.Element => {
       {getSidebarLink("Introduction", "#introduction")}
       {getSidebarLink("Try Now", "#try-now")}
       {getSidebarLink("Statistics", "#statistics")}
-      <Divider />
       <h5 className="fw-bold mt-4">Api Reference</h5>
       {getSidebarLink("Root URL", "#root-url")}
       {getSidebarLink("Sorting and Limiting", "#sort-limit")}
