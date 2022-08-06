@@ -51,12 +51,6 @@ body {
   margin-top: 100px !important;
 }
 
-.p-menubar {
-  position: fixed;
-  z-index: 1100 !important;
-  border-bottom: 1px solid #000;
-}
-
 .p-menubar-start {
   display: flex;
   margin-right: auto;
@@ -224,7 +218,9 @@ a:hover {
 
 .custom-menubar .p-menubar {
   position: fixed;
+  top: 0 !important;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  z-index: 1100;
 }
 
 .p-carousel .p-carousel-content .p-carousel-prev,
