@@ -38,8 +38,8 @@ const Documentation = (): JSX.Element => {
         <Sidebar />
       </div>
       <div className="main-content">
-        <div className="row justify-content-center mt-5">
-          <div className="col-md-7 col-sm-12 mt-5">
+        <div className="row justify-content-center">
+          <div className="col-lg-7 col-md-9 col-sm-12 mt-md-5">
             <h2 id="introduction" className="fw-bold">
               Introduction
             </h2>
@@ -94,7 +94,7 @@ const Documentation = (): JSX.Element => {
           url="characters/"
         />
         <div className="row justify-content-center mt-5">
-          <div className="col-md-7 col-sm-12">
+          <div className="col-lg-7 col-md-9 col-sm-12">
             <Schema name={"Relatives"} schema={RelativeSchema} />
           </div>
         </div>

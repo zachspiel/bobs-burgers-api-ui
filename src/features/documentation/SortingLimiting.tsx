@@ -18,7 +18,7 @@ const SortingLimiting = (): JSX.Element => {
 
   return (
     <div className="row justify-content-center mt-5">
-      <div className="col-md-7 col-sm-12">
+      <div className="col-lg-7 col-md-9 col-sm-12">
         <h2 id="sort-limit" className="fw-bold">
           Sorting and Limiting
         </h2>

@@ -124,7 +124,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1000px) {
   .header {
     margin-top: 20px !important;
   }
@@ -141,8 +141,7 @@ body {
 
   .main-content {
     width: 100%;
-    padding: 1rem;
-    margin-top: 0px !important;
+    margin-top: 20px !important;
   }
 
   .p-menubar-button {
