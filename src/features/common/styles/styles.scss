@@ -124,7 +124,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 1025px) {
   .header {
     margin-top: 20px !important;
   }
@@ -142,6 +142,7 @@ body {
   .main-content {
     width: 100%;
     padding: 1rem;
+    margin-top: 0px !important;
   }
 
   .p-menubar-button {
@@ -150,10 +151,6 @@ body {
 
   .sidebar-button {
     display: block !important;
-  }
-
-  .main-content {
-    margin-top: 0px !important;
   }
 
   .copy-button {
@@ -167,13 +164,6 @@ body {
 
   .p-toast {
     width: 90% !important;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  .custom-sidebar {
-    margin-top: 0 !important;
-    padding: 0 !important;
   }
 }
 
