@@ -20,6 +20,7 @@ const Sidebar = (props: Props): JSX.Element => {
       {getSidebarLink("Try Now", "#try-now")}
       {getSidebarLink("Statistics", "#statistics")}
       <h5 className="fw-bold mt-4">Api Reference</h5>
+      {getSidebarLink("GraphQL", "#graphql")}
       {getSidebarLink("Root URL", "#root-url")}
       {getSidebarLink("Sorting and Limiting", "#sort-limit")}
       {getSidebarLink("Filtering Endpoints", "#filter-endpoints")}

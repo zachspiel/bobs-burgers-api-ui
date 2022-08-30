@@ -79,7 +79,7 @@ const Endpoint = (props: Props): JSX.Element => {
           </>
         )}
         {props.schema !== undefined && <Schema name={props.name} schema={props.schema} />}
-        {!shouldFetchData && (
+        {!shouldFetchData && props.exampleData && (
           <>
             <h4 className="fw-bold">Example Result:</h4>
             {getJsonCodeBlock(props.exampleData)}

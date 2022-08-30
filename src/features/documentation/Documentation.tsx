@@ -77,6 +77,13 @@ const Documentation = (): JSX.Element => {
           <Playground />
           <Statistics />
           <Endpoint
+            about="The GraphQL endpoint provides a GraphQL wrapper around the Bob's Burgers REST API."
+            name="GraphQL"
+            skipFetch={true}
+            url={"graphql"}
+            exampleData=""
+          />
+          <Endpoint
             about="The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS."
             name="Root URL"
             skipFetch={true}
