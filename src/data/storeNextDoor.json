@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "P.F.E.T.A",
+    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/257",
+    "season": 1,
+    "episode": 1,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
+    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/1"
+  },
+  {
+    "id": 2,
+    "name": "Trot's All Natural Fertilizer",
+    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/257",
+    "season": 1,
+    "episode": 2,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/2",
+    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/2"
+  },
+  {
+    "id": 3,
+    "name": "RENT REDUCED: Crime Scene Special",
+    "image": "https://bobsburgers-api.herokuapp.com/images/storeNextDoor/257",
+    "season": 1,
+    "episode": 3,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/4",
+    "url": "https://bobsburgers-api.herokuapp.com/storeNextDoor/3"
+  }
+]

@@ -1,0 +1,44 @@
+"use client";
+
+import React from "react";
+import { Divider } from "primereact/divider";
+import { getJsonCodeBlock, getUrlCodeBlock } from "@bobs-burgers-api/util/util";
+import characters from "@bobs-burgers-api/data/characters.json";
+
+const SortingLimiting = (): JSX.Element => {
+  const [sortAsc, setSortAsc] = React.useState<unknown>([]);
+  const [sortDesc, setSortDesc] = React.useState<unknown>([]);
+
+  React.useEffect(() => {
+    setSortAsc([characters[0]]);
+    setSortDesc([characters[characters.length - 1]]);
+  }, []);
+
+  return (
+    <div className="row justify-content-center mt-5">
+      <div className="col-lg-7 col-md-9 col-sm-12">
+        <h2 id="sort-limit" className="fw-bold">
+          Sorting and Limiting
+        </h2>
+        <Divider />
+        <p>
+          <span>All endpoints support the </span>
+          <span className="highlight-block"> sortBy</span>,{" "}
+          <span className="highlight-block"> orderBy</span>,{" "}
+          <span className="highlight-block">limit</span>, and{" "}
+          <span className="highlight-block"> skip</span>
+          <span> parameters.</span>
+        </p>
+        <h4 className="fw-bold">Example Results:</h4>
+        Sort in ascending order:
+        {getUrlCodeBlock("characters?sortBy=name&OrderBy=asc&limit=1&skip=0")}
+        {getJsonCodeBlock(sortAsc)}
+        Sort in descending order:
+        {getUrlCodeBlock("characters?sortBy=name&OrderBy=desc&limit=1&skip=0")}
+        {getJsonCodeBlock(sortDesc)}
+      </div>
+    </div>
+  );
+};
+
+export default SortingLimiting;
