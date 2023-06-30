@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "\"New Bacon-ings\" - Comes with Bacon",
+    "price": "$5.95",
+    "season": 1,
+    "episode": 1,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
+    "url": "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/1"
+  },
+  {
+    "id": 2,
+    "name": "The Child Molester - Comes with Candy!",
+    "price": "$5.95",
+    "season": 1,
+    "episode": 1,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
+    "url": "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/1"
+  },
+  {
+    "id": 3,
+    "name": "Foot Feta-ish Burger",
+    "price": "$5.95",
+    "season": 1,
+    "episode": 2,
+    "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/2",
+    "url": "https://bobsburgers-api.herokuapp.com/burgerOfTheDay/2"
+  }
+]

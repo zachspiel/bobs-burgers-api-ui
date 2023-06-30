@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "\"Dottie Minerva\"",
+    "relatives": [],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/%22Dottie_Minerva%22",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/1.jpg",
+    "gender": "Female",
+    "hair": "Blonde",
+    "occupation": "Student at Wagstaff School",
+    "allOccupations": ["Student at Wagstaff School"],
+    "firstEpisode": "\"The Kids Run the Restaurant\"",
+    "voicedBy": "Wendy Molyneux",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/1"
+  },
+  {
+    "id": 2,
+    "name": "Mabel \"Abby\" Haddington",
+    "relatives": [],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Abby_Haddington",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/2.jpg",
+    "gender": "Female",
+    "hair": "Blonde",
+    "age": "9-10",
+    "occupation": "Student at Wagstaff School",
+    "allOccupations": ["Student at Wagstaff School"],
+    "firstEpisode": "\"Slumber Party\"",
+    "voicedBy": "Rachel Dratch",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/2"
+  },
+  {
+    "id": 3,
+    "name": "Adam",
+    "relatives": [
+      {
+        "name": "Unnamed wife"
+      }
+    ],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Adam",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/3.jpg",
+    "gender": "Male",
+    "hair": "Brown",
+    "firstEpisode": "\"Mr. Lonely Farts\"",
+    "voicedBy": "Brian Huskey",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/3"
+  },
+  {
+    "id": 4,
+    "name": "Adrian",
+    "relatives": [],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Adrian",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/4.jpg",
+    "gender": "Male",
+    "hair": "Brown",
+    "occupation": "Employee at Toe-Tanic Shoes",
+    "allOccupations": ["Employee at Toe-Tanic Shoes"],
+    "firstEpisode": "\"The Hormone-iums\"",
+    "voicedBy": "Drew Droege",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/4"
+  },
+  {
+    "id": 5,
+    "name": "Al",
+    "relatives": [],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Al_(Spratt%27s)",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/5.jpg",
+    "gender": "Male",
+    "hair": "Gray",
+    "occupation": "Board member at Spratt's Sweets",
+    "allOccupations": ["Board member at Spratt's Sweets"],
+    "firstEpisode": "\"Like Gene for Chocolate\"",
+    "voicedBy": "David Herman",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/5"
+  },
+  {
+    "id": 494,
+    "name": "Zach",
+    "relatives": [],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Zach_(student)",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/494.jpg",
+    "gender": "Male",
+    "hair": "Brown",
+    "occupation": "Student at Wagstaff School",
+    "allOccupations": ["Student at Wagstaff School"],
+    "firstEpisode": "\"Ain't Miss Debatin'\"",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/494"
+  },
+  {
+    "id": 495,
+    "name": "Zander",
+    "relatives": [
+      {
+        "name": "Steve",
+        "relationship": "father",
+        "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Steve",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/447"
+      }
+    ],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Zander",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/495.jpg",
+    "gender": "Male",
+    "hair": "Brown",
+    "age": "10",
+    "occupation": "Student",
+    "allOccupations": ["Student"],
+    "firstEpisode": "\"The Cook, The Steve, The Gayle, & Her Lover\"",
+    "voicedBy": "H. Jon Benjamin",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/495"
+  },
+  {
+    "id": 496,
+    "name": "Zeke",
+    "relatives": [
+      {
+        "name": "Unnamed parents"
+      },
+      {
+        "name": "Cheryl",
+        "relationship": "stepmother",
+        "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Cheryl",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/84"
+      },
+      {
+        "name": "Unnamed 44 year old brother"
+      },
+      {
+        "name": "Unnamed grandparents"
+      },
+      {
+        "name": "Unnamed aunt"
+      },
+      {
+        "name": " Leslie",
+        "relationship": "cousin",
+        "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Leslie",
+        "url": "https://bobsburgers-api.herokuapp.com/characters/272"
+      }
+    ],
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Zeke",
+    "image": "https://bobsburgers-api.herokuapp.com/images/characters/496.jpg",
+    "gender": "Male",
+    "age": "14",
+    "occupation": "Student at Wagstaff School",
+    "allOccupations": ["Student at Wagstaff School"],
+    "firstEpisode": "\"The Belchies\"",
+    "voicedBy": "Bobby Tisdale",
+    "url": "https://bobsburgers-api.herokuapp.com/characters/496"
+  }
+]

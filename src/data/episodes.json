@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "\"Human Flesh\" (a.k.a. \"Pilot\")",
+    "productionCode": "1ASA01",
+    "airDate": "January 9, 2011",
+    "season": 1,
+    "episode": 1,
+    "totalViewers": "9.38 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/1",
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Human_Flesh"
+  },
+  {
+    "id": 2,
+    "name": "\"Crawl Space\"",
+    "productionCode": "1ASA02",
+    "airDate": "January 16, 2011",
+    "season": 1,
+    "episode": 2,
+    "totalViewers": "5.07 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/2",
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Crawl_Space"
+  },
+  {
+    "id": 3,
+    "name": "\"Burger War\"",
+    "productionCode": "1ASA03",
+    "airDate": "April 10, 2011",
+    "season": 1,
+    "episode": 10,
+    "totalViewers": "4.00 Million",
+    "url": "https://bobsburgers-api.herokuapp.com/episodes/3",
+    "wikiUrl": "https://bobs-burgers.fandom.com/wiki/Burger_War"
+  }
+]
