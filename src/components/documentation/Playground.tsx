@@ -36,7 +36,7 @@ const Playground = (): JSX.Element => {
   };
 
   const onSubmit = async () => {
-    const res = await fetch(inputValue);
+    const res = await fetch(`${apiUrl}/${inputValue}`);
     const data = await res.json();
 
     if (data.length === 0) {
@@ -67,10 +67,7 @@ const Playground = (): JSX.Element => {
             <Button label="Get" onClick={() => onSubmit()} />
           </div>
         </div>
-        <CodeBlock
-          language="json"
-          code={JSON.stringify(playgroundResult, null, 2)}
-        />
+        <CodeBlock language="json" code={JSON.stringify(playgroundResult, null, 2)} />
       </div>
     </div>
   );
