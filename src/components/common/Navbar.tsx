@@ -67,13 +67,11 @@ const Navbar = (props: Props): JSX.Element => {
         <a
           href="/documentation"
           role="menuitem"
-          className="p-menuitem-link fw-bold fs-5"
+          className="p-menuitem-link fw-bold fs-5 documentation-link"
           aria-haspopup="false"
         >
           <span className="p-menuitem-text">Documentation</span>
         </a>
-
-        <VersionSelect />
 
         <Button
           icon={`pi pi-${themeIcon}`}

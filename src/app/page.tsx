@@ -3,6 +3,8 @@ import Navbar from "@bobs-burgers-api/components/common/Navbar";
 import UrlCodeBlock from "@bobs-burgers-api/components/common/UrlCodeBlock";
 import CharacterResult from "@bobs-burgers-api/components/home/CharacterResults";
 import { Character } from "@bobs-burgers-api/types/Character";
+import localFont from "next/font/local";
+import Image from "next/image";
 import { ROOT_URL, TOTAL_CHARACTERS } from "@bobs-burgers-api/util/constants";
 
 async function getProps(): Promise<Props> {
@@ -18,6 +20,11 @@ interface Props {
   url: string;
 }
 
+const bobsBurgersFont = localFont({
+  src: "../../public/assets/fonts/Bob's Burgers.ttf",
+  display: "swap",
+});
+
 export default async function Home() {
   const { characters, url } = await getProps();
   const formattedUrl = url.replace("https://bobsburgers-api.herokuapp.com/", "");
@@ -26,7 +33,9 @@ export default async function Home() {
     <div className="container-fluid">
       <Navbar parentClassName="custom-menubar" />
       <div className="row p-5 text-white text-center" id="jumbotron">
-        <h1 className="header">The Bob&apos;s Burgers API</h1>
+        <h1 className={`${bobsBurgersFont.className} header`}>
+          The Bob&apos;s Burgers API
+        </h1>
       </div>
 
       <div className="row mt-0 p-5 pb-0">
