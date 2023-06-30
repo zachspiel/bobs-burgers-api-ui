@@ -25,6 +25,10 @@ $font-color: #ffffff;
     color: $secondary-color !important;
   }
 
+  .p-menubar .p-inputtext {
+    background-color: transparent !important;
+  }
+
   .p-menubar,
   .p-card,
   .p-card .p-card-body,
@@ -38,7 +42,9 @@ $font-color: #ffffff;
     color: $font-color;
   }
 
-  .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+  .p-dropdown-panel
+    .p-dropdown-items
+    .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
     color: $font-color;
     background-color: $secondary-color;
   }
@@ -48,7 +54,8 @@ $font-color: #ffffff;
     background: $raised-background;
     color: #cecccc !important;
 
-    i, .p-button-icon {
+    i,
+    .p-button-icon {
       color: #cecccc !important;
       background: $raised-background;
     }
@@ -101,7 +108,8 @@ $font-color: #ffffff;
   }
   .p-chart,
   canvas,
-  .card {
+  .card,
+  .p-inputtext {
     background-color: $raised-background;
     border: 1px solid $raised-background;
     color: #ffffff;
@@ -109,7 +117,7 @@ $font-color: #ffffff;
 
   .p-inputgroup-addon,
   .p-carousel .p-carousel-indicators .p-carousel-indicator button,
-  .p-dropdown, 
+  .p-dropdown,
   .p-dropdown-panel {
     background: $surface-color;
     border: 1px solid $surface-color;
@@ -120,12 +128,6 @@ $font-color: #ffffff;
   .p-dropdown:not(.p-disabled):hover {
     border: 1px solid $secondary-color;
     background: $secondary-color;
-  }
-
-  .p-inputtext {
-    background: $raised-background;
-    border: 1px solid $raised-background;
-    color: $font-color;
   }
 
   .copy-button:hover {
