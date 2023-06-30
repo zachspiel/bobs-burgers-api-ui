@@ -1,7 +1,6 @@
-"use client";
-
-import { getJsonCodeBlock, getUrlCodeBlock } from "@bobs-burgers-api/util/util";
 import Divider from "./Divider";
+import UrlCodeBlock from "../common/UrlCodeBlock";
+import JsonCodeBlock from "../common/JsonCodeBlock";
 
 interface Props {
   characters: unknown[];
@@ -18,20 +17,25 @@ const FilterExample = (props: Props): JSX.Element => {
           Filtering Endpoints
         </h2>
         <Divider />
-        <p>All endpoints support filtering on any available key within their schema.</p>
+        <p>
+          All endpoints support filtering on any available key within their
+          schema.
+        </p>
         <h4 className="fw-bold">Example Results:</h4>
         <p>
-          Find a character characters with <span className="highlight-block">Blonde</span>{" "}
-          hair
+          Find a character characters with{" "}
+          <span className="highlight-block">Blonde</span> hair
         </p>
-        {getUrlCodeBlock(`characters?hairColor=Blonde&id=50`)}
-        {getJsonCodeBlock(characters)}
+        <UrlCodeBlock endpoint="characters?hairColor=Blonde&id=50" />
+        <JsonCodeBlock data={characters} />
+
         <p>
           Find all episodes that aired on{" "}
           <span className="highlight-block">January 16, 2011</span>
         </p>
-        {getUrlCodeBlock(`episodes?airDate=January 16,2011`)}
-        {getJsonCodeBlock(episodes)}
+
+        <UrlCodeBlock endpoint="episodes?airDate=January 16,2011" />
+        <JsonCodeBlock data={episodes} />
       </div>
     </div>
   );

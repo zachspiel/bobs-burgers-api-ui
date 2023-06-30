@@ -46,7 +46,7 @@ body {
 .copy-button:hover {
   border-radius: 50%;
   cursor: pointer;
-  background: #f4f4f4;
+  color: #555454;
 }
 
 .header {
@@ -58,6 +58,17 @@ body {
 .p-menubar-start {
   display: flex;
   margin-right: auto;
+}
+
+.p-menubar .p-menuitem-link:not(.p-disabled):hover,
+.p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  background: #ffffff;
+  color: #3b99fc !important;
+
+  i, .p-button-icon {
+    color: #3b99fc !important;
+    background: #ffffff;
+  }
 }
 
 .sidebar {

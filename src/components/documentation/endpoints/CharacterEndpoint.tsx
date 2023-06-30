@@ -14,7 +14,7 @@ const CharacterEndpoint = (): JSX.Element => {
         pluralName="characters"
         singularName="character"
         url="characters/"
-        exampleData={characters}
+        exampleData={[characters[0], characters[1], characters[2]]}
       />
       <div className="row justify-content-center mt-5">
         <div className="col-lg-7 col-md-9 col-sm-12">

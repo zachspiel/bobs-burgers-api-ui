@@ -1,7 +1,10 @@
 "use client";
 
 import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneLight, vs2015 } from "react-syntax-highlighter/dist/cjs/styles/hljs";
+import {
+  atomOneLight,
+  vs2015,
+} from "react-syntax-highlighter/dist/cjs/styles/hljs";
 import { Toast } from "primereact/toast";
 import CopyToClipboard from "react-copy-to-clipboard";
 import * as Hooks from "../../redux/hooks";
@@ -37,7 +40,7 @@ const CodeBlock = (props: Props): JSX.Element => {
   return (
     <div className={rootClass}>
       <CopyToClipboard onCopy={() => onCopy()} text={props.code}>
-        <span className="pi pi-copy copy-button p-button-rounded p-2 fs-5 p-button-outlined" />
+        <span className="pi pi-copy copy-button p-button-rounded fs-5 p-button-outlined" />
       </CopyToClipboard>
       <SyntaxHighlighter
         language={props.language}

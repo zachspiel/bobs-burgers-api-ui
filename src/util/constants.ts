@@ -1,4 +1,5 @@
 export const ROOT_URL = "https://bobsburgers-api.herokuapp.com";
+export const ROOT_URL_V2 = `${ROOT_URL}/v2`;
 
 export const TOTAL_CHARACTERS = 496;
 export const TOTAL_EPISODES = 259;

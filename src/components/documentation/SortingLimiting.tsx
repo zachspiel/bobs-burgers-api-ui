@@ -1,19 +1,9 @@
-"use client";
-
-import React from "react";
-import { Divider } from "primereact/divider";
-import { getJsonCodeBlock, getUrlCodeBlock } from "@bobs-burgers-api/util/util";
 import characters from "@bobs-burgers-api/data/characters.json";
+import UrlCodeBlock from "../common/UrlCodeBlock";
+import Divider from "./Divider";
+import JsonCodeBlock from "../common/JsonCodeBlock";
 
 const SortingLimiting = (): JSX.Element => {
-  const [sortAsc, setSortAsc] = React.useState<unknown>([]);
-  const [sortDesc, setSortDesc] = React.useState<unknown>([]);
-
-  React.useEffect(() => {
-    setSortAsc([characters[0]]);
-    setSortDesc([characters[characters.length - 1]]);
-  }, []);
-
   return (
     <div className="row justify-content-center mt-5">
       <div className="col-lg-7 col-md-9 col-sm-12">
@@ -31,11 +21,11 @@ const SortingLimiting = (): JSX.Element => {
         </p>
         <h4 className="fw-bold">Example Results:</h4>
         Sort in ascending order:
-        {getUrlCodeBlock("characters?sortBy=name&OrderBy=asc&limit=1&skip=0")}
-        {getJsonCodeBlock(sortAsc)}
+        <UrlCodeBlock endpoint="characters?sortBy=name&OrderBy=asc&limit=1&skip=0" />
+        <JsonCodeBlock data={characters[0]} />
         Sort in descending order:
-        {getUrlCodeBlock("characters?sortBy=name&OrderBy=desc&limit=1&skip=0")}
-        {getJsonCodeBlock(sortDesc)}
+        <UrlCodeBlock endpoint="haracters?sortBy=name&OrderBy=desc&limit=1&skip=0" />
+        <JsonCodeBlock data={characters[characters.length - 1]} />
       </div>
     </div>
   );

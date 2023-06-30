@@ -5,7 +5,7 @@ const CharacterSchema: EndpointSchema = [
   { key: "name", type: "string", description: `The character's name` },
   {
     key: "image",
-    type: "url",
+    type: "string",
     description: `The url for the character's image`,
   },
   {

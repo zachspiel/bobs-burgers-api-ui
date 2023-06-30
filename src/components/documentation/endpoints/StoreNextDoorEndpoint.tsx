@@ -1,5 +1,5 @@
 import Endpoint from "../Endpoint";
-import StoreNextDoorSchema from "../schemas/StoreNextDoor";
+import StoreNextDoorSchema from "../schemas/StoreNextDoorSchema";
 import storesNextDoor from "@bobs-burgers-api/data/storeNextDoor.json";
 
 const StoreNextDoorEndpoint = (): JSX.Element => {

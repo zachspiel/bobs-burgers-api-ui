@@ -1,8 +1,7 @@
-"use client";
-
-import { Divider } from "primereact/divider";
 import Schema, { EndpointSchema } from "./Schema";
-import { getJsonCodeBlock, getUrlCodeBlock } from "@bobs-burgers-api/util/util";
+import UrlCodeBlock from "../common/UrlCodeBlock";
+import JsonCodeBlock from "../common/JsonCodeBlock";
+import Divider from "./Divider";
 
 interface Props {
   about: string;
@@ -31,13 +30,14 @@ const Endpoint = (props: Props): JSX.Element => {
 
         {props.isRoot && (
           <>
-            {props.about} {getUrlCodeBlock(`${props.url}`)}
+            {props.about} <UrlCodeBlock endpoint={props.url} />
           </>
         )}
         {!props.isRoot && props.exampleData !== undefined && (
           <>
             <>
-              The {props.name} endpoint provides information on all {props.about}
+              The {props.name} endpoint provides information on all{" "}
+              {props.about}
               Bob&apos;s Burgers.
             </>
             {props.message}
@@ -48,32 +48,39 @@ const Endpoint = (props: Props): JSX.Element => {
               The list of all {pluralName} can be found by using the{" "}
               <span className="highlight-block">/{props.url}</span> endpoint.
             </p>
-            {getUrlCodeBlock(`${props.url}`)}
+
+            <UrlCodeBlock endpoint={props.url} />
 
             <h4 className="fw-bold mt-5">Get a single {singularName}</h4>
             <p>
-              A single {singularName} can be found by adding the id parameter to the{" "}
-              <span className="highlight-block">/{props.url}</span> endpoint.
+              A single {singularName} can be found by adding the id parameter to
+              the <span className="highlight-block">/{props.url}</span>{" "}
+              endpoint.
             </p>
-            {getUrlCodeBlock(`${props.url}1`)}
-            {getJsonCodeBlock(props.exampleData[0] ?? "")}
+
+            <UrlCodeBlock endpoint={`${props.url}1`} />
+            <JsonCodeBlock data={props.exampleData?.[0]} />
 
             <h4 className="fw-bold mt-5">Get multiple {pluralName}</h4>
             <p>
-              Multiple {pluralName} can be found by adding an array of ids to the{" "}
-              <span className="highlight-block">/{props.url}</span> endpoint. (E.g.{" "}
-              <span className="highlight-block">[1,2,3]</span> or
+              Multiple {pluralName} can be found by adding an array of ids to
+              the <span className="highlight-block">/{props.url}</span>{" "}
+              endpoint. (E.g. <span className="highlight-block">[1,2,3]</span>{" "}
+              or
               <span className="highlight-block">1,2,3</span> )
             </p>
-            {getUrlCodeBlock(`${props.url}[1,2,3]`)}
-            {getJsonCodeBlock(props.exampleData)}
+
+            <UrlCodeBlock endpoint={`${props.url}[1,2,3]`} />
+            <JsonCodeBlock data={props.exampleData} />
           </>
         )}
-        {props.schema !== undefined && <Schema name={props.name} schema={props.schema} />}
+        {props.schema !== undefined && (
+          <Schema name={props.name} schema={props.schema} />
+        )}
         {props.isRoot && (
           <>
             <h4 className="fw-bold">Example Result:</h4>
-            {getJsonCodeBlock(props.exampleData?.[0] ?? {})}
+            <JsonCodeBlock data={props.exampleData?.[0] ?? {}} />
           </>
         )}
       </div>

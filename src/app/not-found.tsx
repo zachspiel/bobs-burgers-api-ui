@@ -1,15 +1,21 @@
-"use client";
-
 import Navbar from "@bobs-burgers-api/components/common/Navbar";
 import Image from "next/image";
+import { useMemo } from "react";
 
-export default function Error({ error, reset }: { error: Error; reset: () => void }) {
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error;
+  reset: () => void;
+}) {
   const TOTAL_GIFS = 5;
   const getRandomInt = () => {
     return Math.floor(Math.random() * TOTAL_GIFS) + 1;
   };
 
-  const gifIndex = getRandomInt();
+  const gifIndex = useMemo(() => getRandomInt(), []);
+
   return (
     <div className="container-fluid">
       <Navbar parentClassName="custom-menubar" />
@@ -29,15 +35,6 @@ export default function Error({ error, reset }: { error: Error; reset: () => voi
             }}
             alt="404 error gif"
           />
-
-          <div className="d-flex mt-4">
-            <a href="/" className="btn btn-outline-primary  me-2">
-              Home
-            </a>
-            <a href="/documentation" className="btn btn-outline-primary me-2">
-              Documentation
-            </a>
-          </div>
         </div>
       </div>
     </div>

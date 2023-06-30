@@ -1,7 +1,7 @@
 $base-color: #18191a;
 $raised-background: #242526;
 $surface-color: #3a3b3c;
-$secondar-color: rgba(255, 255, 255, 0.3);
+$secondary-color: rgba(255, 255, 255, 0.3);
 $font-color: #ffffff;
 
 .dark-mode {
@@ -21,6 +21,10 @@ $font-color: #ffffff;
     color: rgb(156, 220, 254) !important;
   }
 
+  .text-muted {
+    color: $secondary-color !important;
+  }
+
   .p-menubar,
   .p-card,
   .p-card .p-card-body,
@@ -29,14 +33,25 @@ $font-color: #ffffff;
     border: $raised-background;
     border-radius: 0px;
   }
-  .p-menubar .p-menuitem-link .p-menuitem-text {
+  .p-menubar .p-menuitem-link .p-menuitem-text,
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
     color: $font-color;
+  }
+
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+    color: $font-color;
+    background-color: $secondary-color;
   }
 
   .p-menubar .p-menuitem-link:not(.p-disabled):hover,
   .p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
     background: $raised-background;
     color: #cecccc !important;
+
+    i, .p-button-icon {
+      color: #cecccc !important;
+      background: $raised-background;
+    }
   }
 
   .container-fluid {
@@ -54,6 +69,7 @@ $font-color: #ffffff;
   i {
     color: $font-color !important;
   }
+
   a:hover {
     color: #0a58ca !important;
   }
@@ -92,14 +108,18 @@ $font-color: #ffffff;
   }
 
   .p-inputgroup-addon,
-  .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+  .p-carousel .p-carousel-indicators .p-carousel-indicator button,
+  .p-dropdown, 
+  .p-dropdown-panel {
     background: $surface-color;
     border: 1px solid $surface-color;
     color: $font-color;
   }
 
-  .p-carousel .p-carousel-indicators .p-carousel-indicator button:hover {
-    background: $secondar-color;
+  .p-carousel .p-carousel-indicators .p-carousel-indicator button:hover,
+  .p-dropdown:not(.p-disabled):hover {
+    border: 1px solid $secondary-color;
+    background: $secondary-color;
   }
 
   .p-inputtext {
@@ -109,7 +129,7 @@ $font-color: #ffffff;
   }
 
   .copy-button:hover {
-    background: $secondar-color;
+    color: #cecccc;
     border-radius: 50%;
     cursor: pointer;
   }

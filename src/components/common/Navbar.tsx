@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import * as Hooks from "../../redux/hooks";
 import { Menubar } from "primereact/menubar";
 import { Sidebar as PRSidebar } from "primereact/sidebar";
@@ -25,8 +25,16 @@ const Navbar = (props: Props): JSX.Element => {
 
   const { setCurrentTheme } = Hooks.useActions();
 
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("currentTheme");
+    if (savedTheme && savedTheme !== state.currentTheme) {
+      toggleTheme();
+    }
+  }, []);
+
   const toggleTheme = () => {
-    const updatedTheme = currentTheme === "light-mode" ? "dark-mode" : "light-mode";
+    const updatedTheme =
+      currentTheme === "light-mode" ? "dark-mode" : "light-mode";
     localStorage.setItem("currentTheme", updatedTheme);
     setCurrentTheme(updatedTheme);
     document.body.classList.toggle("dark-mode", updatedTheme === "dark-mode");
@@ -69,27 +77,18 @@ const Navbar = (props: Props): JSX.Element => {
 
         <Button
           icon={`pi pi-${themeIcon}`}
-          className={`p-button-text p-button-lg ${
+          className={`p-button-text p-button-lg p-menuitem-link ${
             themeIcon === "sun" ? "text-dark" : ""
           }`}
           aria-label="Theme toggle button"
           onClick={() => toggleTheme()}
         />
         <a
-          href="https://github.com/zachspiel/bobs-burgers-api"
-          role="menuitem"
+          href="https://github.com/zachspiel/bobsburgers-api/"
           target="_blank"
-          className="bg-transparent m-2"
-          aria-haspopup="false"
-          rel="noreferrer"
+          className="p-menuitem-link fw-bold fs-5"
         >
-          <Button
-            icon="pi pi-github"
-            className={`p-button-text p-button-lg ${
-              themeIcon === "sun" ? "text-dark" : ""
-            }`}
-            aria-label="Github link"
-          />
+          <i className="pi pi-github" style={{ fontSize: "1.5rem" }} />
         </a>
       </div>
     );
@@ -102,7 +101,10 @@ const Navbar = (props: Props): JSX.Element => {
         end={getRightContent}
         className={`border-0 ${menubarClassName}`}
       />
-      <PRSidebar visible={isSidebarVisible} onHide={() => setIsSidebarVisible(false)}>
+      <PRSidebar
+        visible={isSidebarVisible}
+        onHide={() => setIsSidebarVisible(false)}
+      >
         <Sidebar />
       </PRSidebar>
     </div>

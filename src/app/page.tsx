@@ -1,14 +1,13 @@
 import Footer from "@bobs-burgers-api/components/common/Footer";
 import Navbar from "@bobs-burgers-api/components/common/Navbar";
+import UrlCodeBlock from "@bobs-burgers-api/components/common/UrlCodeBlock";
 import CharacterResult from "@bobs-burgers-api/components/home/CharacterResults";
 import { Character } from "@bobs-burgers-api/types/Character";
 import { ROOT_URL, TOTAL_CHARACTERS } from "@bobs-burgers-api/util/constants";
-import { getUrlCodeBlock } from "@bobs-burgers-api/util/util";
 
 async function getProps(): Promise<Props> {
   const skip = Math.random() * (TOTAL_CHARACTERS - 0) + 0;
   const url = `${ROOT_URL}/characters/?limit=9&skip=${Math.ceil(skip)}`;
-  console.log(url);
   const res = await fetch(url);
   const characters = await res.json();
   return { characters, url };
@@ -35,7 +34,9 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className="d-flex mt-2 ps-5">{getUrlCodeBlock(url, "w-75")}</div>
+      <div className="d-flex mt-2 ps-5">
+        <UrlCodeBlock endpoint={url} className="w-75" />{" "}
+      </div>
 
       <CharacterResult characters={characters} />
       <Footer />

@@ -8,7 +8,7 @@ const EndCreditsSequenceSchema: EndpointSchema = [
   },
   {
     key: "image",
-    type: "url",
+    type: "string",
     description: `The url for the  end credits sequence's image`,
   },
   {
@@ -23,12 +23,12 @@ const EndCreditsSequenceSchema: EndpointSchema = [
   },
   {
     key: "episodeUrl",
-    type: "url",
+    type: "string",
     description: `The url for the episode that the end credits sequence appeared in`,
   },
   {
     key: "url",
-    type: "url",
+    type: "string",
     description: `The unique link for the end credits sequence`,
   },
 ];

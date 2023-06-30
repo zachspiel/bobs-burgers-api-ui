@@ -28,12 +28,12 @@ const BURGER_OF_THE_DAY: EndpointSchema = [
   },
   {
     key: "episodeUrl",
-    type: "url",
+    type: "string",
     description: `The url for the episode that the burger of the day appeared in`,
   },
   {
     key: "url",
-    type: "url",
+    type: "string",
     description: `The unique link for the burger of the day`,
   },
 ];
