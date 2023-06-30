@@ -5,6 +5,7 @@ import "primereact/resources/themes/nova/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ReduxProvider from "@bobs-burgers-api/redux/ReduxProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Bob's Burgers API Documentation",
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <ReduxProvider>{children}</ReduxProvider>
+        <Analytics />
       </body>
     </html>
   );

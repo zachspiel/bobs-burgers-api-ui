@@ -7,6 +7,7 @@ interface Props {
   about: string;
   name: string;
   isRoot?: boolean;
+  isGraphQl?: boolean;
   pluralName?: string;
   singularName?: string;
   url: string;
@@ -28,7 +29,7 @@ const Endpoint = (props: Props): JSX.Element => {
         </h2>
         <Divider />
 
-        {props.isRoot && (
+        {(props.isRoot || props.isGraphQl) && (
           <>
             {props.about} <UrlCodeBlock endpoint={props.url} />
           </>
@@ -36,8 +37,7 @@ const Endpoint = (props: Props): JSX.Element => {
         {!props.isRoot && props.exampleData !== undefined && (
           <>
             <>
-              The {props.name} endpoint provides information on all{" "}
-              {props.about}
+              The {props.name} endpoint provides information on all {props.about}
               Bob&apos;s Burgers.
             </>
             {props.message}
@@ -53,9 +53,8 @@ const Endpoint = (props: Props): JSX.Element => {
 
             <h4 className="fw-bold mt-5">Get a single {singularName}</h4>
             <p>
-              A single {singularName} can be found by adding the id parameter to
-              the <span className="highlight-block">/{props.url}</span>{" "}
-              endpoint.
+              A single {singularName} can be found by adding the id parameter to the{" "}
+              <span className="highlight-block">/{props.url}</span> endpoint.
             </p>
 
             <UrlCodeBlock endpoint={`${props.url}1`} />
@@ -63,10 +62,9 @@ const Endpoint = (props: Props): JSX.Element => {
 
             <h4 className="fw-bold mt-5">Get multiple {pluralName}</h4>
             <p>
-              Multiple {pluralName} can be found by adding an array of ids to
-              the <span className="highlight-block">/{props.url}</span>{" "}
-              endpoint. (E.g. <span className="highlight-block">[1,2,3]</span>{" "}
-              or
+              Multiple {pluralName} can be found by adding an array of ids to the{" "}
+              <span className="highlight-block">/{props.url}</span> endpoint. (E.g.{" "}
+              <span className="highlight-block">[1,2,3]</span> or
               <span className="highlight-block">1,2,3</span> )
             </p>
 
@@ -74,9 +72,7 @@ const Endpoint = (props: Props): JSX.Element => {
             <JsonCodeBlock data={props.exampleData} />
           </>
         )}
-        {props.schema !== undefined && (
-          <Schema name={props.name} schema={props.schema} />
-        )}
+        {props.schema !== undefined && <Schema name={props.name} schema={props.schema} />}
         {props.isRoot && (
           <>
             <h4 className="fw-bold">Example Result:</h4>
