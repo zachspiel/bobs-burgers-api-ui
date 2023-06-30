@@ -33,10 +33,10 @@ const Navbar = (props: Props): JSX.Element => {
   }, []);
 
   const toggleTheme = () => {
-    const updatedTheme =
-      currentTheme === "light-mode" ? "dark-mode" : "light-mode";
+    const updatedTheme = currentTheme === "light-mode" ? "dark-mode" : "light-mode";
     localStorage.setItem("currentTheme", updatedTheme);
     setCurrentTheme(updatedTheme);
+
     document.body.classList.toggle("dark-mode", updatedTheme === "dark-mode");
   };
 
@@ -101,10 +101,7 @@ const Navbar = (props: Props): JSX.Element => {
         end={getRightContent}
         className={`border-0 ${menubarClassName}`}
       />
-      <PRSidebar
-        visible={isSidebarVisible}
-        onHide={() => setIsSidebarVisible(false)}
-      >
+      <PRSidebar visible={isSidebarVisible} onHide={() => setIsSidebarVisible(false)}>
         <Sidebar />
       </PRSidebar>
     </div>

@@ -20,6 +20,7 @@ interface Props {
 
 export default async function Home() {
   const { characters, url } = await getProps();
+  const formattedUrl = url.replace("https://bobsburgers-api.herokuapp.com/", "");
 
   return (
     <div className="container-fluid">
@@ -35,7 +36,7 @@ export default async function Home() {
       </div>
 
       <div className="d-flex mt-2 ps-5">
-        <UrlCodeBlock endpoint={url} className="w-75" />{" "}
+        <UrlCodeBlock endpoint={formattedUrl} className="w-75" />{" "}
       </div>
 
       <CharacterResult characters={characters} />

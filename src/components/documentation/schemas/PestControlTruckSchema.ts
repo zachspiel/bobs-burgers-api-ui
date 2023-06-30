@@ -6,8 +6,8 @@ const getPestControlTruckSchema = (apiVersion?: ApiVersion): EndpointSchema => {
   const V2_EPISODE_TYPE = "number";
 
   const V1_EPISODE_URL_DESCRIPTION =
-    "The url for the episode that the pest control truck appeared in";
-  const V2_EPISODE_URL_DESCRIPTION = `${V1_EPISODE_URL_DESCRIPTION} This is only available in v2 of the api`;
+    "The url for the episode that the pest control truck appeared in. This is only available in v2 of the api";
+  const V2_EPISODE_URL_DESCRIPTION = `${V1_EPISODE_URL_DESCRIPTION}. This is only available in v2 of the api`;
 
   const isApiV2 = apiVersion === "2.0.0";
   const episodeType = isApiV2 ? V2_EPISODE_TYPE : V1_EPISODE_TYPE;
@@ -16,9 +16,6 @@ const getPestControlTruckSchema = (apiVersion?: ApiVersion): EndpointSchema => {
     : V1_EPISODE_URL_DESCRIPTION;
 
   const episodeUrlType = isApiV2 ? "string" : "undefined";
-  const episodeUrlDescription = isApiV2
-    ? V2_EPISODE_URL_DESCRIPTION
-    : V1_EPISODE_URL_DESCRIPTION;
 
   return [
     {
@@ -49,7 +46,7 @@ const getPestControlTruckSchema = (apiVersion?: ApiVersion): EndpointSchema => {
     {
       key: "episodeUrl",
       type: episodeUrlType,
-      description: episodeUrlDescription,
+      description: V2_EPISODE_URL_DESCRIPTION,
     },
     {
       key: "url",

@@ -9,7 +9,7 @@ const CoffeeButton = (): JSX.Element => {
       rel="noreferrer"
     >
       <Image
-        src="/assets/images/buy-me-a-coffe-button.png"
+        src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
         alt="Buy Me a Coffee"
         height={60}
         width={200}

@@ -60,14 +60,17 @@ body {
   margin-right: auto;
 }
 
-.p-menubar .p-menuitem-link:not(.p-disabled):hover,
-.p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
-  background: #ffffff;
-  color: #3b99fc !important;
-
-  i, .p-button-icon {
-    color: #3b99fc !important;
+:not(.dark-mode) {
+  .p-menubar .p-menuitem-link:not(.p-disabled):hover,
+  .p-menubar .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
     background: #ffffff;
+    color: #3b99fc !important;
+
+    i,
+    .p-button-icon {
+      color: #3b99fc !important;
+      background: #ffffff;
+    }
   }
 }
 
