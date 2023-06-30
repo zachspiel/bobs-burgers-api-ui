@@ -11,12 +11,6 @@ body {
   text-decoration-skip-ink: auto;
 }
 
-@font-face {
-  font-family: "BobsBurgers";
-  src: url("/assets/fonts/Bob's\ Burgers.woff") format("woff"),
-    url("/assets/fonts/Bob's\ Burgers.ttf") format("truetype");
-}
-
 .theme-toggle:hover {
   cursor: pointer !important;
 }
@@ -30,7 +24,7 @@ body {
 }
 
 .p-dropdown-panel {
-  z-index: 1100 !important;
+  z-index: 1200 !important;
 }
 
 .copy-button {
@@ -50,7 +44,6 @@ body {
 }
 
 .header {
-  font-family: "BobsBurgers" !important;
   font-size: 6rem !important;
   margin-top: 100px !important;
 }
@@ -117,6 +110,9 @@ body {
   }
   .highlight-block {
     margin-top: 0.5em !important;
+  }
+  .copy-button {
+    padding: 0.5rem !important;
   }
 }
 
