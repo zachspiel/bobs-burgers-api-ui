@@ -24,7 +24,7 @@ const SortingLimiting = (): JSX.Element => {
         <UrlCodeBlock endpoint="characters?sortBy=name&OrderBy=asc&limit=1&skip=0" />
         <JsonCodeBlock data={characters[0]} />
         Sort in descending order:
-        <UrlCodeBlock endpoint="haracters?sortBy=name&OrderBy=desc&limit=1&skip=0" />
+        <UrlCodeBlock endpoint="characters?sortBy=name&OrderBy=desc&limit=1&skip=0" />
         <JsonCodeBlock data={characters[characters.length - 1]} />
       </div>
     </div>

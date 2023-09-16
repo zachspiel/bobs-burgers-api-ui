@@ -26,7 +26,7 @@ async function getRootData(): Promise<RootEndpointType> {
 }
 
 async function getCharacters(): Promise<Character[]> {
-  const res = await fetch(`${ROOT_URL}/characters?hairColor=Blonde&limit=1`);
+  const res = await fetch(`${ROOT_URL}/characters?hair=Blonde&id=52&limit=1`);
   return res.json();
 }
 

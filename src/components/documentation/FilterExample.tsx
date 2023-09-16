@@ -26,7 +26,7 @@ const FilterExample = (props: Props): JSX.Element => {
           Find a character characters with{" "}
           <span className="highlight-block">Blonde</span> hair
         </p>
-        <UrlCodeBlock endpoint="characters?hairColor=Blonde&id=50" />
+        <UrlCodeBlock endpoint="characters?hair=Blonde&id=52" />
         <JsonCodeBlock data={characters} />
 
         <p>
