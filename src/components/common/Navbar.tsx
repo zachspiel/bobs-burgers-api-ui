@@ -7,7 +7,6 @@ import { Sidebar as PRSidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import Sidebar from "./Sidebar";
 import Image from "next/image";
-import VersionSelect from "../versionSelect/versionSelect";
 
 interface Props {
   parentClassName?: string;
@@ -33,7 +32,8 @@ const Navbar = (props: Props): JSX.Element => {
   }, []);
 
   const toggleTheme = () => {
-    const updatedTheme = currentTheme === "light-mode" ? "dark-mode" : "light-mode";
+    const updatedTheme =
+      currentTheme === "light-mode" ? "dark-mode" : "light-mode";
     localStorage.setItem("currentTheme", updatedTheme);
     setCurrentTheme(updatedTheme);
 
@@ -99,7 +99,10 @@ const Navbar = (props: Props): JSX.Element => {
         end={getRightContent}
         className={`border-0 ${menubarClassName}`}
       />
-      <PRSidebar visible={isSidebarVisible} onHide={() => setIsSidebarVisible(false)}>
+      <PRSidebar
+        visible={isSidebarVisible}
+        onHide={() => setIsSidebarVisible(false)}
+      >
         <Sidebar />
       </PRSidebar>
     </div>

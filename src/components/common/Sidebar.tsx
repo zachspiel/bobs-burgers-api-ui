@@ -1,5 +1,3 @@
-import VersionSelect from "../versionSelect/versionSelect";
-
 interface Props {
   className?: string;
 }
@@ -14,10 +12,7 @@ const Sidebar = (props: Props): JSX.Element => {
   };
 
   return (
-    <div className="position-fixed">
-      <h5 className="fw-bold mt-3">
-        API Version <VersionSelect />
-      </h5>
+    <div className="position-fixed h-100">
       <h5 className="fw-bold mt-3">Getting Started</h5>
       {getSidebarLink("Introduction", "#introduction")}
       {getSidebarLink("Try Now", "#try-now")}

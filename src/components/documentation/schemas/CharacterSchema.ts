@@ -9,7 +9,7 @@ const CharacterSchema: EndpointSchema = [
     description: `The url for the character's image`,
   },
   {
-    key: "hairColor",
+    key: "hair",
     type: "string | undefined",
     description: `The character's hair color`,
   },
