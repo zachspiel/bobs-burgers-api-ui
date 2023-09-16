@@ -34,7 +34,7 @@ const FilterExample = (props: Props): JSX.Element => {
           <span className="highlight-block">January 16, 2011</span>
         </p>
 
-        <UrlCodeBlock endpoint="episodes?airDate=January 16,2011" />
+        <UrlCodeBlock endpoint="episodes?airDate=January 16, 2011" />
         <JsonCodeBlock data={episodes} />
       </div>
     </div>
