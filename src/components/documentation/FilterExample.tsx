@@ -26,7 +26,7 @@ const FilterExample = (props: Props): JSX.Element => {
           Find a character characters with{" "}
           <span className="highlight-block">Blonde</span> hair
         </p>
-        <UrlCodeBlock endpoint="characters?hairColor=Blonde&id=50" />
+        <UrlCodeBlock endpoint="characters?hair=Blonde&id=52" />
         <JsonCodeBlock data={characters} />
 
         <p>
@@ -34,7 +34,7 @@ const FilterExample = (props: Props): JSX.Element => {
           <span className="highlight-block">January 16, 2011</span>
         </p>
 
-        <UrlCodeBlock endpoint="episodes?airDate=January 16,2011" />
+        <UrlCodeBlock endpoint="episodes?airDate=January 16, 2011" />
         <JsonCodeBlock data={episodes} />
       </div>
     </div>

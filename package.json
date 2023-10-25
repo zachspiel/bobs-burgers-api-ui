@@ -1,6 +1,6 @@
 {
-  "name": "bobs-burgers-next",
-  "version": "0.1.0",
+  "name": "bobs-burgers-api-ui",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -26,7 +26,7 @@ async function getRootData(): Promise<RootEndpointType> {
 }
 
 async function getCharacters(): Promise<Character[]> {
-  const res = await fetch(`${ROOT_URL}/characters?hairColor=Blonde&limit=1`);
+  const res = await fetch(`${ROOT_URL}/characters?hair=Blonde&id=52&limit=1`);
   return res.json();
 }
 
@@ -51,7 +51,7 @@ export default async function Documentation() {
       <Navbar parentClassName="custom-menubar" displayMenuButton />
       <div className="row" style={{ marginTop: "63px" }}>
         <div
-          className={`sidebar p-4 col-lg-2 d-none d-lg-block`}
+          className="sidebar col-lg-2 d-none d-lg-block"
           style={{ backgroundColor: "#FFFFFF" }}
         >
           <Sidebar />
@@ -59,7 +59,7 @@ export default async function Documentation() {
         <div className="main-content col-lg-9 col-sm-12">
           <div className="row justify-content-center">
             <div className="col-lg-7 col-md-9 col-sm-12 mt-md-5">
-              <Message message="Version 2.0.0 is now released! This update includes data for all 13 seasons and additional information for each character." />
+              <Message message="Version 2.0.0 is now released! This update includes data for all 13 seasons and additional information for each character. Please note that there are breaking changes in the pest control truck schema. " />
 
               <h2 id="introduction" className="fw-bold">
                 Introduction
@@ -67,7 +67,8 @@ export default async function Documentation() {
               <Divider />
               <b>What is this?</b>
               <p>
-                The Bob&apos;s Burgers API is a REST API based on the television show{" "}
+                The Bob&apos;s Burgers API is a REST API based on the television
+                show{" "}
                 <a
                   href="https://www.fox.com/bobs-burgers/"
                   target="_blank"
@@ -76,12 +77,13 @@ export default async function Documentation() {
                 >
                   Bob&apos;s Burgers
                 </a>
-                . The Bob&apos;s Burgers API contains data for hundreds of characters,
-                episodes, running gags, and images from the show.
+                . The Bob&apos;s Burgers API contains data for hundreds of
+                characters, episodes, running gags, and images from the show.
               </p>
 
               <p>
-                If you are using this API please consider supporting the project by{" "}
+                If you are using this API please consider supporting the project
+                by{" "}
                 <a
                   href="https://www.buymeacoffee.com/bobsburgersapi"
                   target="_blank"
