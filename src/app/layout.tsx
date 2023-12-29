@@ -5,7 +5,7 @@ import "primereact/resources/themes/nova/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import ReduxProvider from "@bobs-burgers-api/redux/ReduxProvider";
-import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Bob's Burgers API Documentation",
@@ -13,12 +13,16 @@ export const metadata = {
     "The Bob's Burgers API is a REST API based on the television show Bob's Burgers.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
         <ReduxProvider>{children}</ReduxProvider>
-        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
