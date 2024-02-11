@@ -3,10 +3,9 @@
 import { Character } from "@bobs-burgers-api/types/Character";
 import { Carousel } from "primereact/carousel";
 import Image from "next/image";
-
-interface Props {
-  characters: Character[];
-}
+import useSWR from "swr";
+import UrlCodeBlock from "@bobs-burgers-api/components/common/UrlCodeBlock";
+import { Skeleton } from "primereact/skeleton";
 
 const responsiveOptions = [
   {
@@ -25,12 +24,32 @@ const responsiveOptions = [
     numScroll: 1,
   },
 ];
+async function getCharacters(url: string): Promise<Character[]> {
+  return fetch(url).then((res) => res.json());
+}
+interface Props {
+  url: string;
+}
 
-const CharacterResult = (props: Props): JSX.Element => {
-  const characterCard = (character: Character) => {
+const CharacterResult = ({ url }: Props): JSX.Element => {
+  const { data, isLoading } = useSWR(["/characters", url], ([key, url]) =>
+    getCharacters(url),
+  );
+
+  const formattedUrl = url.replace(
+    "https://bobsburgers-api.herokuapp.com/",
+    "",
+  );
+
+  const createCharacterCard = (character: Character) => {
     return (
       <div className="character-card mt-3 rounded">
-        <Image src={character.image} alt={character.name} width={120} height={200} />
+        <Image
+          src={character.image}
+          alt={character.name}
+          width={120}
+          height={200}
+        />
 
         <h3 className="fw-bold">
           <a href={character.url} target="_blank" rel="noreferrer">
@@ -45,18 +64,42 @@ const CharacterResult = (props: Props): JSX.Element => {
     );
   };
 
-  return (
-    <div className="row mt-0">
-      <div className="col-12">
-        <Carousel
-          value={props.characters}
-          numVisible={4}
-          numScroll={4}
-          responsiveOptions={responsiveOptions}
-          itemTemplate={characterCard}
-        />
+  const createLoadingCard = () => {
+    return (
+      <div className="character-card mt-3 rounded">
+        <Skeleton height={"250px"} />
       </div>
-    </div>
+    );
+  };
+
+  return (
+    <>
+      <div className="d-flex mt-2 ps-5">
+        <UrlCodeBlock endpoint={formattedUrl} className="w-75" />
+      </div>
+      <div className="row mt-0">
+        <div className="col-12">
+          {isLoading && (
+            <Carousel
+              value={[1, 2, 3, 4]}
+              numVisible={4}
+              numScroll={4}
+              responsiveOptions={responsiveOptions}
+              itemTemplate={createLoadingCard}
+            />
+          )}
+          {!isLoading && (
+            <Carousel
+              value={data}
+              numVisible={4}
+              numScroll={4}
+              responsiveOptions={responsiveOptions}
+              itemTemplate={createCharacterCard}
+            />
+          )}
+        </div>
+      </div>
+    </>
   );
 };
 

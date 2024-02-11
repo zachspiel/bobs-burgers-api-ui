@@ -1,7 +1,10 @@
+"use client";
+
 import CodeBlock from "../documentation/CodeBlock";
+import { Skeleton } from "primereact/skeleton";
 
 interface Props {
-  data: unknown;
+  data?: unknown;
 }
 
 const JsonCodeBlock = ({ data }: Props): JSX.Element => {
@@ -9,7 +12,15 @@ const JsonCodeBlock = ({ data }: Props): JSX.Element => {
     return JSON.stringify(data, null, 2);
   };
 
-  return <CodeBlock language="json" code={getPrettyString(data)} />;
+  return (
+    <>
+      {data !== undefined && (
+        <CodeBlock language="json" code={getPrettyString(data)} />
+      )}
+
+      {!data && <Skeleton height="4rem" />}
+    </>
+  );
 };
 
 export default JsonCodeBlock;

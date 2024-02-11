@@ -1,11 +1,12 @@
+import ReduxProvider from "@bobs-burgers-api/redux/ReduxProvider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import "@bobs-burgers-api/styles/styles.scss";
 import "@bobs-burgers-api/styles/darkMode.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "primereact/resources/themes/nova/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import ReduxProvider from "@bobs-burgers-api/redux/ReduxProvider";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Bob's Burgers API Documentation",
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body>
         <ReduxProvider>{children}</ReduxProvider>
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );

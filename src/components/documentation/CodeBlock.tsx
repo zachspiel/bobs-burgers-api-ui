@@ -30,7 +30,7 @@ const CodeBlock = (props: Props): JSX.Element => {
       severity: "success",
       summary: "Copied",
       detail: `Successfully copied ${isUrl ? "url" : "data"}. 🎉 `,
-      life: 30000,
+      life: 3000,
     });
   };
 
