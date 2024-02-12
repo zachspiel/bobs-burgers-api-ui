@@ -4,48 +4,21 @@ import Playground from "@bobs-burgers-api/components/documentation/Playground";
 import Statistics from "@bobs-burgers-api/components/documentation/Statistics";
 import Sidebar from "@bobs-burgers-api/components/common/Sidebar";
 import SortingLimiting from "@bobs-burgers-api/components/documentation/SortingLimiting";
-import BurgerOfTheDayEndpoint from "@bobs-burgers-api/components/documentation/endpoints/BurgerOfTheDayEndpoint";
-import EndCreditsSequenceEndpoint from "@bobs-burgers-api/components/documentation/endpoints/EndCreditsSequenceEndpoint";
-import PestControlTrucksEndpoint from "@bobs-burgers-api/components/documentation/endpoints/PestControlTrucksEndpoint";
-import { RootEndpoint as RootEndpointType } from "@bobs-burgers-api/types/RootEndpoint";
-import RootEndpoint from "@bobs-burgers-api/components/documentation/endpoints/RootEndpoint";
-import StoreNextDoorEndpoint from "@bobs-burgers-api/components/documentation/endpoints/StoreNextDoorEndpoint";
-import CharacterEndpoint from "@bobs-burgers-api/components/documentation/endpoints/CharacterEndpoint";
-import GraphQlEndpoint from "@bobs-burgers-api/components/documentation/endpoints/GraphQlEndpoint";
-import EpisodesEndpoint from "@bobs-burgers-api/components/documentation/endpoints/EpisodesEndpoint";
+import {
+  BurgerOfTheDayEndpoint,
+  CharacterEndpoint,
+  EndCreditsSequenceEndpoint,
+  EpisodesEndpoint,
+  GraphQlEndpoint,
+  PestControlTrucksEndpoint,
+  RootEndpointComponent,
+  StoreNextDoorEndpoint,
+} from "@bobs-burgers-api/components/documentation/endpoints";
 import FilterExample from "@bobs-burgers-api/components/documentation/FilterExample";
-import { Character } from "@bobs-burgers-api/types/Character";
-import { Episode } from "@bobs-burgers-api/types/Episode";
-import { ROOT_URL } from "@bobs-burgers-api/util/constants";
 import Divider from "@bobs-burgers-api/components/documentation/Divider";
 import Message from "@bobs-burgers-api/components/common/Message";
 
-async function getRootData(): Promise<RootEndpointType> {
-  const res = await fetch(ROOT_URL);
-  return res.json();
-}
-
-async function getCharacters(): Promise<Character[]> {
-  const res = await fetch(`${ROOT_URL}/characters?hair=Blonde&id=52&limit=1`);
-  return res.json();
-}
-
-async function getEpisodes(): Promise<Episode[]> {
-  const res = await fetch(`${ROOT_URL}/episodes?airDate=January 16, 2011`);
-  return res.json();
-}
-
 export default async function Documentation() {
-  const rootData = getRootData();
-  const characterData = getCharacters();
-  const episodeData = getEpisodes();
-
-  const [rootEndpoint, characters, episodes] = await Promise.all([
-    rootData,
-    characterData,
-    episodeData,
-  ]);
-
   return (
     <div className="container-fluid">
       <Navbar parentClassName="custom-menubar" displayMenuButton />
@@ -96,15 +69,17 @@ export default async function Documentation() {
               </p>
             </div>
           </div>
+
           <Playground />
           <Statistics />
 
           <GraphQlEndpoint />
 
-          <RootEndpoint rootEndpoint={rootEndpoint} />
+          <RootEndpointComponent />
 
           <SortingLimiting />
-          <FilterExample characters={characters} episodes={episodes} />
+
+          <FilterExample />
 
           <CharacterEndpoint />
 

@@ -13,17 +13,11 @@ The source code for the Bob's Burgers API can be found [here](https://github.com
 Clone this repo and install the dependencies:
 
 ```bash
-npm install
-# or
-yarn dev
+yarn
 ```
 
 Then run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
 ```

@@ -1,14 +1,28 @@
+"use client";
+
 import Divider from "./Divider";
 import UrlCodeBlock from "../common/UrlCodeBlock";
 import JsonCodeBlock from "../common/JsonCodeBlock";
+import useSWR from "swr";
+import { ROOT_URL } from "@bobs-burgers-api/util/constants";
+import { Character } from "@bobs-burgers-api/types/Character";
+import { Episode } from "@bobs-burgers-api/types/Episode";
 
-interface Props {
-  characters: unknown[];
-  episodes: unknown[];
+async function getCharacters(): Promise<Character[]> {
+  return fetch(`${ROOT_URL}/characters?hair=Blonde&id=52&limit=1`).then((res) =>
+    res.json(),
+  );
 }
 
-const FilterExample = (props: Props): JSX.Element => {
-  const { characters, episodes } = props;
+async function getEpisodes(): Promise<Episode[]> {
+  return fetch(`${ROOT_URL}/episodes?airDate=January 16, 2011`).then((res) =>
+    res.json(),
+  );
+}
+
+const FilterExample = (): JSX.Element => {
+  const { data: characters } = useSWR(`${ROOT_URL}/characters`, getCharacters);
+  const { data: episodes } = useSWR(`${ROOT_URL}/episodes`, getEpisodes);
 
   return (
     <div className="row justify-content-center mt-5">

@@ -1,20 +1,26 @@
+"use client";
+
 import { RootEndpoint } from "@bobs-burgers-api/types/RootEndpoint";
 import Endpoint from "../Endpoint";
+import useSWR from "swr";
+import { ROOT_URL } from "@bobs-burgers-api/util/constants";
 
-interface Props {
-  rootEndpoint: RootEndpoint;
+async function getRootData(): Promise<RootEndpoint> {
+  return fetch(ROOT_URL).then((result) => result.json());
 }
 
-const RootEndpoint = (props: Props): JSX.Element => {
+const RootEndpointComponent = (): JSX.Element => {
+  const { data } = useSWR(ROOT_URL, getRootData);
+
   return (
     <Endpoint
       about="The Root endpoint provides information on all available resources within the API. All requests are GET requests and are sent over HTTPS."
       name="Root URL"
       url=""
       isRoot
-      exampleData={[props.rootEndpoint]}
+      exampleData={data ? [data] : undefined}
     />
   );
 };
 
-export default RootEndpoint;
+export default RootEndpointComponent;

@@ -43,9 +43,7 @@ $font-color: #ffffff;
     color: $font-color;
   }
 
-  .p-dropdown-panel
-    .p-dropdown-items
-    .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
+  .p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover {
     color: $font-color;
     background-color: $secondary-color;
   }
