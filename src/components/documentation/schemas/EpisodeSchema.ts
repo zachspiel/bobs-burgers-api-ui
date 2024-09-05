@@ -1,16 +1,29 @@
 import { EndpointSchema } from "../Schema";
 
 const EpisodeSchema: EndpointSchema = [
-  { key: "id", type: "number", description: "The unique id for the episode" },
-  { key: "name", type: "string", description: `The episode's name` },
+  {
+    key: "id",
+    type: "number",
+    description: "The unique id for the episode",
+  },
+  {
+    key: "name",
+    type: "string",
+    description: `The episode's name`,
+  },
+  {
+    key: "description",
+    type: "string",
+    description: `The episode's description`,
+  },
   {
     key: "productionCode",
-    type: "string | undefined",
+    type: "string",
     description: `The episode's production code`,
   },
   {
     key: "airDate",
-    type: "string | undefined",
+    type: "string",
     description: `The episode's air date`,
   },
   {

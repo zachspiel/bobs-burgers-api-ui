@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/1",
+    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/1.jpg",
     "season": 1,
     "episode": 1,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/1",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/2",
+    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/2.jpg",
     "season": 1,
     "episode": 2,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/2",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/3",
+    "image": "https://bobsburgers-api.herokuapp.com/images/endCreditsSequence/3.jpg",
     "season": 1,
     "episode": 3,
     "episodeUrl": "https://bobsburgers-api.herokuapp.com/episodes/3",
