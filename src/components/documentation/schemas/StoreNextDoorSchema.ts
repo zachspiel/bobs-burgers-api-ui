@@ -6,7 +6,11 @@ const StoreNextDoorSchema: EndpointSchema = [
     type: "number",
     description: "The unique id for the store",
   },
-  { key: "name", type: "string | undefined", description: `The store's name` },
+  {
+    key: "name",
+    type: "string",
+    description: `The store's name`,
+  },
   {
     key: "image",
     type: "url",

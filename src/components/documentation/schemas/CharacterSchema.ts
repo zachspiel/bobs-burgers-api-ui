@@ -1,8 +1,16 @@
 import { EndpointSchema } from "../Schema";
 
 const CharacterSchema: EndpointSchema = [
-  { key: "id", type: "number", description: "The unique id for the character" },
-  { key: "name", type: "string", description: `The character's name` },
+  {
+    key: "id",
+    type: "number",
+    description: "The unique id for the character",
+  },
+  {
+    key: "name",
+    type: "string",
+    description: `The character's name`,
+  },
   {
     key: "image",
     type: "string",
@@ -10,42 +18,48 @@ const CharacterSchema: EndpointSchema = [
   },
   {
     key: "hair",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The character's hair color`,
   },
   {
     key: "age",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The character's age`,
   },
   {
     key: "gender",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The character's gender`,
   },
   {
     key: "allOccupations",
-    type: "[string]",
+    type: "string[]",
     description: "All of the character's known occupations",
   },
   {
     key: "occupation",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The character's occupation`,
   },
   {
     key: "relatives",
-    type: "[Relative (see below)]",
+    type: "Relative[] (see below)",
     description: `The character's relatives`,
   },
   {
     key: "firstEpisode",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The first episode the character appeared in`,
   },
   {
     key: "voicedBy",
-    type: "string | undefined",
+    type: "string",
+    nullable: true,
     description: `The voice actor(s) for the character`,
   },
   {
