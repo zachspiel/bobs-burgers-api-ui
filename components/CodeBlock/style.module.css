@@ -1,0 +1,5 @@
+.codeBlock {
+  background-color: light-dark(white, var(--mantine-color-dark-8));
+  overflow: hidden;
+  border: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-8));
+}

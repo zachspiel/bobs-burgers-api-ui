@@ -1,0 +1,52 @@
+body,
+main {
+  background-color: var(--mantine-color-gray-0);
+
+  @mixin dark {
+    background-color: var(--mantine-color-dark-9);
+  }
+}
+
+h2,
+h3,
+h4 {
+  scroll-margin-top: 65px;
+}
+
+:root[data-mantine-color-scheme="dark"] body {
+  --mantine-color-text: #ffffff;
+}
+
+.mantine-AppShell-navbar,
+.mantine-AppShell-header,
+.mantine-AppShell-footer {
+  @mixin dark {
+    background-color: var(--mantine-color-dark-8);
+  }
+}
+
+.mantine-Table-thead,
+.mantine-Table-tbody {
+  @mixin dark {
+    background-color: var(--mantine-color-dark-7);
+  }
+
+  td,
+  th {
+    padding: 1rem 1rem !important;
+  }
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0;
+  font-size: 13px;
+  word-break: break-all;
+  word-wrap: break-word;
+  color: #3a3f44;
+
+  @mixin dark {
+    border: 1px solid var(--mantine-color-dark-7);
+  }
+}
