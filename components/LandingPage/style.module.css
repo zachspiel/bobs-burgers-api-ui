@@ -1,0 +1,45 @@
+.wrapper {
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./banner.png");
+  background-size: cover;
+  height: 50vh;
+  min-height: 300px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    align-content: center;
+  }
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: calc(var(--mantine-spacing-xl) * 4);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 4);
+
+  @media (min-width: $mantine-breakpoint-md) {
+    margin-left: calc(var(--mantine-spacing-xl) * 4);
+    margin-right: calc(var(--mantine-spacing-xl) * 4);
+  }
+}
+
+.content {
+  max-width: 480px;
+  margin-right: calc(var(--mantine-spacing-xl) * 3);
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+
+.title {
+  color: var(--mantine-color-white);
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.2;
+  font-weight: 500;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: 28px;
+  }
+}

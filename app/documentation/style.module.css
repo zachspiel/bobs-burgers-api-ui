@@ -1,0 +1,5 @@
+.sectionTitle {
+  &:hover {
+    text-decoration: underline;
+  }
+}
