@@ -5,10 +5,14 @@ import classes from "./styles.module.css";
 import { Anchor, Burger, Flex, Group, Paper, Title, Transition } from "@mantine/core";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const MobileMenu = () => {
   const [opened, { toggle, close }] = useDisclosure(false);
   const [activeLink, setActiveLink] = useState<string | undefined>();
+  const pathname = usePathname();
+
+  console.log(pathname);
 
   useEffect(() => {
     if (activeLink) {
@@ -25,6 +29,8 @@ const MobileMenu = () => {
       {label}
     </Anchor>
   );
+
+  const appendUrl = (id: string) => (pathname === "/" ? `/documentation${id}` : id);
 
   return (
     <>
@@ -43,31 +49,34 @@ const MobileMenu = () => {
                 Getting Started
               </Title>
 
-              {createSidebarLink("#introduction", "Introduction")}
+              {createSidebarLink(appendUrl("#introduction"), "Introduction")}
 
-              {createSidebarLink("#statistics", "Statistics")}
+              {createSidebarLink(appendUrl("#statistics"), "Statistics")}
 
-              {createSidebarLink("#graphql", "GraphQL")}
+              {createSidebarLink(appendUrl("#graphql"), "GraphQL")}
 
-              {createSidebarLink("#rootUrl", "Root URL")}
+              {createSidebarLink(appendUrl("#rootUrl"), "Root URL")}
 
-              {createSidebarLink("#sortingLimiting", "Sorting and Limiting")}
+              {createSidebarLink(appendUrl("#sortingLimiting"), "Sorting and Limiting")}
 
               <Title order={3} c="primary" ml="xs" mt="lg">
                 API Endpoints
               </Title>
 
-              {createSidebarLink("#burgerOfTheDay", "Burger of the Day")}
+              {createSidebarLink(appendUrl("#burgerOfTheDay"), "Burger of the Day")}
 
-              {createSidebarLink("#characters", "Character")}
+              {createSidebarLink(appendUrl("#characters"), "Character")}
 
-              {createSidebarLink("#endCreditsSequence", "End Credits Sequence")}
+              {createSidebarLink(
+                appendUrl("#endCreditsSequence"),
+                "End Credits Sequence"
+              )}
 
-              {createSidebarLink("#episodes", "Episode")}
+              {createSidebarLink(appendUrl("#episodes"), "Episode")}
 
-              {createSidebarLink("#pestControlTruck", "Pest Control Truck")}
+              {createSidebarLink(appendUrl("#pestControlTruck"), "Pest Control Truck")}
 
-              {createSidebarLink("#storeNextDoor", "Store Next Door")}
+              {createSidebarLink(appendUrl("#storeNextDoor"), "Store Next Door")}
 
               <Group justify="center" my="md">
                 <Anchor

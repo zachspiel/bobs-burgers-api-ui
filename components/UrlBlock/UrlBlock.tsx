@@ -7,8 +7,8 @@ import classes from "./style.module.css";
 const UrlBlock = ({ url }: { url: string }) => {
   return (
     <Paper className={classes.urlBlock}>
-      <Flex p="md" c="blue" justify="space-between">
-        <Text>{url}</Text>
+      <Flex p="md" c="blue" className={classes.urlContainer}>
+        <Text style={{ wordBreak: "break-all" }}>{url}</Text>
 
         <CopyButton value={url} timeout={2000}>
           {({ copied, copy }) => (
@@ -18,6 +18,7 @@ const UrlBlock = ({ url }: { url: string }) => {
                 onClick={copy}
                 variant="transparent"
                 aria-label="Copy URL"
+                className={classes.copyButton}
               >
                 {copied ? <IconCheck /> : <IconCopy />}
               </ActionIcon>

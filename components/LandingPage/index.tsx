@@ -44,7 +44,9 @@ const Home = ({ url, characters }: Props) => {
       </Container>
 
       <Container fluid mt="xl">
-        <Title order={2}>Example API Result</Title>
+        <Title order={2} mb="lg">
+          Example API Result
+        </Title>
         <UrlBlock url={url} />
 
         <SimpleGrid cols={{ base: 1, sm: 2, md: 3, lg: 4 }} px="md" mt="lg">

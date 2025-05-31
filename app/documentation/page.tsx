@@ -34,6 +34,7 @@ import { episodeSchema } from "../../schemas/episodeSchema";
 import { pestControTruckSchema } from "../../schemas/pestControlTruckSchema";
 import { relativeSchema } from "../../schemas/relativeSchema";
 import { storeNextDoorSchema } from "../../schemas/storeNextDoorSchema";
+import ScrollToTopButton from "../../components/ScrollToTopButton/ScrollToTopButton";
 
 export default async function DocumentationPage() {
   const createEndpoint = (
@@ -242,6 +243,14 @@ export default async function DocumentationPage() {
             />
 
             {createEndpoint(
+              "burgerOfTheDay",
+              "burger of the day",
+              "burgers",
+              burgerOfTheDaySchema,
+              "?season=5&episode=1"
+            )}
+
+            {createEndpoint(
               "characters",
               "character",
               "characters",
@@ -256,11 +265,16 @@ export default async function DocumentationPage() {
             />
 
             {createEndpoint(
-              "burgerOfTheDay",
-              "burger of the day",
-              "burgers",
-              burgerOfTheDaySchema,
-              "?season=5&episode=1"
+              "endCreditsSequence",
+              "end credits sequence",
+              "end credits sequences",
+              endCreditsSequenceSchema,
+              "?season=9&limit=2",
+              <Alert icon={<IconInfoCircle strokeWidth={1.5} />}>
+                Please note, images 1,2 and 4-13 are the same. This is because the same
+                end credits sequence was used in the first season aside from the third
+                episode Sacred Cow.
+              </Alert>
             )}
 
             {createEndpoint(
@@ -272,20 +286,12 @@ export default async function DocumentationPage() {
             )}
 
             {createEndpoint(
-              "endCreditsSequence",
-              "end credits sequence",
-              "end credits sequences",
-              endCreditsSequenceSchema,
-              "?season=9&limit=2"
-            )}
-
-            {createEndpoint(
               "pestControlTruck",
               "pest control truck",
               "pest control trucks",
               pestControTruckSchema,
               "?season=9&sortBy=name&limit=2",
-              <Alert>
+              <Alert icon={<IconInfoCircle strokeWidth={1.5} />}>
                 Please note, the first 13 pest control trucks all have the same name and
                 image. This is because the same pest control truck was used in every
                 episode in the first season.
@@ -300,6 +306,8 @@ export default async function DocumentationPage() {
               "?season=6&sortBy=name&limit=2"
             )}
           </Flex>
+
+          <ScrollToTopButton />
         </Container>
       </AppShellMain>
       <AppShellFooter style={{ position: "relative" }}>

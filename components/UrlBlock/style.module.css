@@ -3,3 +3,17 @@
   overflow: hidden;
   border: 1px solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-8));
 }
+
+.urlContainer {
+  justify-content: space-between;
+  @media (max-width: $mantine-breakpoint-sm) {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.copyButton {
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin-left: auto;
+  }
+}
