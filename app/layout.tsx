@@ -1,6 +1,8 @@
 import React from "react";
 import { MantineProvider, ColorSchemeScript, mantineHtmlProps } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "@mantine/core/styles.css";
 import "@mantine/notifications/styles.css";
 import "./style.css";
@@ -41,6 +43,8 @@ export default function RootLayout({ children }: { children: any }) {
           <Notifications />
           {children}
         </MantineProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
