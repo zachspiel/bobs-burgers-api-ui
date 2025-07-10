@@ -247,7 +247,7 @@ export default async function DocumentationPage() {
               "burger of the day",
               "burgers",
               burgerOfTheDaySchema,
-              "?season=5&episode=1"
+              "?season=5&episode=2"
             )}
 
             {createEndpoint(
