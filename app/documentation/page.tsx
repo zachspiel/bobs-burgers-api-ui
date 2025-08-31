@@ -43,7 +43,7 @@ export default async function DocumentationPage() {
     multipleLabel: string,
     schema: EndpointSchema,
     filterParams: string,
-    alert?: JSX.Element
+    alert?: JSX.Element,
   ) => {
     const baseUrl = `${ROOT_URL}/${endpoint}`;
 
@@ -247,7 +247,7 @@ export default async function DocumentationPage() {
               "burger of the day",
               "burgers",
               burgerOfTheDaySchema,
-              "?season=5&episode=2"
+              "?season=5&episode=2",
             )}
 
             {createEndpoint(
@@ -255,7 +255,7 @@ export default async function DocumentationPage() {
               "character",
               "characters",
               characterSchema,
-              "?sortBy=voicedBy&limit=2"
+              "?sortBy=voicedBy&limit=2",
             )}
 
             <SchemaTable
@@ -274,7 +274,7 @@ export default async function DocumentationPage() {
                 Please note, images 1,2 and 4-13 are the same. This is because the same
                 end credits sequence was used in the first season aside from the third
                 episode Sacred Cow.
-              </Alert>
+              </Alert>,
             )}
 
             {createEndpoint(
@@ -282,7 +282,7 @@ export default async function DocumentationPage() {
               "episode",
               "episodes",
               episodeSchema,
-              "?season=3&limit=2"
+              "?season=3&limit=2",
             )}
 
             {createEndpoint(
@@ -295,7 +295,7 @@ export default async function DocumentationPage() {
                 Please note, the first 13 pest control trucks all have the same name and
                 image. This is because the same pest control truck was used in every
                 episode in the first season.
-              </Alert>
+              </Alert>,
             )}
 
             {createEndpoint(
@@ -303,7 +303,7 @@ export default async function DocumentationPage() {
               "store next door",
               "stores",
               storeNextDoorSchema,
-              "?season=6&sortBy=name&limit=2"
+              "?season=6&sortBy=name&limit=2",
             )}
           </Flex>
 
