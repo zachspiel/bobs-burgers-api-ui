@@ -69,7 +69,7 @@ const MobileMenu = () => {
 
               {createSidebarLink(
                 appendUrl("#endCreditsSequence"),
-                "End Credits Sequence"
+                "End Credits Sequence",
               )}
 
               {createSidebarLink(appendUrl("#episodes"), "Episode")}
